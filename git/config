@@ -1,0 +1,132 @@
+[advice]
+	detachedHead = false
+	skippedCherryPicks = false
+
+[alias]
+	am = commit --amend --no-edit
+	ame = commit --amend
+	br = branch
+	cl = clone
+	clb = cloneb
+	cloneb = clone --filter=blob:none
+	cm = commit
+	co = checkout
+	cp = cherry-pick
+	df = diff -p --stat
+	dfc = diffc
+	dfu = diffu
+	diffc = diff -p --stat --cached
+	diffu = diff -p --stat @{upstream}
+	fe = fetch
+	gr = grep --break --heading
+	lgu = log @{upstream}
+	lol = log --decorate --oneline --graph
+	lola = lol --all
+	rb = rebase
+	rba = rebase --abort
+	rbc = rebase --continue
+	rbi = rebase --interactive
+	sh = show -p --stat
+	st = status
+	sw = switch
+	swc = switch --create
+
+	show-ignored = !git clean -d --dry-run -X | sed 's/^Would remove //'
+
+[branch]
+	autoSetupRebase = always
+
+[checkout]
+	workers = 0
+
+[commit]
+	gpgSign = true
+
+[core]
+	editor = nano
+	fsmonitor = true
+
+[credential]
+	helper = 
+
+[diff]
+	algorithm = histogram
+	colorMoved = dimmed-zebra
+	colorMovedWS = allow-indentation-change
+	noPrefix = true
+	renames = copies
+
+[feature]
+	manyFiles = true
+
+[fetch]
+	all = true
+	parallel = 0
+	prune = true
+	pruneTags = true
+	writeCommitGraph = true
+
+[gpg]
+	format = ssh
+
+[grep]
+	lineNumber = true
+
+[init]
+	defaultBranch = main
+
+[interactive]
+	singleKey = true
+
+[log]
+	abbrevCommit = true
+
+[merge]
+	autoStash = true
+	conflictStyle = zdiff3
+	ff = false
+
+[pull]
+	ff = only
+	rebase = merges
+
+[push]
+	autoSetupRemote = true
+	negotiate = true
+	useForceIfIncludes = true
+
+[rebase]
+	autoSquash = true
+	autoStash = true
+	rebaseMerges = true
+	updateRefs = true
+
+[rerere]
+	autoUpdate = true
+	enabled = true
+
+[safe]
+	bareRepository = explicit
+
+[stash]
+	showIncludeUntracked = true
+	showPatch = true
+
+[submodule]
+	fetchJobs = 0
+	recurse = true
+
+[tag]
+	gpgSign = true
+
+[transfer]
+	fsckObjects = true
+
+[url "git@github.com:"]
+	insteadOf = gh:
+
+[user]
+	email = injustsu@gmail.com
+	name = Justin Su
+	signingKey = ~/.ssh/keys/github-signing
+	useConfigOnly = true
