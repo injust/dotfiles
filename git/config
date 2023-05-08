@@ -1,0 +1,35 @@
+[alias]
+	diffc = diff --cached
+	rba = rebase --abort
+	rbc = rebase --continue
+	rbi = rebase --interactive
+
+[commit]
+	gpgSign = true
+
+[core]
+	editor = nano
+
+[diff]
+	colorMoved = dimmed-zebra
+	colorMovedWS = allow-indentation-change
+
+[fetch]
+	prune = true
+
+[gpg]
+	format = ssh
+
+[init]
+	defaultBranch = main
+
+[pull]
+	rebase = true
+
+[submodule]
+	recurse = true
+
+[user]
+	email = injustsu@gmail.com
+	name = Justin Su
+	signingKey = ~/.ssh/keys/github-signing
