@@ -1,0 +1,8 @@
+[tool.black]
+line-length = 120
+
+[tool.mypy]
+strict = true
+
+[tool.ruff]
+line-length = 120
