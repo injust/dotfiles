@@ -1,0 +1,104 @@
+status is-interactive; or exit
+
+abbr gad -- git add
+
+abbr gam -- git commit --amend --no-edit
+abbr --command=git am -- commit --amend --no-edit
+
+abbr game -- git commit --amend
+abbr --command=git ame -- commit --amend
+
+abbr gap -- git add -p
+abbr --command=git ap -- add -p
+
+abbr gbr -- git branch
+abbr --command=git br -- branch
+
+abbr gbrd -- git branch -d
+abbr --command=git brd -- branch -d
+
+abbr gcl -- git clone
+abbr --command=git cl -- clone
+
+abbr gclb -- git clone --filter=blob:none
+abbr --command=git clb -- clone --filter=blob:none
+abbr --command=git cloneb -- clone --filter=blob:none
+
+abbr gcm --set-cursor -- git commit -m \"%\"
+abbr --command=git cm --set-cursor -- commit -m \"%\"
+
+abbr gco -- git checkout
+abbr --command=git co -- checkout
+
+abbr gcp -- git cherry-pick
+abbr --command=git cp -- cherry-pick
+
+abbr gcpn -- git cherry-pick -n
+abbr --command=git cpn -- cherry-pick -n
+
+abbr gdf -- git diff -p --stat
+abbr --command=git df -- diff -p --stat
+
+abbr gdfc -- git diff -p --stat --cached
+abbr --command=git dfc -- diff -p --stat --cached
+abbr --command=git diffc -- diff -p --stat --cached
+
+abbr gdfu -- git diff -p --stat @{u}
+abbr --command=git dfu -- diff -p --stat @{u}
+abbr --command=git diffu -- diff -p --stat @{u}
+
+abbr gfe -- git fetch
+abbr --command=git fe -- fetch
+
+abbr ggr -- git grep --break --heading
+abbr --command=git gr -- grep --break --heading
+
+abbr glg -- git log
+
+abbr glgu -- git log @{u}
+abbr --command=git lgu -- log @{u}
+
+abbr glol -- git lol
+
+abbr glola -- git lol --all
+abbr --command=git lola -- lol --all
+
+abbr gpull -- git pull
+
+abbr gpush -- git push
+
+abbr gpushf -- git push --force-with-lease
+abbr --command=git pushf -- push --force-with-lease
+
+abbr grb -- git rebase
+abbr --command=git rb -- rebase
+
+abbr grba -- git rebase --abort
+abbr --command=git rba -- rebase --abort
+
+abbr grbc -- git rebase --continue
+abbr --command=git rbc -- rebase --continue
+
+abbr grbe -- git rebase --edit-todo\; and git rebase --continue
+abbr --command=git rbe -- rebase --edit-todo\; and git rebase --continue
+
+abbr grbi -- git rebase -i
+abbr --command=git rbi -- rebase -i
+
+abbr grst -- git reset
+abbr --command=git rst -- reset
+
+abbr grsth -- git reset --hard
+abbr --command=git rsth -- reset --hard
+
+abbr gsh -- git show -p --stat
+abbr --command=git sh -- show -p --stat
+
+abbr gst -- git status
+abbr --command=git st -- status
+
+abbr gsw -- git switch
+abbr --command=git sw -- switch
+
+abbr gswc -- git switch -c
+abbr --command=git swc -- switch -c
