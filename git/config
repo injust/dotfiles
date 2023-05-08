@@ -1,0 +1,141 @@
+[advice]
+	detachedHead = false
+	skippedCherryPicks = false
+
+[alias]
+	lol = log --oneline --graph
+
+	# abbr-git.fish
+	am = commit --amend --no-edit
+	ame = commit --amend
+	ap = add --patch
+	br = branch
+	brd = branch --delete
+	cl = clone
+	clb = cloneb
+	cloneb = clone --filter=blob:none
+	cm = commit
+	co = checkout
+	cp = cherry-pick
+	cpn = cherry-pick --no-commit
+	df = diff --patch --stat
+	dfc = diffc
+	dfu = diffu
+	diffc = diff --patch --stat --cached
+	diffu = diff --patch --stat @{upstream}
+	fe = fetch
+	gr = grep --break --heading
+	lgu = log @{upstream}
+	lola = lol --all
+	pushf = push --force-with-lease
+	rb = rebase
+	rba = rebase --abort
+	rbc = rebase --continue
+	rbe = "!f() { git rebase --edit-todo && git rebase --continue; }; f"
+	rbi = rebase --interactive
+	rst = reset
+	rsth = reset --hard
+	sh = show --patch --stat
+	st = status
+	sw = switch
+	swc = switch --create
+
+[branch]
+	autoSetupRebase = always
+
+[checkout]
+	workers = 0
+
+[commit]
+	gpgSign = true
+
+[core]
+	fsmonitor = true
+
+[credential]
+	helper =
+
+[diff]
+	algorithm = histogram
+	colorMoved = dimmed-zebra
+	colorMovedWS = allow-indentation-change
+	noPrefix = true
+	renames = copies
+	submodule = log
+
+[feature]
+	manyFiles = true
+
+[fetch]
+	all = true
+	parallel = 0
+	prune = true
+	pruneTags = true
+	writeCommitGraph = true
+
+[gpg]
+	format = ssh
+
+[gpg "ssh"]
+	defaultKeyCommand = sh -c 'echo key::$(ssh-add -L | head -n1)'
+
+[grep]
+	lineNumber = true
+
+[init]
+	defaultBranch = main
+
+[interactive]
+	singleKey = true
+
+[log]
+	abbrevCommit = true
+
+[merge]
+	autoStash = true
+	conflictStyle = zdiff3
+	ff = false
+
+[pull]
+	ff = only
+	rebase = merges
+
+[push]
+	autoSetupRemote = true
+	# negotiate = true  # Not supported by Codeberg or GitHub
+	useForceIfIncludes = true
+
+[rebase]
+	autoSquash = true
+	autoStash = true
+	rebaseMerges = true
+	updateRefs = true
+
+[rerere]
+	autoUpdate = true
+	enabled = true
+
+[safe]
+	bareRepository = explicit
+
+[stash]
+	showIncludeUntracked = true
+	showPatch = true
+
+[submodule]
+	fetchJobs = 0
+	recurse = true
+
+[tag]
+	gpgSign = true
+
+[transfer]
+	fsckObjects = true
+
+[url "github.com:"]
+	insteadOf = gh:
+
+[user]
+	email = injustsu@gmail.com
+	name = Justin Su
+	useConfigOnly = true
