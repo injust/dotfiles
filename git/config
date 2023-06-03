@@ -1,5 +1,7 @@
 [alias]
 	diffc = diff --cached
+	lol = log --decorate --oneline --graph
+	lola = lol --all
 	rba = rebase --abort
 	rbc = rebase --continue
 	rbi = rebase --interactive
