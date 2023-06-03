@@ -1,5 +1,7 @@
 [alias]
 	diffc = diff --cached
+	lol = log --abbrev-commit --graph --decorate --pretty=oneline
+	lola = log --abbrev-commit --all --graph --decorate --pretty=oneline
 	rba = rebase --abort
 	rbc = rebase --continue
 	rbi = rebase --interactive
