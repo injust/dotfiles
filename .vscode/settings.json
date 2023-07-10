@@ -32,6 +32,7 @@
     "python.analysis.typeCheckingMode": "basic",
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.terminal.focusAfterLaunch": true,
+    "remote.SSH.remoteServerListenOnSocket": true,
     "security.workspace.trust.enabled": false,
     "standard.autoFixOnSave": true,
     "telemetry.telemetryLevel": "off",
