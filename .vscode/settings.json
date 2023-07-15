@@ -28,6 +28,7 @@
     "git.rebaseWhenSync": true,
     "git.terminalGitEditor": true,
     "gitlens.plusFeatures.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
     "notebook.formatOnSave.enabled": true,
     "python.analysis.typeCheckingMode": "basic",
     "python.terminal.activateEnvInCurrentTerminal": true,
@@ -44,5 +45,6 @@
     "terminal.integrated.shellIntegration.suggestEnabled": true,
     "terminal.integrated.tabs.focusMode": "singleClick",
     "timeline.pageOnScroll": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
     "window.autoDetectColorScheme": true
 }
