@@ -11,6 +11,8 @@
 
 [core]
 	editor = nano
+	fsmonitor = true
+	untrackedcache = true
 
 [credential]
 	helper = 
