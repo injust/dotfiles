@@ -11,6 +11,8 @@
 
 [core]
 	editor = nano
+	fsmonitor = true
+	untrackedcache = true
 
 [diff]
 	colorMoved = dimmed-zebra
