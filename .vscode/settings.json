@@ -29,6 +29,7 @@
     "git.terminalGitEditor": true,
     "gitlens.plusFeatures.enabled": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
+    "mypy-type-checker.reportingScope": "workspace",
     "notebook.formatOnSave.enabled": true,
     "python.analysis.autoFormatStrings": true,
     "python.analysis.autoImportCompletions": true,
