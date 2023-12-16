@@ -33,6 +33,7 @@
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.terminal.focusAfterLaunch": true,
     "security.workspace.trust.enabled": false,
+    "standard.autoFixOnSave": true,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
     "terminal.integrated.enableBell": true,
