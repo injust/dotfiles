@@ -1,0 +1,20 @@
+{
+    "recommendations": [
+        "charliermarsh.ruff",
+        "denoland.vscode-deno",
+        "eamodio.gitlens",
+        "mechatroner.rainbow-csv",
+        "ms-python.black-formatter",
+        "ms-python.debugpy",
+        "ms-python.mypy-type-checker",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-ssh-edit",
+        "ms-vscode.remote-explorer",
+        "pepri.subtitles-editor",
+        "standard.vscode-standard",
+        "tamasfe.even-better-toml",
+        "timonwong.shellcheck"
+    ]
+}
