@@ -57,7 +57,7 @@
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
     "terminal.integrated.enableBell": true,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.persistentSessionScrollback": 1000,
     "terminal.integrated.scrollback": 10000,
     "terminal.integrated.shellIntegration.suggestEnabled": true,
