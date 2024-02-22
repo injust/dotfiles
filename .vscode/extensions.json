@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "charliermarsh.ruff",
+        "DavidAnson.vscode-markdownlint",
         "denoland.vscode-deno",
         "eamodio.gitlens",
         "mechatroner.rainbow-csv",
