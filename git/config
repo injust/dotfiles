@@ -13,6 +13,9 @@
 	fsmonitor = true
 	untrackedcache = true
 
+[credential]
+	helper = 
+
 [diff]
 	colorMoved = dimmed-zebra
 	colorMovedWS = allow-indentation-change
