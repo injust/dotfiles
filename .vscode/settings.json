@@ -9,6 +9,9 @@
         },
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
     "accessibility.signals.terminalBell": {
         "sound": "on"
     },
@@ -56,6 +59,7 @@
     "python.REPL.sendToNativeREPL": true,
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.terminal.focusAfterLaunch": true,
+    "redhat.telemetry.enabled": false,
     "remote.SSH.remoteServerListenOnSocket": true,
     "security.workspace.trust.enabled": false,
     "standard.autoFixOnSave": true,
