@@ -10,7 +10,6 @@
 	gpgSign = true
 
 [core]
-	editor = nano
 	fsmonitor = true
 	untrackedCache = true
 
