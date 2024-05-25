@@ -42,7 +42,6 @@
 	gpgSign = true
 
 [core]
-	editor = nano
 	fsmonitor = true
 
 [credential]
