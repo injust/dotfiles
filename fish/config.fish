@@ -1,3 +1,4 @@
 if status is-interactive
-    # Commands to run in interactive sessions can go here
+    abbr -a ll -- ls -AFhl
+    abbr -a wget wget2
 end
