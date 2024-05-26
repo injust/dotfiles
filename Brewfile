@@ -1,6 +1,5 @@
-tap "homebrew/autoupdate"
+tap "domt4/autoupdate"
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 brew "python@3.12"
 brew "coreutils"
 brew "croc"

@@ -1,6 +1,5 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export HOMEBREW_AUTOREMOVE:1
 SETUVAR --export VISUAL:nano
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:brblack
