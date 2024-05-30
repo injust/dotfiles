@@ -18,6 +18,7 @@
     "accessibility.signals.terminalBell": {
         "sound": "on"
     },
+    "editor.accessibilitySupport": "off",
     "editor.experimental.asyncTokenization": true,
     "editor.foldingImportsByDefault": true,
     "editor.fontFamily": "'Monaspace Argon'",
@@ -71,6 +72,9 @@
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.enableVisualBell": true,
+    "terminal.integrated.env.osx": {
+        "Q_NEW_SESSION": "1"
+    },
     "terminal.integrated.persistentSessionScrollback": 1000,
     "terminal.integrated.scrollback": 10000,
     "terminal.integrated.suggest.enabled": true,
