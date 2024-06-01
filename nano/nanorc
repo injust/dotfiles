@@ -1,1 +1,6 @@
 include "/usr/local/share/nanorc/*.nanorc"
+
+set tabsize 4
+
+bind M-b prevword main
+bind M-f nextword main
