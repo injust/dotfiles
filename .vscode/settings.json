@@ -72,7 +72,7 @@
     },
     "terminal.integrated.persistentSessionScrollback": 1000,
     "terminal.integrated.scrollback": 10000,
-    "terminal.integrated.shellIntegration.suggestEnabled": true,
+    "terminal.integrated.suggest.enabled": true,
     "terminal.integrated.tabs.focusMode": "singleClick",
     "timeline.pageOnScroll": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
