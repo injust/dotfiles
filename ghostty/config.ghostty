@@ -1,0 +1,52 @@
+# Only use on Retina displays (https://github.com/ghostty-org/ghostty/discussions/8441)
+adjust-cursor-thickness = 1
+
+theme = light:Catppuccin Latte,dark:Catppuccin Mocha
+
+# Add `=` and `❯` (prompt character) to word boundaries
+selection-word-chars = " \t'\"│`|:;,()[]{}<>$=❯"
+
+mouse-hide-while-typing = true
+
+background-opacity = 0.9
+background-blur = true
+
+notify-on-command-finish = unfocused
+
+# Unbind toggle_fullscreen and suppress escape sequence
+keybind = cmd+enter=ignore
+
+# Unbind jump_to_prompt (to free up cmd-up/down for TUI apps)
+keybind = cmd+arrow_up=unbind
+keybind = cmd+arrow_down=unbind
+
+# Rebind scroll_page_up/down to jump_to_prompt (to free up cmd-shift-up/down for adjust_selection)
+keybind = cmd+page_up=jump_to_prompt:-1
+keybind = cmd+page_down=jump_to_prompt:1
+
+# adjust_selection
+keybind = performable:cmd+shift+arrow_up=adjust_selection:home
+keybind = performable:cmd+shift+arrow_down=adjust_selection:end
+keybind = performable:cmd+shift+arrow_left=adjust_selection:beginning_of_line
+keybind = performable:cmd+shift+arrow_right=adjust_selection:end_of_line
+keybind = performable:shift+home=adjust_selection:beginning_of_line
+keybind = performable:shift+end=adjust_selection:end_of_line
+
+# https://www.gnu.org/software/bash/manual/html_node/Commands-For-Killing.html
+# kill-line (C-k)
+keybind = cmd+delete=text:\x0b
+# kill-word (M-d)
+keybind = opt+delete=esc:d
+
+window-padding-x = 4
+window-padding-color = extend
+
+window-inherit-working-directory = false
+
+quit-after-last-window-closed = true
+
+shell-integration-features = true
+
+macos-titlebar-style = tabs
+
+auto-update = download
