@@ -56,6 +56,7 @@ cask "shottr"
 cask "spotify"
 cask "syntax-highlight"
 cask "transmission"
+cask "zed"
 mas "Command X", id: 6448461551
 mas "Pure Paste", id: 1611378436
 mas "Shareful", id: 1522267256
