@@ -1,0 +1,59 @@
+{
+  "features": {
+    "inline_completion_provider": "none"
+  },
+  "buffer_font_family": "Monaspace Argon",
+  "buffer_font_features": {
+    "calt": true,
+    "liga": true,
+    "ss01": true,
+    "ss02": true,
+    "ss03": true,
+    "ss04": true,
+    "ss05": true,
+    "ss06": true,
+    "ss07": true,
+    "ss08": true,
+    "ss09": true
+  },
+  "collaboration_panel": {
+    "button": false
+  },
+  "chat_panel": {
+    "button": false
+  },
+  "notification_panel": {
+    "button": false
+  },
+  "assistant": {
+    "version": "2",
+    "enabled": false
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 500
+    }
+  },
+  "tabs": {
+    "git_status": true,
+    "file_icons": true
+  },
+  "soft_wrap": "editor_width",
+  "preferred_line_length": 120,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "git": {
+    "inline_blame": {
+      "show_commit_summary": true
+    }
+  },
+  "terminal": {
+    "blinking": "on",
+    "cursor_shape": "bar",
+    "env": {
+      "GIT_EDITOR": "zed --wait"
+    }
+  }
+}
