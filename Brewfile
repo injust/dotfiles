@@ -56,6 +56,7 @@ cask "tetrio"
 cask "transmission"
 cask "whatsapp"
 cask "yubico-authenticator"
+cask "zed"
 mas "Command X", id: 6448461551
 mas "Shareful", id: 1522267256
 mas "WireGuard", id: 1451685025
