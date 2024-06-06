@@ -53,4 +53,5 @@ cask "rectangle"
 cask "shottr"
 cask "spotify"
 cask "transmission"
+cask "zed"
 mas "Command X", id: 6448461551
