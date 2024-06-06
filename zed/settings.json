@@ -1,0 +1,48 @@
+{
+    "buffer_font_size": 13,
+    "zoomed_padding": false,
+    "minimum_contrast_for_highlights": 0,
+    "colorize_brackets": true,
+    "completion_detail_alignment": "right",
+    "show_signature_help_after_edits": true,
+    "inline_code_actions": false, // https://github.com/zed-industries/zed/issues/41563
+    "excerpt_context_lines": 3,
+    "toolbar": { "code_actions": true },
+    "title_bar": { "show_sign_in": false },
+    "sticky_scroll": { "enabled": true },
+    "inlay_hints": {
+        "enabled": true,
+        "show_background": true,
+        "toggle_on_modifiers_press": { "control": true, "alt": true }
+    },
+    "project_panel": { "scrollbar": { "horizontal_scroll": false }, "diagnostic_badges": true, "hide_root": true },
+    "collaboration_panel": { "button": false },
+    "git_panel": { "status_style": "label_color", "file_icons": true, "tree_view": true },
+    "notification_panel": { "button": false },
+    "agent": { "enabled": false },
+    "document_folding_ranges": "on",
+    "autosave": { "after_delay": { "milliseconds": 500 } },
+    "tab_bar": { "show_pinned_tabs_in_separate_row": true },
+    "tabs": { "git_status": true, "file_icons": true, "show_diagnostics": "all" },
+    "extend_comment_on_newline": false, // https://github.com/zed-industries/zed/discussions/24972
+    "preferred_line_length": 120,
+    "telemetry": { "diagnostics": false, "metrics": false },
+    "git": { "inline_blame": { "show_commit_summary": true } },
+    "edit_predictions": { "provider": "none" },
+    "terminal": { "env": { "GIT_EDITOR": "zed --wait" }, "max_scroll_history_lines": 100000, "minimum_contrast": 0 },
+    "file_types": { "JSONC": ["*.json"] },
+    "auto_install_extensions": {
+        "html": false // https://github.com/zed-industries/zed/pull/10867
+    },
+    "completions": { "words": "disabled" },
+    "languages": {
+        "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
+        "Python": { "language_servers": ["ruff", "ty"], "code_actions_on_format": { "source.fixAll.ruff": true } }
+    },
+    "lsp": {
+        "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } },
+        "gopls": { "initialization_options": { "gofumpt": true } },
+        "ty": { "settings": { "diagnosticMode": "workspace" } }
+    },
+    "which_key": { "enabled": true, "delay_ms": 500 }
+}
