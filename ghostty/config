@@ -1,0 +1,75 @@
+font-family = Monaspace Argon
+
+font-feature = calt
+font-feature = liga
+font-feature = ss01
+font-feature = ss02
+font-feature = ss03
+font-feature = ss04
+font-feature = ss05
+font-feature = ss06
+font-feature = ss07
+font-feature = ss08
+font-feature = ss09
+
+adjust-cell-width = -1
+
+theme = catppuccin-mocha
+
+background-opacity = 0.9
+background-blur-radius = 20
+
+# Unbind toggle_fullscreen default and suppress escape sequence
+keybind = cmd+enter=ignore
+
+# Rebind equalize_splits to match default resize_split keybindings
+keybind = opt+shift+equal=unbind
+keybind = cmd+ctrl+equal=equalize_splits
+
+# Rebind scroll_page_up/down -> jump_to_prompt (to free up cmd+shift+up/down for adjust_selection)
+keybind = cmd+page_up=jump_to_prompt:-1
+keybind = cmd+page_down=jump_to_prompt:1
+
+# adjust_selection
+keybind = performable:cmd+shift+up=adjust_selection:home
+keybind = performable:cmd+shift+down=adjust_selection:end
+keybind = performable:cmd+shift+left=adjust_selection:beginning_of_line
+keybind = performable:cmd+shift+right=adjust_selection:end_of_line
+keybind = performable:shift+home=adjust_selection:beginning_of_line
+keybind = performable:shift+end=adjust_selection:end_of_line
+
+# https://www.gnu.org/software/bash/manual/html_node/Commands-For-Moving.html
+# beginning-of-line (C-a)
+keybind = cmd+left=text:\x01
+# end-of-line (C-e)
+keybind = cmd+right=text:\x05
+# forward-word (M-f)
+keybind = opt+right=esc:f
+# backward-word (M-b)
+keybind = opt+left=esc:b
+
+# https://www.gnu.org/software/bash/manual/html_node/Commands-For-Killing.html
+# kill-line (C-k)
+keybind = cmd+delete=text:\x0b
+# unix-line-discard (C-u)
+keybind = cmd+backspace=text:\x15
+# kill-word (M-d)
+keybind = opt+delete=esc:d
+
+window-padding-x = 4
+# TODO(https://github.com/ghostty-org/ghostty/discussions/3637): Balance y-axis padding only
+window-padding-balance = true
+window-padding-color = extend
+
+clipboard-paste-protection = false
+
+quit-after-last-window-closed = true
+
+shell-integration-features = true
+
+# TODO(https://github.com/ghostty-org/ghostty/issues/392#issuecomment-1802547697): Consider non-native fullscreen when it works with tabs
+# macos-non-native-fullscreen = false
+
+macos-titlebar-style = tabs
+
+auto-update = download
