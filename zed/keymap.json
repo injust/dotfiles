@@ -1,0 +1,8 @@
+[
+  {
+    "context": "Editor && mode == full && inline_completion",
+    "bindings": {
+      "cmd-right": null
+    }
+  }
+]
