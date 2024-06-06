@@ -54,4 +54,5 @@ cask "shottr"
 cask "spotify"
 cask "transmission"
 cask "vlc"
+cask "zed"
 mas "Command X", id: 6448461551
