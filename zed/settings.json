@@ -2,7 +2,7 @@
   "features": {
     "inline_completion_provider": "none"
   },
-  "buffer_font_family": "Monaspace Argon",
+  "buffer_font_family": "MonaspiceAr Nerd Font Propo",
   "buffer_font_features": {
     "calt": true,
     "liga": true,
