@@ -6,4 +6,7 @@ fish_add_path -g \
 
 set -x COLORTERM truecolor
 
+# https://github.com/ryanoasis/nerd-fonts/wiki/FAQ-and-Troubleshooting#less-settings
+set -x LESSUTFCHARDEF e000-e09f:w,e0a0-e0bf:p,e0c0-f8ff:w,f0001-fffff:w
+
 set -x VISUAL nano
