@@ -1,3 +1,51 @@
+"$schema" = "https://starship.rs/config-schema.json"
+
+# Insert $fill and trailing space before $line_break
+# Move less important modules to the right prompt
+format = """\
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$fill \
+$all\
+$line_break\
+$jobs\
+$shlvl\
+$character\
+"""
+
+[battery]
+disabled = true
+
+[character]
+format = "$symbol" # Remove trailing space
+
+[cmd_duration]
+format = "took [ $duration]($style) " # Add hourglass symbol (https://github.com/starship/starship/issues/6826)
+
+[fill]
+symbol = "·"
+style = "237"
+
+[jobs]
+format = "[$symbol]($style)" # Remove number and trailing space
+
+[shlvl]
+format = "[$symbol]($style)" # Remove number and trailing space
+symbol = "❯"
+repeat = true
+repeat_offset = 1
+disabled = false
+
+
+# Starship presets
+# https://github.com/starship/starship/blob/ff0acb193eaa04ab63a8e56e1bd18019444b886f/docs/public/presets/toml/nerd-font-symbols.toml
+# https://github.com/starship/starship/blob/ff0acb193eaa04ab63a8e56e1bd18019444b886f/docs/public/presets/toml/no-empty-icons.toml
+
 [aws]
 symbol = " "
 
@@ -16,6 +64,7 @@ symbol = " "
 [cpp]
 format = "(via [$symbol($version(-$name) )]($style))"
 symbol = " "
+disabled = false
 
 [cmake]
 format = "(via [$symbol($version )]($style))"
@@ -43,6 +92,7 @@ format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [directory]
+truncation_length = 0 # Don't truncate parent directories
 read_only = " 󰌾"
 
 [docker_context]
@@ -76,6 +126,7 @@ symbol = " "
 symbol = " "
 
 [git_commit]
+tag_disabled = false # Enable tag info
 tag_symbol = "  "
 
 [gleam]
