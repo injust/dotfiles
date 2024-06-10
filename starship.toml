@@ -1,0 +1,57 @@
+format = """\
+$username\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$hostname\
+$python\
+$line_break\
+$jobs\
+$shlvl\
+$character\
+"""
+
+[character]
+format = "$symbol"  # Remove trailing space
+
+[directory]
+truncation_length = 0  # Don't truncate parent directories
+read_only = " "
+
+[directory.substitutions]
+"~/code/" = ""  # Truncate to project root
+
+[git_branch]
+symbol = " "
+
+[git_commit]
+tag_disabled = false
+tag_symbol = "  "
+
+[git_status]
+ahead = ""
+behind = ""
+diverged = ""
+renamed = "󰄾"
+deleted = ""
+
+[hostname]
+ssh_symbol = " "
+format = "on [$ssh_symbol$hostname]($style) "  # "on" prefix instead of "in" suffix
+
+[jobs]
+format = "[$symbol]($style)"  # Remove number and trailing space
+
+[python]
+symbol = " "
+detect_extensions = []
+detect_files = []
+
+[shlvl]
+format = "[$symbol]($style)"  # Remove number and trailing space
+symbol = "❯"
+repeat = true
+repeat_offset = 1
+disabled = false
