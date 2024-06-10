@@ -1,0 +1,61 @@
+format = """\
+$username\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$hostname\
+$python\
+$line_break\
+$jobs\
+$shlvl\
+$character\
+"""
+
+[character]
+format = "$symbol"  # Remove trailing space
+
+[directory]
+truncation_length = 0  # Don't truncate parent directories
+read_only = " "  # nf-oct-lock
+
+[directory.substitutions]
+"~/code/" = ""  # Truncate to project root
+
+[git_branch]
+symbol = " "  # nf-fa-code_branch
+
+[git_commit]
+format = '[\($hash]($style)[$tag](bold yellow)[\)]($style) '  # Use `bold yellow` for the tag
+tag_disabled = false
+tag_symbol = "  "  # nf-oct-tag
+
+[git_status]
+ahead = ""  # nf-fa-arrow_up
+behind = ""  # nf-fa-arrow_down
+diverged = ""  # nf-fa-arrows_up_down
+renamed = ""  # nf-fa-angle_double_right
+deleted = ""  # nf-fa-remove
+
+[hostname]
+ssh_symbol = " "  # nf-oct-globe
+format = "on [$ssh_symbol$hostname]($style) "  # "in" suffix -> "on" prefix
+
+[jobs]
+format = "[$symbol]($style)"  # Remove number and trailing space
+
+[python]
+format = "via [$symbol$version]($style) "  # Remove pyenv prefix and venv name
+version_format = "$raw"  # Remove "v" prefix
+symbol = " "  # nf-fae-python
+style = "bold blue"
+detect_extensions = []
+detect_files = []
+
+[shlvl]
+format = "[$symbol]($style)"  # Remove number and trailing space
+symbol = "❯"
+repeat = true
+repeat_offset = 1
+disabled = false
