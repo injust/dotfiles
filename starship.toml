@@ -1,3 +1,61 @@
+# Get editor completions based on the config schema
+'$schema' = 'https://starship.rs/config-schema.json'
+
+# Insert $fill and trailing space before $line_break
+# Move less important modules to the right prompt
+format = """\
+$username\
+$hostname\
+$localip\
+$shlvl\
+$singularity\
+$kubernetes\
+$directory\
+$vcsh\
+$fossil_branch\
+$fossil_metrics\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status\
+$hg_branch\
+$pijul_channel\
+$docker_context\
+$fill \
+$all\
+$line_break\
+$jobs\
+$battery\
+$time\
+$status\
+$os\
+$container\
+$shell\
+$character\
+"""
+
+[character]
+# Remove space after symbol
+format = '$symbol'
+
+[cmd_duration]
+# Add hourglass symbol
+format = 'took []($style) [$duration](bold $style) '
+style = 'yellow'
+
+[fill]
+symbol = '·'
+style = '238'
+
+[jobs]
+disabled = true
+
+
+# ********************
+# * Starship presets *
+# ********************
+
 [aws]
 symbol = '  '
 
@@ -36,6 +94,8 @@ symbol = ' '
 format = '(via [$symbol($version )]($style))'
 
 [directory]
+# Don't truncate parent folders
+truncation_length = 0
 read_only = ' 󰌾'
 
 [docker_context]
@@ -66,6 +126,8 @@ symbol = ' '
 symbol = ' '
 
 [git_commit]
+# Enable tag info
+tag_disabled = false
 tag_symbol = '  '
 
 [gleam]
