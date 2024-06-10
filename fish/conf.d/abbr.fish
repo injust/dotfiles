@@ -3,4 +3,4 @@ if not status is-interactive
 end
 
 abbr ll -- ls -AFhl
-abbr wget wget2
+abbr wget -- wget2
