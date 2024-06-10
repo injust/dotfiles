@@ -1,10 +1,19 @@
 [alias]
+	br = branch
+	co = checkout
+	cp = cherry-pick
+	df = diff
+	dfc = diffc
 	diffc = diff --cached
 	lol = log --decorate --oneline --graph
 	lola = lol --all
+	rb = rebase
 	rba = rebase --abort
 	rbc = rebase --continue
 	rbi = rebase --interactive
+	sh = show
+	st = status
+	sw = switch
 
 [commit]
 	gpgSign = true
