@@ -35,6 +35,10 @@ $shell\
 $character\
 """
 
+[cmd_duration]
+format = 'took []($style) [$duration](bold $style) '
+style = 'yellow'
+
 [fill]
 symbol = '·'
 style = '238'
