@@ -43,6 +43,7 @@
     "git.rebaseWhenSync": true,
     "git.terminalGitEditor": true,
     "gitlens.plusFeatures.enabled": false,
+    "gitlens.telemetry.enabled": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "markdown.validate.enabled": true,
     "mypy-type-checker.importStrategy": "fromEnvironment",
