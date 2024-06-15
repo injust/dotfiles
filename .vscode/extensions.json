@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "charliermarsh.ruff",
+        "Codeium.codeium",
         "DavidAnson.vscode-markdownlint",
         "denoland.vscode-deno",
         "eamodio.gitlens",
