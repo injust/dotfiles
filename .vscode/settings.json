@@ -18,6 +18,9 @@
     "accessibility.signals.terminalBell": {
         "sound": "on"
     },
+    "codeium.enableCodeLens": false,
+    "codeium.enableCommandSideHintEducation": false,
+    "codeium.enableExplainProblem": false,
     "editor.accessibilitySupport": "off",
     "editor.experimental.asyncTokenization": true,
     "editor.foldingImportsByDefault": true,
