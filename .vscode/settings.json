@@ -18,6 +18,9 @@
     "accessibility.signals.terminalBell": {
         "sound": "on"
     },
+    "codeium.enableCodeLens": false,
+    "codeium.enableCommandSideHintEducation": false,
+    "codeium.enableExplainProblem": false,
     "editor.experimental.asyncTokenization": true,
     "editor.foldingImportsByDefault": true,
     "editor.fontFamily": "'MonaspiceAr Nerd Font Propo'",
