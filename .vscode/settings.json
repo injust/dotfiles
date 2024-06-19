@@ -74,11 +74,16 @@
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.enableVisualBell": true,
+    "terminal.integrated.minimumContrastRatio": 1,
     "terminal.integrated.persistentSessionScrollback": 1000,
     "terminal.integrated.scrollback": 10000,
     "terminal.integrated.suggest.enabled": true,
     "terminal.integrated.tabs.focusMode": "singleClick",
     "timeline.pageOnScroll": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "window.autoDetectColorScheme": true
+    "window.autoDetectColorScheme": true,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+    "workbench.preferredLightColorTheme": "Catppuccin Latte"
 }
