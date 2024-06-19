@@ -1,5 +1,8 @@
 {
     "recommendations": [
+        "Catppuccin.catppuccin-vsc",
+        "Catppuccin.catppuccin-vsc-icons",
+        "Catppuccin.catppuccin-vsc-pack",
         "charliermarsh.ruff",
         "Codeium.codeium",
         "DavidAnson.vscode-markdownlint",
