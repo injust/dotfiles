@@ -20,6 +20,7 @@
     "ss08": true,
     "ss09": true
   },
+  "buffer_font_size": 13,
   "show_signature_help_after_edits": true,
   "collaboration_panel": {
     "button": false
