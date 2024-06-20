@@ -1,4 +1,8 @@
 {
+  "theme": {
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
   "features": {
     "inline_completion_provider": "none"
   },
