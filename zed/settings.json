@@ -20,6 +20,7 @@
     "ss08": true,
     "ss09": true
   },
+  "buffer_font_size": 13,
   "collaboration_panel": {
     "button": false
   },
