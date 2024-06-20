@@ -1,4 +1,6 @@
 {
+    "theme": { "light": "Catppuccin Latte", "dark": "Catppuccin Mocha" },
+    "icon_theme": { "light": "Catppuccin Latte", "dark": "Catppuccin Mocha" },
     // TODO(https://github.com/zed-industries/zed/issues/15716): Use MonaspiceRn Nerd Font Propo for inlay hints
     "buffer_font_family": "MonaspiceAr Nerd Font Propo",
     "buffer_font_features": {
