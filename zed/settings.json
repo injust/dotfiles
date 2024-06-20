@@ -1,4 +1,12 @@
 {
+  "theme": {
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
+  "icon_theme": {
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha"
+  },
   "features": {
     "edit_predictions_provider": "none"
   },
