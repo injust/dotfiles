@@ -14,6 +14,8 @@ font-feature = ss09
 
 adjust-cell-width = -1
 
+theme = catppuccin-mocha
+
 keybind = alt+left=esc:b
 keybind = alt+right=esc:f
 keybind = cmd+backspace=text:\x15
