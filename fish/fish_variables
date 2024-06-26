@@ -1,5 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export FZF_DEFAULT_COMMAND:fd\x1e\x2d\x2dhidden\x1e\x2d\x2dfollow\x1e\x2d\x2dtype\x3dfile
+SETUVAR --export FZF_DEFAULT_OPTS:\x2d\x2dlayout\x3dreverse\x1e\x2d\x2dscrollbar\x3d\u2590\x1e\x2d\x2dprompt\x3d\x27\u276f\x20\x27\x1e\x2d\x2dmarker\x3d\u258c\x1e\x2d\x2dmarker\x2dmulti\x2dline\x3d\u2596\u258c\u2598\x1e\x2d\x2dellipsis\x3d\u2026\x1e\x2d\x2dtabstop\x3d4\x1e\x2d\x2dhighlight\x2dline\x1e\x2d\x2dpreview\x2dwindow\x3dwrap
 SETUVAR --export VISUAL:nano
 SETUVAR __fish_initialized:3400
 SETUVAR _fisher_catppuccin_2F_fish_files:\x7e/\x2econfig/fish/themes/Catppuccin\x20Frappe\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Latte\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Macchiato\x2etheme\x1e\x7e/\x2econfig/fish/themes/Catppuccin\x20Mocha\x2etheme
@@ -47,3 +49,10 @@ SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
 SETUVAR fish_user_paths:/usr/local/opt/curl/bin
+SETUVAR fzf_directory_opts:\x2d\x2dheight\x3d90\x25\x1e\x2d\x2dborder\x1e\x2d\x2dprompt\x3dDirectory\x20\u276f\x20
+SETUVAR fzf_fd_opts:\x2d\x2dhidden\x1e\x2d\x2dfollow
+SETUVAR fzf_git_log_opts:\x2d\x2dheight\x3d90\x25\x1e\x2d\x2dborder\x1e\x2d\x2dprompt\x3dGit\x20Log\x20\u276f\x20\x1e\x2d\x2dpreview\x2dwindow\x3ddefault
+SETUVAR fzf_git_status_opts:\x2d\x2dheight\x3d90\x25\x1e\x2d\x2dborder\x1e\x2d\x2dprompt\x3dGit\x20Status\x20\u276f\x20
+SETUVAR fzf_history_opts:\x2d\x2dheight\x3d50\x25\x1e\x2d\x2dmin\x2dheight\x3d16\x1e\x2d\x2dborder\x1e\x2d\x2dprompt\x3dHistory\x20\u276f\x20
+SETUVAR fzf_processes_opts:\x2d\x2dheight\x3d90\x25\x1e\x2d\x2dborder\x1e\x2d\x2dprompt\x3dProcesses\x20\u276f\x20
+SETUVAR fzf_variables_opts:\x2d\x2dheight\x3d90\x25\x1e\x2d\x2dborder\x1e\x2d\x2dprompt\x3dVariables\x20\u276f\x20
