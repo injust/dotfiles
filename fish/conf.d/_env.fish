@@ -6,6 +6,9 @@ fish_add_path -g \
 
 set -x COLORTERM truecolor
 
+set -x FZF_DEFAULT_COMMAND fd --hidden --no-require-git
+set -x FZF_DEFAULT_OPTS --layout=reverse --multi --highlight-line --marker=▌ --marker-multi-line=▖▌▘ --ellipsis=… --tabstop=4 --scrollbar=▐ --prompt=❯
+
 # https://github.com/ryanoasis/nerd-fonts/wiki/FAQ-and-Troubleshooting#less-settings
 set -x LESSUTFCHARDEF e000-e09f:w,e0a0-e0bf:p,e0c0-f8ff:w,f0001-fffff:w
 
