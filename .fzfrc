@@ -1,0 +1,10 @@
+--layout=reverse
+--multi
+--highlight-line
+--marker=▌
+--marker-multi-line=▖▌▘
+--ellipsis=…
+--tabstop=4
+--scrollbar=▐
+--prompt=❯
+--bind=shift-page-up:preview-page-up,shift-page-down:preview-page-down
