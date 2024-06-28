@@ -48,7 +48,7 @@ SETUVAR fish_pager_color_selected_background:\x1d
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR fish_user_paths:/usr/local/opt/curl/bin
+SETUVAR fish_user_paths:/usr/local/opt/curl/bin\x1e/usr/local/opt/findutils/libexec/gnubin\x1e/usr/local/opt/gnu\x2dsed/libexec/gnubin\x1e/usr/local/opt/uutils\x2dcoreutils/libexec/uubin
 SETUVAR fzf_directory_opts:\x2d\x2dheight\x3d90\x25\x1e\x2d\x2dborder
 SETUVAR fzf_fd_opts:\x2d\x2dhidden\x1e\x2d\x2dfollow
 SETUVAR fzf_git_log_opts:\x2d\x2dheight\x3d90\x25\x1e\x2d\x2dborder\x1e\x2d\x2dprompt\x3dGit\x20Log\x20\u276f\x20\x1e\x2d\x2dpreview\x2dwindow\x3ddefault
