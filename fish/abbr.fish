@@ -1,5 +1,4 @@
 abbr cat -- bat
-abbr ll -- ls -AFhl
 abbr wget -- wget2
 
 # Inspired by https://fishshell.com/docs/current/interactive.html#abbreviations
