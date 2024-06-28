@@ -1,3 +1,3 @@
-function ll --description='alias ll=ls -AFhl' --wraps=ls
-    ls -AFhl $argv
+function ll --description='alias ll=ls -AFhl --color=auto' --wraps=ls
+    ls -AFhl --color=auto $argv
 end
