@@ -2,4 +2,5 @@
 
 set -euo pipefail
 
-git ls-files --others --ignored --directory --exclude-standard "${GIT_PREFIX:-.}"
+git ls-files -z --others --ignored --directory --exclude-standard "${GIT_PREFIX:-.}" |
+    xargs --null --no-run-if-empty eza --classify --icons --hyperlink --treat-dirs-as-files
