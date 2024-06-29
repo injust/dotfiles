@@ -1,3 +1,6 @@
 # https://github.com/sharkdp/bat/pull/3759
 --map-syntax="**/ghostty/**/*.ghostty:INI"
 --map-syntax="**/ghostty/themes/*:INI"
+
+--theme-dark="Catppuccin Mocha"
+--theme-light="Catppuccin Latte"
