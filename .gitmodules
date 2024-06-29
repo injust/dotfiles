@@ -1,0 +1,3 @@
+[submodule "catppuccin/bat"]
+	path = catppuccin/bat
+	url = https://github.com/catppuccin/bat.git
