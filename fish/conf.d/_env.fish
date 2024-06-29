@@ -3,9 +3,12 @@ status is-login; or exit
 set -x XDG_CONFIG_HOME ~/code/dotfiles
 
 fish_add_path -g \
+    # User
     $XDG_CONFIG_HOME/git/commands \
     ~/.local/bin \
-    ~/code/scripts
+    ~/code/scripts \
+    # Homebrew
+    /usr/local/opt/*/libexec/gnubin
 
 set -x FZF_DEFAULT_COMMAND fd --hidden --no-require-git
 set -x FZF_DEFAULT_OPTS_FILE $XDG_CONFIG_HOME/.fzfrc
