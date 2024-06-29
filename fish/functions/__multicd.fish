@@ -2,6 +2,6 @@
 function __multicd
     argparse -- $argv; or return
 
-    set --local dots $argv[1]
+    set -l dots $argv[1]
     echo cd (string repeat --count=(math (string length -- $dots) - 1) ../)
 end
