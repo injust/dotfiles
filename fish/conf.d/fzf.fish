@@ -1,5 +1,6 @@
 status is-interactive; or exit
 
+set fzf_diff_highlighter delta --width=\$FZF_PREVIEW_COLUMNS
 set fzf_fd_opts --hidden --no-require-git
 
 set fzf_git_log_format '%C(auto)%h %C(blue)%<(16)%ah %C(auto)%d %s  %C(dim)[%an]%C(reset)'
