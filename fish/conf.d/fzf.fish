@@ -1,6 +1,10 @@
 status is-interactive || exit
 
+fzf_configure_bindings --directory=\cf --git_log=\cg --git_status= --processes=
+
 set fzf_fd_opts --hidden
+
+set fzf_git_log_format '%C(bold blue)%h%C(reset) %C(cyan)%<(16)%ah%C(reset) %C(yellow)%d%C(reset) %C(normal)%s%C(reset)  %C(dim normal)[%an]%C(reset)'
 
 set fzf_directory_opts --height=90% --border
 set fzf_git_log_opts --height=90% --border --preview-window=default
