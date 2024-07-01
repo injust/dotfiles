@@ -50,6 +50,11 @@
 	helper =
 
 [delta]
+	features = catppuccin-mocha
+	commit-decoration-style = "#6c7086"  # Unbold and remove `box ul`
+	file-decoration-style = "#6c7086" box ul  # Add `box ul`
+	hunk-header-decoration-style = "#6c7086"  # Remove `box ul`
+
 	navigate = true
 
 [diff]
@@ -75,6 +80,9 @@
 
 [grep]
 	lineNumber = true
+
+[include]
+	path = catppuccin.gitconfig
 
 [init]
 	defaultBranch = main
