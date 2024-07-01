@@ -50,6 +50,7 @@
 	helper = 
 
 [delta]
+	features = catppuccin-mocha
 	navigate = true
 
 [diff]
@@ -74,6 +75,9 @@
 
 [grep]
 	lineNumber = true
+
+[include]
+	path = catppuccin.gitconfig
 
 [init]
 	defaultBranch = main
