@@ -29,6 +29,8 @@
 
 [delta]
 	features = catppuccin-mocha
+	hyperlinks = true
+	hyperlinks-file-link-format = "vscode://file/{path}:{line}"
 	navigate = true
 
 [diff]
