@@ -17,6 +17,7 @@ brew "fisher"
 brew "fzf"
 brew "gawk"
 brew "git"
+brew "git-delta", args: ["HEAD"]
 brew "gnu-sed"
 brew "gnu-tar"
 brew "gnu-units"
