@@ -42,8 +42,14 @@
 [commit]
 	gpgSign = true
 
+[core]
+	pager = delta
+
 [credential]
 	helper =
+
+[delta]
+	navigate = true
 
 [diff]
 	algorithm = histogram
@@ -72,6 +78,7 @@
 	defaultBranch = main
 
 [interactive]
+	diffFilter = delta --color-only
 	singleKey = true
 
 [log]
