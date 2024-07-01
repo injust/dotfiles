@@ -21,15 +21,17 @@
 [core]
 	fsmonitor = true
 	# Override `LESS=FRX` default to unbreak mouse scrolling (https://github.com/gwsw/less/issues/445)
-	pager = LESS='--quit-if-one-screen --RAW-CONTROL-CHARS' less
+	pager = LESS='--quit-if-one-screen --RAW-CONTROL-CHARS' delta
 	untrackedcache = true
 
 [credential]
 	helper = 
 
+[delta]
+	navigate = true
+
 [diff]
-	colorMoved = dimmed-zebra
-	colorMovedWS = allow-indentation-change
+	colorMoved = default
 
 [fetch]
 	prune = true
@@ -39,6 +41,12 @@
 
 [init]
 	defaultBranch = main
+
+[interactive]
+	diffFilter = delta --color-only
+
+[merge]
+	conflictstyle = diff3
 
 [pull]
 	rebase = true
