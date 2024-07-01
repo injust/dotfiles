@@ -1,0 +1,3 @@
+[submodule "catppuccin/delta"]
+	path = catppuccin/delta
+	url = https://github.com/catppuccin/delta.git
