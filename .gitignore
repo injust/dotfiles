@@ -1,5 +1,7 @@
 .ssh/id_*
 
+catppuccin/*/*
+
 fish/fisher/
 
 git/gitignore/*
