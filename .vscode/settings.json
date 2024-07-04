@@ -64,6 +64,7 @@
     "python.analysis.inlayHints.pytestParameters": true,
     "python.analysis.inlayHints.variableTypes": true,
     "python.analysis.typeCheckingMode": "basic",
+    "python.REPL.sendToNativeREPL": true,
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.terminal.focusAfterLaunch": true,
     "redhat.telemetry.enabled": false,
