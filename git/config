@@ -50,7 +50,7 @@
 	gpgSign = true
 
 [core]
-	pager = delta
+	pager = delta --line-numbers
 
 [credential]
 	helper =
@@ -61,7 +61,11 @@
 	file-decoration-style = "#6c7086" box ul  # Add `box ul`
 	hunk-header-decoration-style = "#6c7086"  # Remove `box ul`
 
+	max-line-length = 0
+	max-syntax-highlighting-length = 0
 	navigate = true
+	right-arrow = =>
+	tabs = 4
 
 [diff]
 	algorithm = histogram
@@ -97,7 +101,7 @@
 	defaultBranch = main
 
 [interactive]
-	diffFilter = delta --color-only
+	diffFilter = delta --color-only --line-numbers
 	singleKey = true
 
 [log]
