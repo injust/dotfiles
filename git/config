@@ -30,6 +30,7 @@
 [delta]
 	features = catppuccin-mocha
 	navigate = true
+	tabs = 4
 
 [diff]
 	colorMoved = dimmed-zebra
