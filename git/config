@@ -51,7 +51,16 @@
 
 [delta]
 	features = catppuccin-mocha
+	file-added-label = 
+	file-copied-label = 
+	file-modified-label = 
+	file-removed-label = 
+	file-renamed-label = 
+	hunk-label = 
+	max-line-length = 0
+	max-syntax-highlighting-length = 0
 	navigate = true
+	tabs = 4
 
 [diff]
 	algorithm = histogram
