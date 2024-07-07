@@ -22,6 +22,8 @@
 	fsmonitor = true
 	# Override `LESS=FRX` default to unbreak mouse scrolling (https://github.com/gwsw/less/issues/445)
 	pager = LESS='--quit-if-one-screen --RAW-CONTROL-CHARS' delta
+	# Work around macOS rebase error (https://www.git-tower.com/blog/make-git-rebase-safe-on-osx/)
+	trustctime = false
 	untrackedCache = true
 
 [credential]
