@@ -32,6 +32,7 @@
 	hyperlinks = true
 	hyperlinks-file-link-format = "vscode://file/{path}:{line}"
 	navigate = true
+	tabs = 4
 
 [diff]
 	colorMoved = default
