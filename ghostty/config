@@ -16,11 +16,23 @@ adjust-cell-width = -1
 
 theme = catppuccin-mocha
 
-keybind = alt+left=esc:b
+# https://www.gnu.org/software/bash/manual/html_node/Commands-For-Moving.html
+# beginning-of-line (C-a)
+keybind = super+left=text:\x01
+# end-of-line (C-e)
+keybind = super+right=text:\x05
+# forward-word (M-f)
 keybind = alt+right=esc:f
-keybind = cmd+backspace=text:\x15
-keybind = cmd+left=text:\x01
-keybind = cmd+right=text:\x05
+# backward-word (M-b)
+keybind = alt+left=esc:b
+
+# https://www.gnu.org/software/bash/manual/html_node/Commands-For-Killing.html
+# kill-line (C-k)
+keybind = super+delete=text:\x0b
+# unix-line-discard (C-u)
+keybind = super+backspace=text:\x15
+# kill-word (M-d)
+keybind = alt+delete=esc:d
 
 clipboard-paste-protection = false
 
