@@ -29,6 +29,7 @@
 
 [delta]
 	features = catppuccin-mocha
+	max-line-length = 0
 	navigate = true
 	tabs = 4
 
