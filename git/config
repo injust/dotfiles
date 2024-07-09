@@ -35,6 +35,7 @@
 	file-removed-label = 
 	file-renamed-label = 
 	hunk-label = 
+	max-line-length = 0
 	navigate = true
 	tabs = 4
 
