@@ -5,4 +5,7 @@ set -gx FZF_DEFAULT_OPTS --multi --layout=reverse --scrollbar=▐ --prompt=❯ -
 
 set -gx MANPAGER sh -c "'col -bx | bat --language=man --style=plain'"
 
-set -gx VISUAL nano
+# TODO(micro 2.0.15): Remove this, micro automatically uses true color support now (https://github.com/zyedidia/micro/pull/2867)
+set -gx MICRO_TRUECOLOR 1
+
+set -gx VISUAL micro
