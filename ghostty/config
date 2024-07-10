@@ -57,6 +57,8 @@ window-padding-x = 4
 window-padding-balance = true
 window-padding-color = extend
 
+clipboard-read = allow
+
 quit-after-last-window-closed = true
 
 shell-integration-features = true

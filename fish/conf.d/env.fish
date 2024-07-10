@@ -3,4 +3,7 @@ set -gx FZF_DEFAULT_OPTS --multi --layout=reverse --scrollbar=▐ --prompt=❯ -
 
 set -gx MANPAGER sh -c "'col -bx | bat --language=man --style=plain'"
 
-set -gx VISUAL nano
+# TODO(https://github.com/zyedidia/micro/pull/2867): Unset when micro automatically uses true color support
+set -gx MICRO_TRUECOLOR 1
+
+set -gx VISUAL micro
