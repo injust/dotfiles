@@ -55,6 +55,8 @@ keybind = opt+delete=esc:d
 window-padding-x = 4
 window-padding-color = extend
 
+clipboard-read = allow
+
 quit-after-last-window-closed = true
 
 shell-integration-features = true
