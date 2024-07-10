@@ -1,5 +1,6 @@
 tap "domt4/autoupdate"
 tap "nrlquaker/createzap"
+brew "asciinema"
 brew "bat"
 brew "curl"
 brew "deno"
