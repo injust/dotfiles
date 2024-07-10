@@ -5,3 +5,7 @@
 [submodule "catppuccin/delta"]
 	path = catppuccin/delta
 	url = https://github.com/catppuccin/delta.git
+
+[submodule "catppuccin/micro"]
+	path = catppuccin/micro
+	url = https://github.com/catppuccin/micro.git
