@@ -21,7 +21,8 @@
 [core]
 	fsmonitor = true
 	# Override `LESS=FRX` default to unbreak mouse scrolling (https://github.com/gwsw/less/issues/445)
-	pager = LESS='--quit-if-one-screen --RAW-CONTROL-CHARS' delta
+	# Treat Nerd Font characters used in delta labels as printable
+	pager = LESS='--quit-if-one-screen --RAW-CONTROL-CHARS' LESSUTFCHARDEF=EBCC:p,F459:p,F4D0:p,F4D2:p,F4D5-F4D6:p delta
 	# Work around macOS rebase error (https://www.git-tower.com/blog/make-git-rebase-safe-on-osx/)
 	trustctime = false
 	untrackedcache = true
@@ -31,6 +32,12 @@
 
 [delta]
 	features = catppuccin-mocha
+	file-added-label = 
+	file-copied-label = 
+	file-modified-label = 
+	file-removed-label = 
+	file-renamed-label = 
+	hunk-label = 
 	hyperlinks = true
 	hyperlinks-file-link-format = "vscode://file/{path}:{line}"
 	max-line-length = 0
