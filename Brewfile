@@ -1,4 +1,5 @@
 tap "domt4/autoupdate", trusted: { commands: ["autoupdate"] }
+brew "asciinema"
 brew "bash"
 brew "bat"
 brew "bttf"
