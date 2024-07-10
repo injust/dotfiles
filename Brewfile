@@ -1,3 +1,4 @@
+brew "asciinema"
 brew "bash"
 brew "bat"
 brew "csvlens"
