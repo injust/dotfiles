@@ -1,0 +1,11 @@
+{
+    "autosu": true,
+    "clipboard": "terminal",
+    "diffgutter": true,
+    "hlsearch": true,
+    "hltaberrors": true,
+    "rmtrailingws": true,
+    "scrollbar": true,
+    "scrollbarchar": "▐",
+    "tabmovement": true
+}
