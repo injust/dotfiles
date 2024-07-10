@@ -23,4 +23,4 @@ set -x LESSUTFCHARDEF e000-e09f:w,e0a0-e0bf:p,e0c0-f8ff:w,f0001-fffff:w
 # https://github.com/sharkdp/bat/blob/master/README.md#man
 set -x MANPAGER "sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x08/, \"\", \$0); print }'\'' | bat --plain --language=man'"
 
-set -x VISUAL nano
+set -x VISUAL micro
