@@ -60,6 +60,8 @@ window-padding-color = extend
 
 window-inherit-working-directory = false
 
+clipboard-read = allow
+
 quit-after-last-window-closed = true
 
 shell-integration-features = true
