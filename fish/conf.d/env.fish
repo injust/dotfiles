@@ -7,4 +7,6 @@ set -gx MANPAGER sh -c "'col -bx | bat --language=man --style=plain'"
 # Trailing colon prepends this to the default list
 set -gx MANPATH /usr/local/opt/findutils/libexec/gnuman:/usr/local/opt/gawk/libexec/gnuman:/usr/local/opt/gnu-sed/libexec/gnuman:/usr/local/opt/gnu-tar/libexec/gnuman:/usr/local/opt/gnu-units/libexec/gnuman:/usr/local/opt/gnu-which/libexec/gnuman:/usr/local/opt/grep/libexec/gnuman:/usr/local/opt/uutils-coreutils/libexec/uuman:
 
+set -gx MICRO_TRUECOLOR 1
+
 set -gx VISUAL nano
