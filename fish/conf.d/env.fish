@@ -5,4 +5,7 @@ set -gx FZF_DEFAULT_OPTS --multi --layout=reverse --scrollbar=▐ --prompt=❯ -
 
 set -gx MANPAGER sh -c "'col -bx | bat --language=man --style=plain'"
 
-set -gx VISUAL nano
+# TODO(https://github.com/zyedidia/micro/issues/1127): Remove when micro checks the COLORTERM environment variable
+set -gx MICRO_TRUECOLOR 1
+
+set -gx VISUAL micro
