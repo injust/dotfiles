@@ -1,4 +1,5 @@
 tap "domt4/autoupdate"
+brew "asciinema"
 brew "bash"
 brew "bat"
 brew "csvlens"
