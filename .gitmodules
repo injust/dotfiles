@@ -4,3 +4,6 @@
 [submodule "catppuccin/delta"]
 	path = catppuccin/delta
 	url = git@github.com:catppuccin/delta
+[submodule "catppuccin/micro"]
+	path = catppuccin/micro
+	url = git@github.com:catppuccin/micro
