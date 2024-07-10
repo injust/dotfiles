@@ -71,6 +71,9 @@
     "telemetry.telemetryLevel": "off",
     "terminal.external.osxExec": "Ghostty.app",
     "terminal.integrated.allowChords": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "-workbench.action.quickOpenView" // ctrl-q for micro
+    ],
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.enableVisualBell": true,
