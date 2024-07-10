@@ -1,4 +1,5 @@
 tap "domt4/autoupdate"
+brew "asciinema"
 brew "bat"
 brew "croc"
 brew "curl"
