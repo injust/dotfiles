@@ -8,4 +8,4 @@ set -x MANPAGER "sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x08
 
 set -x SSH_SK_PROVIDER /usr/lib/ssh-keychain.dylib
 
-set -x VISUAL nano
+set -x VISUAL micro
