@@ -1,6 +1,7 @@
 {
     "autosu": true,
     "clipboard": "terminal",
+    "colorscheme": "catppuccin-mocha-transparent",
     "diffgutter": true,
     "hlsearch": true,
     "hltaberrors": true,
