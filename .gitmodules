@@ -7,3 +7,8 @@
 	path = catppuccin/delta
 	url = https://github.com/catppuccin/delta
 	ignore = dirty
+
+[submodule "catppuccin/micro"]
+	path = catppuccin/micro
+	url = https://github.com/catppuccin/micro
+	ignore = dirty
