@@ -1,0 +1,6 @@
+[
+    {
+        "command": "workbench.action.zoomReset",
+        "key": "cmd+0"
+    }
+]
