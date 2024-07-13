@@ -6,3 +6,6 @@ fish/fisher/
 
 micro/backups/
 micro/buffers/
+
+zed/embeddings/
+zed/prompts/
