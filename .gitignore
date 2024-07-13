@@ -1,5 +1,7 @@
 .ssh/keys/
 
+asciinema/install-id
+
 catppuccin/*/*
 
 fish/fisher/
