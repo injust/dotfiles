@@ -19,6 +19,7 @@ brew "fzf"
 brew "gawk"
 brew "git"
 brew "git-delta", args: ["HEAD"]
+brew "git-interactive-rebase-tool"
 brew "gnu-sed"
 brew "gnu-tar"
 brew "gnu-units"
