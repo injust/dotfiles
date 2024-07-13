@@ -9,13 +9,13 @@ local os = import("os")
 
 function init()
 	config.MakeCommand("runit", runitCommand, config.NoComplete)
-	config.TryBindKey("F5", "command:runit", true)
+	config.TryBindKey("F5", "command:runit", false)
 
 	config.MakeCommand("makeup", makeupCommand, config.NoComplete)
-	config.TryBindKey("F12", "command:makeup", true)
+	config.TryBindKey("F12", "command:makeup", false)
 
 	config.MakeCommand("makeupbg", makeupbgCommand, config.NoComplete)
-	config.TryBindKey("F9", "command:makeupbg", true)	
+	config.TryBindKey("F9", "command:makeupbg", false)
 end
 
 function runitCommand(bp) -- bp BufPane
@@ -40,7 +40,7 @@ function runitCommand(bp) -- bp BufPane
 		cmd = string.format("lua '%s'", filename)
 	end
 
-	shell.RunInteractiveShell(cmd, true, false)		
+	shell.RunInteractiveShell(cmd, true, false)
 end
 
 function makeJobExit(out, args)
@@ -51,12 +51,12 @@ function makeJobExit(out, args)
 end
 
 function makeup(bg)
-	-- Go up directories until a Makefile is found and run 'make'. 
-	
+	-- Go up directories until a Makefile is found and run 'make'.
+
 	-- Caller is responsible for returning to original working directory.
-	-- Important, because micro will save the current file into the directory where 
-	-- we are in. In this plugin, makeupWrapper() implements returning 
-	-- to original directory. 
+	-- Important, because micro will save the current file into the directory where
+	-- we are in. In this plugin, makeupWrapper() implements returning
+	-- to original directory.
 
 	local err, pwd, prevdir
 	for i = 1,20 do -- arbitrary number to make sure we exit one day
@@ -97,12 +97,12 @@ function makeup(bg)
 			micro.InfoBar():Message("Error: os.Chdir() failed!")
 			return
 		end
-		
+
 	end
 	micro.InfoBar():Message("Warning: ran full 20 rounds but did not recognize root directory")
 	return
 
-end	
+end
 
 function makeupWrapper(bg)
 	-- makeupWrapper returns us to original working directory after running make
@@ -138,5 +138,5 @@ end
 function makeupbgCommand(bp)
 	-- run make in this or higher directory, in the background, hide most output
 	bp:Save()
-	makeupWrapper(true)	
+	makeupWrapper(true)
 end
