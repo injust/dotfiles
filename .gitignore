@@ -6,3 +6,6 @@
 .vscode/workspaceStorage/
 
 asciinema/install-id
+
+micro/backups/
+micro/buffers/
