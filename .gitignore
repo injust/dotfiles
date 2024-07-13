@@ -1,3 +1,8 @@
 .ssh/keys/
 
+.vscode/globalStorage/
+.vscode/History/
+.vscode/sync/
+.vscode/workspaceStorage/
+
 asciinema/install-id
