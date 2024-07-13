@@ -9,4 +9,4 @@ set -gx MANPATH /usr/local/opt/findutils/libexec/gnuman:/usr/local/opt/gawk/libe
 
 set -gx MICRO_TRUECOLOR 1
 
-set -gx VISUAL nano
+set -gx VISUAL micro
