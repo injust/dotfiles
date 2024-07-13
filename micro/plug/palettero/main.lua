@@ -18,7 +18,7 @@ function init()
 	config.TryBindKey("CtrlP", "command:palettero", false)
 	config.TryBindKey("CtrlSpace", "command:palettero", false)
 	-- config.TryBindKey("F1", "command:palettero", false)
-	
+
 	config.MakeCommand("editmenu", editmenuCommand, config.NoComplete)
 	config.MakeCommand("updatemenu", collectRuntime, config.NoComplete)
 
@@ -45,7 +45,7 @@ function promptDoneCallback(resp, cancelled)
 		micro.InfoBar():Message("Command cancelled.")
 	end
 	micro.InfoBar():Message("Running: ", resp)
-	
+
 	local bp = micro.CurPane()
 	bp:HandleCommand(resp)
 end
@@ -91,13 +91,13 @@ function getCommand(s)
 	if "#" == s:sub(1,1) then
 		return "" -- string starts with comment character
 	end
-	
+
 	local cmd = string.match(s, "([^#]*) ?#")
 	if nil ~= cmd and string.len(cmd) > 0 then
 		return cmd -- string had a comment char, return what was before it
 	end
 
-	return s -- no comment char in string	
+	return s -- no comment char in string
 end
 
 function collectRuntime()
@@ -105,7 +105,7 @@ function collectRuntime()
 	help = rtNames(config.RTHelp, "help")
 	colorscheme = rtNames(config.RTColorscheme, "set colorscheme")
 	data = help.."\n"..colorscheme
-	-- Go (Golang) io.ioutil.WriteFile() is depraced, os.WriteFile() is recommended, 
+	-- Go (Golang) io.ioutil.WriteFile() is depraced, os.WriteFile() is recommended,
 	-- but the newer one is not in micro 2.0.11 as of 2022
 	local perms = tonumber("0600", 8)
 	local err = ioutil.WriteFile(collectedfile, help.."\n"..colorscheme, perms)
@@ -113,7 +113,7 @@ end
 
 function rtNames(rtType, command)
 	-- return a string with all rtType items, one item per line
-	-- rtType should be one of 
+	-- rtType should be one of
 	-- 0 config.RTColorscheme, 1 config.RTSyntax, 2 config.RTHelp, 3 config.RTPlugin, 4 config.RTSyntaxHeader
 	-- add command at the start of each line, e.g. "plugins" -> "help plugins"
 	-- a helper function for collectRuntime
@@ -126,7 +126,7 @@ function rtNames(rtType, command)
 	-- add "command " to start of each line
 	multiLine = string.gsub(multiLine, "^", command.." ")
 	multiLine = string.gsub(multiLine, "\n", "\n"..command.." ")
-	
+
 	return multiLine
 end
 
