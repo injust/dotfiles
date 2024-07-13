@@ -64,6 +64,9 @@
 [pull]
 	rebase = true
 
+[sequence]
+	editor = interactive-rebase-tool
+
 [submodule]
 	recurse = true
 
