@@ -1,4 +1,26 @@
 {
+    "\u001b[1;9A": "CursorStart", // cmd-up
+    "\u001b[1;9B": "CursorEnd", // cmd-down
+    "\u001b[1;10A": "SelectToStart", // cmd-shift-up
+    "\u001b[1;10B": "SelectToEnd", // cmd-shift-down
+    "\u001b[1;10C": "SelectToEndOfLine", // cmd-shift-right
+    "\u001b[1;10D": "SelectToStartOfTextToggle", // cmd-shift-left
+    // TODO(https://github.com/zyedidia/micro/issues/3805): Remove and use normal shift-F3 keybind
+    "\u001b[13;2~": "FindPrevious", // shift-F3 (Ghostty)
+    "\u001b[96;5u": "CommandMode", // ctrl-`
+    "\u001b[109;5u": "JumpToMatchingBrace", // ctrl-m
+    "\u001b[122;6u": "Redo", // ctrl-shift-z
     "Alt-/": "lua:comment.comment",
-    "CtrlUnderscore": "lua:comment.comment"
+    "Alt-d": "DeleteWordRight", // opt-delete
+    "Ctrl-Space": "command:palettero",
+    "Ctrl-Underscore": "lua:comment.comment", // ctrl-/
+    "Ctrl-a": "StartOfTextToggle", // cmd-left
+    "Ctrl-e": "EndOfLine", // cmd-right
+    "Ctrl-j": "None",
+    "Ctrl-k": "SelectToEndOfLine,Delete", // cmd-delete
+    "Ctrl-n": "None",
+    "Ctrl-p": "command:palettero",
+    "Ctrl-u": "SelectToStartOfLine,Backspace", // cmd-backspace
+    "F3": "FindNext",
+    "Shift-F3": "FindPrevious" // shift-F3 (Zed)
 }
