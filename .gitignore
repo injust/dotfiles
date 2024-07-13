@@ -9,3 +9,7 @@ asciinema/install-id
 
 micro/backups/
 micro/buffers/
+
+zed/.tmp*
+zed/embeddings/
+zed/prompts/
