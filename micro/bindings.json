@@ -1,1 +1,24 @@
-{}
+{
+    "Ctrl-j": "None",
+    "Ctrl-n": "None",
+    "Ctrl-p": "command:palettero",
+    "F3": "FindNext",
+
+    "Shift-F3": "FindPrevious",
+    "\u001b[13;2~": "FindPrevious", // Ghostty (https://github.com/zyedidia/micro/issues/3805)
+
+    "\u001b[1;9A": "CursorStart", // cmd-up
+    "\u001b[1;9B": "CursorEnd", // cmd-down
+    "\u001b[1;10A": "SelectToStart", // cmd-shift-up
+    "\u001b[1;10B": "SelectToEnd", // cmd-shift-down
+    "\u001b[1;10C": "SelectToEndOfLine", // cmd-shift-right
+    "\u001b[1;10D": "SelectToStartOfTextToggle", // cmd-shift-left
+    "\u001b[96;5u": "CommandMode", // ctrl-`
+    "\u001b[109;5u": "JumpToMatchingBrace", // ctrl-m
+    "\u001b[122;6u": "Redo", // ctrl-shift-z
+    "Alt-d": "DeleteWordRight", // opt-delete
+    "Ctrl-a": "StartOfTextToggle", // cmd-left
+    "Ctrl-e": "EndOfLine", // cmd-right
+    "Ctrl-k": "SelectToEndOfLine,Delete", // cmd-delete
+    "Ctrl-u": "SelectToStartOfLine,Backspace" // cmd-backspace
+}
