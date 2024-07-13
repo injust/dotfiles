@@ -125,6 +125,9 @@
 [safe]
 	bareRepository = explicit
 
+[sequence]
+	editor = interactive-rebase-tool
+
 [stash]
 	showIncludeUntracked = true
 	showPatch = true
