@@ -1,3 +1,4 @@
 {
-    "colorscheme": "catppuccin-mocha-transparent"
+    "colorscheme": "catppuccin-mocha-transparent",
+    "statusformatr": "$(bind:ToggleHelp): help"
 }
