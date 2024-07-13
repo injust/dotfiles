@@ -68,6 +68,9 @@
 [pull]
 	rebase = true
 
+[sequence]
+	editor = interactive-rebase-tool
+
 [user]
 	email = injustsu@gmail.com
 	name = Justin Su
