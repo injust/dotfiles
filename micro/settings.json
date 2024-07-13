@@ -9,6 +9,7 @@
     "scrollbar": true,
     "scrollbarchar": "▌",
     "softwrap": true,
+    "statusformatr": "$(bind:ToggleHelp): help",
     "tabmovement": true,
     "wordwrap": true
 }
