@@ -5,3 +5,7 @@ catppuccin/*/*
 fish/fisher/
 
 git/gitignore/*
+
+micro/backups/
+micro/buffers/
+micro/plug/
