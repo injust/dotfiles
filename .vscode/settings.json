@@ -18,6 +18,7 @@
     "accessibility.signals.terminalBell": {
         "sound": "on"
     },
+    "basedpyright.analysis.diagnosticMode": "workspace",
     "codeium.enableCodeLens": false,
     "codeium.enableCommandSideHintEducation": false,
     "codeium.enableExplainProblem": false,
@@ -59,14 +60,6 @@
         "notebook.source.organizeImports": "explicit"
     },
     "notebook.formatOnSave.enabled": true,
-    "python.analysis.autoFormatStrings": true,
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.gotoDefinitionInStringLiteral": true,
-    "python.analysis.inlayHints.callArgumentNames": "partial",
-    "python.analysis.inlayHints.functionReturnTypes": true,
-    "python.analysis.inlayHints.pytestParameters": true,
-    "python.analysis.inlayHints.variableTypes": true,
-    "python.analysis.typeCheckingMode": "basic",
     "python.REPL.sendToNativeREPL": true,
     "python.terminal.activateEnvInCurrentTerminal": true,
     "python.terminal.focusAfterLaunch": true,
