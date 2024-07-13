@@ -1,3 +1,7 @@
 .ssh/keys/
 
 fish/fisher/
+
+micro/backups/
+micro/buffers/
+micro/plug/
