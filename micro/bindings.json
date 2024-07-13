@@ -1,4 +1,29 @@
 {
+    "\u001b[1;9A": "CursorStart", // ⌘-Up
+    "\u001b[1;9B": "CursorEnd", // ⌘-Down
+    "\u001b[1;10C": "SelectToEndOfLine", // ⌘-Shift-Right
+    "\u001b[1;10D": "SelectToStartOfTextToggle", // ⌘-Shift-Left
+    "\u001b[96;5u": "CommandMode", // Ctrl-`
+    "\u001b[109;5u": "JumpToMatchingBrace", // Ctrl-m
+    "\u001b[122;6u": "Redo", // Ctrl-Shift-z
     "Alt-/": "lua:comment.comment",
-    "CtrlUnderscore": "lua:comment.comment"
+    "Alt-Delete": "SelectToEndOfLine,Delete", // ⌘-Delete (VS Code)
+    "Alt-d": "DeleteWordRight", // ⌥+Delete
+    "Ctrl-Space": "command:palettero",
+    "Ctrl-Underscore": "lua:comment.comment", // Ctrl-/
+    "Ctrl-a": "StartOfTextToggle", // ⌘-Left
+    "Ctrl-e": "EndOfLine", // ⌘-Right
+    "Ctrl-j": "None",
+    "Ctrl-k": "SelectToEndOfLine,Delete", // ⌘-Delete
+    "Ctrl-n": "None",
+    "Ctrl-p": "command:palettero",
+    "Ctrl-u": "SelectToStartOfLine,Backspace", // ⌘-Backspace
+    "Ctrl-w": "DeleteWordLeft", // ⌥-Backspace (VS Code)
+    "F1": "command:palettero",
+    "F3": "FindNext",
+    "F4": "command:jumptag",
+    "F5": "command:runit",
+    "F9": "None",
+    "F12": "None",
+    "Shift-F3": "FindPrevious"
 }
