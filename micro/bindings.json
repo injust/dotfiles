@@ -23,5 +23,9 @@
     "Ctrl-u": "SelectToStartOfLine,Backspace", // cmd-backspace
     "F1": "command:palettero",
     "F3": "FindNext",
-    "Shift-F3": "FindPrevious" // shift-F3 (Zed)
+    "Shift-F3": "FindPrevious", // shift-F3 (Zed)
+
+    "command": {
+        "\u001b[96;5u": "AbortCommand" // ctrl-`
+    }
 }
