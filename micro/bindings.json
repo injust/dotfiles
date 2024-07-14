@@ -23,5 +23,9 @@
     "F5": "command:runit",
     "F9": "None",
     "F12": "None",
-    "Shift-F3": "FindPrevious"
+    "Shift-F3": "FindPrevious",
+
+    "command": {
+        "\u001b[96;5u": "AbortCommand" // Ctrl-`
+    }
 }
