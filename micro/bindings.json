@@ -29,5 +29,9 @@
 
     // Override platform-specific keybinds
     "Alt-Shift-Left": "SelectWordLeft",
-    "Alt-Shift-Right": "SelectWordRight"
+    "Alt-Shift-Right": "SelectWordRight",
+
+    "command": {
+        "\u001b[96;5u": "AbortCommand" // ctrl-`
+    }
 }
