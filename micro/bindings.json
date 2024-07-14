@@ -24,5 +24,9 @@
     "Ctrl-p": "command:palettero",
     "Ctrl-u": "SelectToStartOfLine,Backspace", // cmd-backspace
     "Ctrl-w": "DeleteWordLeft", // opt-backspace
-    "F3": "FindNext"
+    "F3": "FindNext",
+
+    "command": {
+        "\u001b[96;5u": "AbortCommand" // ctrl-`
+    }
 }
