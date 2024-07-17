@@ -43,6 +43,9 @@ style = 'yellow'
 symbol = '·'
 style = '238'
 
+[jobs]
+disabled = true
+
 
 # ********************
 # * Starship presets *
