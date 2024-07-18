@@ -16,6 +16,8 @@ adjust-cell-width = -1
 
 theme = catppuccin-mocha
 
+keybind = super+enter=ignore
+
 # https://www.gnu.org/software/bash/manual/html_node/Commands-For-Moving.html
 # beginning-of-line (C-a)
 keybind = super+left=text:\x01
