@@ -1,0 +1,4 @@
+[global]
+strict_env = true
+log_filter = "^$"
+# log_format = "-"  # TODO(https://github.com/direnv/direnv/issues/1419)

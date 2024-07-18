@@ -61,6 +61,7 @@
     "terminal": {
         "open_links_in_mouse_mode": false,
         "env": { "GIT_EDITOR": "zed --wait" },
+        "detect_venv": "off",
         "max_scroll_history_lines": 100000,
         "minimum_contrast": 0
     },
