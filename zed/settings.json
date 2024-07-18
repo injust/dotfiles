@@ -76,6 +76,7 @@
     "env": {
       "GIT_EDITOR": "zed --wait"
     },
-    "line_height": "standard"
+    "line_height": "standard",
+    "detect_venv": "off"
   }
 }
