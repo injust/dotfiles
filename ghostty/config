@@ -19,6 +19,8 @@ theme = catppuccin-mocha
 background-opacity = 0.95
 background-blur-radius = 20
 
+keybind = cmd+enter=ignore
+
 # Rebind equalize_splits to match default resize_split keybindings
 keybind = opt+shift+equal=unbind
 keybind = cmd+ctrl+equal=equalize_splits
