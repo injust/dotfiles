@@ -45,7 +45,12 @@
     "telemetry": { "diagnostics": false, "metrics": false },
     "git": { "inline_blame": { "show_commit_summary": true } },
     "edit_predictions": { "provider": "none", "sweep": { "privacy_mode": true } },
-    "terminal": { "env": { "GIT_EDITOR": "zed --wait" }, "max_scroll_history_lines": 100000, "minimum_contrast": 0 },
+    "terminal": {
+        "env": { "GIT_EDITOR": "zed --wait" },
+        "detect_venv": "off",
+        "max_scroll_history_lines": 100000,
+        "minimum_contrast": 0
+    },
     "file_types": { "JSONC": ["*.json"] },
     "auto_install_extensions": {
         "html": false // https://github.com/zed-industries/zed/pull/10867
