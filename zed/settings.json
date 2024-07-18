@@ -48,6 +48,7 @@
   },
   "terminal": {
     "blinking": "on",
-    "cursor_shape": "bar"
+    "cursor_shape": "bar",
+    "detect_venv": "off"
   }
 }

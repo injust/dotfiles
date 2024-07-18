@@ -64,7 +64,7 @@
     },
     "notebook.formatOnSave.enabled": true,
     "python.REPL.sendToNativeREPL": true,
-    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.activateEnvironment": false,
     "python.terminal.focusAfterLaunch": true,
     "redhat.telemetry.enabled": false,
     "remote.SSH.remoteServerListenOnSocket": true,
