@@ -1,0 +1,6 @@
+[global]
+# TODO(https://github.com/direnv/direnv/pull/1476): Disable normal logging using `log_format`
+# log_format = "-"
+log_filter = "^$"
+# TODO(https://github.com/direnv/direnv/issues/1477): Enable when `layout_uv` is fixed to work with `strict_env`
+# strict_env = true
