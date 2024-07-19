@@ -93,6 +93,12 @@
 	pruneTags = true
 	writeCommitGraph = true
 
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	process = git-lfs filter-process
+	required = true
+	smudge = git-lfs smudge -- %f
+
 [gpg]
 	format = ssh
 
@@ -111,6 +117,9 @@
 [interactive]
 	diffFilter = delta --color-only --line-numbers
 	singleKey = true
+
+[lfs "transfer"]
+	httpDownloadEncoding = zstd
 
 [log]
 	abbrevCommit = true
