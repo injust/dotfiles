@@ -21,6 +21,12 @@ background-blur-radius = 20
 
 keybind = cmd+enter=ignore
 
+# adjust_selection
+keybind = shift+end=adjust_selection:end_of_line
+keybind = shift+home=adjust_selection:beginning_of_line
+keybind = cmd+shift+left=adjust_selection:beginning_of_line
+keybind = cmd+shift+right=adjust_selection:end_of_line
+
 # Rebind equalize_splits to match default resize_split keybindings
 keybind = opt+shift+equal=unbind
 keybind = cmd+ctrl+equal=equalize_splits
