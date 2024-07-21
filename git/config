@@ -38,8 +38,6 @@
 	file-removed-label = 
 	file-renamed-label = 
 	hunk-label = 
-	hyperlinks = true
-	hyperlinks-file-link-format = "vscode://file/{path}:{line}"
 	max-line-length = 0
 	navigate = true
 	tabs = 4
