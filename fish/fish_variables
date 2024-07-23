@@ -45,4 +45,4 @@ SETUVAR fish_pager_color_selected_background:\x1d
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR fish_user_paths:/usr/local/opt/curl/bin\x1e/usr/local/opt/file\x2dformula/bin\x1e/usr/local/opt/findutils/libexec/gnubin\x1e/usr/local/opt/gawk/libexec/gnubin\x1e/usr/local/opt/gnu\x2dsed/libexec/gnubin\x1e/usr/local/opt/gnu\x2dtar/libexec/gnubin\x1e/usr/local/opt/gnu\x2dunits/libexec/gnubin\x1e/usr/local/opt/gnu\x2dwhich/libexec/gnubin\x1e/usr/local/opt/grep/libexec/gnubin\x1e/usr/local/opt/uutils\x2dcoreutils/libexec/uubin
+SETUVAR fish_user_paths:/Users/jsu/code/scripts\x1e/usr/local/opt/curl/bin\x1e/usr/local/opt/file\x2dformula/bin\x1e/usr/local/opt/findutils/libexec/gnubin\x1e/usr/local/opt/gawk/libexec/gnubin\x1e/usr/local/opt/gnu\x2dsed/libexec/gnubin\x1e/usr/local/opt/gnu\x2dtar/libexec/gnubin\x1e/usr/local/opt/gnu\x2dunits/libexec/gnubin\x1e/usr/local/opt/gnu\x2dwhich/libexec/gnubin\x1e/usr/local/opt/grep/libexec/gnubin\x1e/usr/local/opt/uutils\x2dcoreutils/libexec/uubin
