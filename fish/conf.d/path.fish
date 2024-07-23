@@ -1,3 +1,6 @@
+fish_add_path -ag ~/code/scripts
+
+# Homebrew
 fish_add_path -ag /usr/local/opt/curl/bin
 fish_add_path -ag /usr/local/opt/file-formula/bin
 fish_add_path -ag /usr/local/opt/findutils/libexec/gnubin
