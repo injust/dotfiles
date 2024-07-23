@@ -1,3 +1,4 @@
+# TODO(https://github.com/direnv/direnv/issues/68, https://github.com/direnv/direnv/pull/1231): Use a less hacky solution to suppress logging so `log_status` still works
 set -gx DIRENV_LOG_FORMAT
 
 set -gx FZF_DEFAULT_COMMAND fd --hidden --follow --type=file
