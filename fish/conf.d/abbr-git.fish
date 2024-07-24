@@ -30,6 +30,9 @@ abbr gad -- git add
 abbr gbr -- git branch
 abbr_git br -- branch
 
+abbr gcm -- git commit
+abbr_git cm -- commit
+
 abbr gco -- git checkout
 abbr_git co -- checkout
 
