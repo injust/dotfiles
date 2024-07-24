@@ -1,3 +1,7 @@
+[advice]
+	detachedHead = false
+	skippedCherryPicks = false
+
 [alias]
 	ad = add
 	am = commit --amend --no-edit
@@ -25,6 +29,12 @@
 	sw = switch
 
 	show-ignored = !git clean -d --dry-run -X | sed 's/^Would remove //'
+
+[branch]
+	autoSetupRebase = always
+
+[checkout]
+	workers = 0
 
 [commit]
 	gpgSign = true
@@ -56,10 +66,17 @@
 	algorithm = histogram
 	colorMoved = dimmed-zebra
 	colorMovedWS = allow-indentation-change
+	noPrefix = true
 	renames = copies
+
+[feature]
+	experimental = true
+	manyFiles = true
 
 [fetch]
 	prune = true
+	pruneTags = true
+	writeCommitGraph = true
 
 [filter "lfs"]
 	clean = git-lfs clean -- %f
@@ -81,6 +98,7 @@
 
 [interactive]
 	diffFilter = delta --color-only
+	singleKey = true
 
 [log]
 	abbrevCommit = true
@@ -88,14 +106,25 @@
 [merge]
 	autoStash = true
 	conflictStyle = zdiff3
+	ff = false
 
 [pull]
-	rebase = true
+	ff = only
+	rebase = merges
+
+[push]
+	autoSetupRemote = true
+	negotiate = true
+	useForceIfIncludes = true
 
 [rebase]
 	autoSquash = true
 	autoStash = true
 	updateRefs = true
+
+[rerere]
+	autoUpdate = true
+	enabled = true
 
 [sequence]
 	editor = interactive-rebase-tool
@@ -103,7 +132,17 @@
 [submodule]
 	recurse = true
 
+[tag]
+	gpgSign = true
+
+[transfer]
+	fsckObjects = true
+
+[url "git@github.com:"]
+	insteadOf = gh:
+
 [user]
 	email = injustsu@gmail.com
 	name = Justin Su
 	signingKey = ~/.ssh/keys/github-signing
+	useConfigOnly = true
