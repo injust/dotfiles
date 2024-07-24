@@ -5,7 +5,7 @@ function __abbr_git
     set -l long $argv[2..-1]
 
     if not string match --regex --quiet '^\w[\w\-]*$' -- $short
-        or not string match --regex --quiet '^[\h\w\-=]+$' -- "$long"
+        or not string match --regex --quiet '^[\h\w\-=@{}]+$' -- "$long"
         return 1
     end
 
