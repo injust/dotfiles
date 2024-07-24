@@ -1,4 +1,5 @@
 [alias]
+	ad = add
 	br = branch
 	cm = commit
 	co = checkout
@@ -7,6 +8,7 @@
 	dfc = diffc
 	diffc = diff --cached
 	gr = grep --break --heading
+	lg = log
 	lol = log --decorate --oneline --graph
 	lola = lol --all
 	rb = rebase
