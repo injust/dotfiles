@@ -5,6 +5,9 @@ abbr gad -- git add
 abbr gbr -- git branch
 abbr --command=git br -- branch
 
+abbr gcm -- git commit
+abbr --command=git cm -- commit
+
 abbr gco -- git checkout
 abbr --command=git co -- checkout
 
