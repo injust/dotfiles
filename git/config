@@ -40,8 +40,10 @@
 	tabs = 4
 
 [diff]
+	algorithm = histogram
 	colorMoved = dimmed-zebra
 	colorMovedWS = allow-indentation-change
+	renames = copies
 
 [fetch]
 	prune = true
@@ -55,6 +57,9 @@
 [gpg]
 	format = ssh
 
+[grep]
+	lineNumber = true
+
 [include]
 	path = catppuccin.gitconfig
 
@@ -64,11 +69,20 @@
 [interactive]
 	diffFilter = delta --color-only
 
+[log]
+	abbrevCommit = true
+
 [merge]
+	autoStash = true
 	conflictStyle = zdiff3
 
 [pull]
 	rebase = true
+
+[rebase]
+	autoSquash = true
+	autoStash = true
+	updateRefs = true
 
 [sequence]
 	editor = interactive-rebase-tool
