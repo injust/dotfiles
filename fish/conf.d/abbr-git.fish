@@ -21,6 +21,9 @@ abbr gdfc -- git diff --cached
 abbr --command=git dfc -- diff --cached
 abbr --command=git diffc -- diff --cached
 
+abbr ggr -- git grep --break --heading
+abbr --command=git gr -- grep --break --heading
+
 abbr glg -- git log
 
 abbr glol -- git lol
