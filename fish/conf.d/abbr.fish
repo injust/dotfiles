@@ -9,4 +9,4 @@ abbr where -- type --all
 abbr which -- type
 
 # Inspired by https://fishshell.com/docs/current/interactive.html#abbreviations
-abbr dotdot --regex='^\.{2,}$' --function=__multicd
+abbr dotdot --position=anywhere --regex='^\.{3,}$' --function=__dotdot
