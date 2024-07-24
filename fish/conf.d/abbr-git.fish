@@ -3,6 +3,12 @@ status is-interactive || exit
 abbr gad -- git add
 abbr --command=git ad -- add
 
+abbr gam -- git commit --amend --no-edit
+abbr --command=git am -- commit --amend --no-edit
+
+abbr game -- git commit --amend
+abbr --command=git ame -- commit --amend
+
 abbr gbr -- git branch
 abbr --command=git br -- branch
 
