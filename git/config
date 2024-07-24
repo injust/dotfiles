@@ -6,6 +6,7 @@
 	df = diff
 	dfc = diffc
 	diffc = diff --cached
+	gr = grep --break --heading
 	lol = log --decorate --oneline --graph
 	lola = lol --all
 	rb = rebase
