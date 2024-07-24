@@ -1,6 +1,7 @@
 status is-interactive || exit
 
 abbr gad -- git add
+abbr --command=git ad -- add
 
 abbr gbr -- git branch
 abbr --command=git br -- branch
@@ -25,6 +26,7 @@ abbr ggr -- git grep --break --heading
 abbr --command=git gr -- grep --break --heading
 
 abbr glg -- git log
+abbr --command=git lg -- log
 
 abbr glol -- git lol
 
