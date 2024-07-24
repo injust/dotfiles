@@ -8,7 +8,10 @@
 	cp = cherry-pick
 	df = diff
 	dfc = diffc
+	dfu = diffu
+	dfus = diffu --stat
 	diffc = diff --cached
+	diffu = diff @{upstream}
 	gr = grep --break --heading
 	lg = log
 	lol = log --decorate --oneline --graph
