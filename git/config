@@ -1,3 +1,7 @@
+[advice]
+	detachedHead = false
+	skippedCherryPicks = false
+
 [alias]
 	ad = add
 	am = commit --amend --no-edit
@@ -26,6 +30,12 @@
 
 	show-ignored = !git clean -d --dry-run -X | sed 's/^Would remove //'
 
+[branch]
+	autoSetupRebase = always
+
+[checkout]
+	workers = 0
+
 [commit]
 	gpgSign = true
 
@@ -35,7 +45,7 @@
 	pager = LESS='--quit-if-one-screen --RAW-CONTROL-CHARS' delta
 	# Work around macOS rebase error (https://www.git-tower.com/blog/make-git-rebase-safe-on-osx/)
 	trustctime = false
-	untrackedcache = true
+	untrackedCache = true
 
 [credential]
 	helper = 
@@ -57,8 +67,14 @@
 	colorMoved = default
 	renames = copies
 
+[feature]
+	experimental = true
+	manyFiles = true
+
 [fetch]
 	prune = true
+	pruneTags = true
+	writeCommitGraph = true
 
 [filter "lfs"]
 	clean = git-lfs clean -- %f
@@ -73,7 +89,7 @@
 	lineNumber = true
 
 [help]
-	autocorrect = immediate
+	autoCorrect = immediate
 
 [include]
 	path = catppuccin.gitconfig
@@ -83,21 +99,33 @@
 
 [interactive]
 	diffFilter = delta --color-only
+	singleKey = true
 
 [log]
 	abbrevCommit = true
 
 [merge]
 	autoStash = true
-	conflictstyle = diff3
+	conflictStyle = zdiff3
+	ff = false
 
 [pull]
-	rebase = true
+	ff = only
+	rebase = merges
+
+[push]
+	autoSetupRemote = true
+	negotiate = true
+	useForceIfIncludes = true
 
 [rebase]
 	autoSquash = true
 	autoStash = true
 	updateRefs = true
+
+[rerere]
+	autoUpdate = true
+	enabled = true
 
 [sequence]
 	editor = interactive-rebase-tool
@@ -105,7 +133,17 @@
 [submodule]
 	recurse = true
 
+[tag]
+	gpgSign = true
+
+[transfer]
+	fsckObjects = true
+
+[url "git@github.com:"]
+	insteadOf = gh:
+
 [user]
 	email = injustsu@gmail.com
 	name = Justin Su
 	signingKey = ~/.ssh/keys/github-signing
+	useConfigOnly = true
