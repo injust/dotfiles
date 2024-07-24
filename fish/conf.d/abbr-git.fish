@@ -9,7 +9,7 @@ function abbr_git
     set -l long $argv[2..]
 
     if not string match --regex --quiet '^\w[\-\w]*$' -- "$short"
-        or not string match --regex --quiet '^[\-\h\w]+$' -- "$long"
+        or not string match --regex --quiet '^[\-@{}\h\w]+$' -- "$long"
         return 1
     end
 
@@ -52,6 +52,13 @@ abbr_git df -- diff
 abbr gdfc -- git diff --cached
 abbr_git dfc -- diff --cached
 abbr_git diffc -- diff --cached
+
+abbr gdfu -- git diff @{upstream}
+abbr_git dfu -- diff @{upstream}
+abbr_git diffu -- diff @{upstream}
+
+abbr gdfus -- git diff @{upstream} --stat
+abbr_git dfus -- diff @{upstream} --stat
 
 abbr ggr -- git grep --break --heading
 abbr_git gr -- grep --break --heading
