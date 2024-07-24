@@ -16,6 +16,8 @@
 	st = status
 	sw = switch
 
+	show-ignored = !git clean -d --dry-run -X | sed 's/^Would remove //'
+
 [commit]
 	gpgSign = true
 
