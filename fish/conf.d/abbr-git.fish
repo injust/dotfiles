@@ -28,7 +28,13 @@ __abbr_git df -- diff
 
 abbr gdfc -- git diff --cached
 __abbr_git dfc -- diff --cached
+
+abbr gdfu -- git diff @{upstream}
+__abbr_git dfu -- diff @{upstream}
+
 __abbr_git diffc -- diff --cached
+
+__abbr_git diffu -- diff @{upstream}
 
 abbr ggr -- git grep --break --heading
 __abbr_git gr -- grep --break --heading
