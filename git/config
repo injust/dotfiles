@@ -42,7 +42,9 @@
 	tabs = 4
 
 [diff]
+	algorithm = histogram
 	colorMoved = default
+	renames = copies
 
 [fetch]
 	prune = true
@@ -56,6 +58,12 @@
 [gpg]
 	format = ssh
 
+[grep]
+	lineNumber = true
+
+[help]
+	autocorrect = immediate
+
 [include]
 	path = catppuccin.gitconfig
 
@@ -65,11 +73,20 @@
 [interactive]
 	diffFilter = delta --color-only
 
+[log]
+	abbrevCommit = true
+
 [merge]
+	autoStash = true
 	conflictstyle = diff3
 
 [pull]
 	rebase = true
+
+[rebase]
+	autoSquash = true
+	autoStash = true
+	updateRefs = true
 
 [sequence]
 	editor = interactive-rebase-tool
