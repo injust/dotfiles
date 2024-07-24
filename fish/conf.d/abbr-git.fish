@@ -28,6 +28,12 @@ end
 abbr gad -- git add
 abbr_git ad -- add
 
+abbr gam -- git commit --amend --no-edit
+abbr_git am -- commit --amend --no-edit
+
+abbr game -- git commit --amend
+abbr_git ame -- commit --amend
+
 abbr gbr -- git branch
 abbr_git br -- branch
 
