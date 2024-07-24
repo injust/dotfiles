@@ -3,6 +3,7 @@ if not status is-interactive
 end
 
 abbr gad -- git add
+__abbr_git ad -- add
 
 abbr gbr -- git branch
 __abbr_git br -- branch
@@ -27,6 +28,7 @@ abbr ggr -- git grep --break --heading
 __abbr_git gr -- grep --break --heading
 
 abbr glg -- git log
+__abbr_git lg -- log
 
 abbr glol -- git log --decorate --oneline --graph
 __abbr_git lol -- log --decorate --oneline --graph
