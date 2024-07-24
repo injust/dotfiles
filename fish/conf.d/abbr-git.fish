@@ -28,6 +28,13 @@ abbr gdfc -- git diff --cached
 abbr --command=git dfc -- diff --cached
 abbr --command=git diffc -- diff --cached
 
+abbr gdfu -- git diff @{u}
+abbr --command=git dfu -- diff @{u}
+abbr --command=git diffu -- diff @{u}
+
+abbr gdfus -- git diff --stat @{u}
+abbr --command=git dfus -- diff --stat @{u}
+
 abbr ggr -- git grep --break --heading
 abbr --command=git gr -- grep --break --heading
 
