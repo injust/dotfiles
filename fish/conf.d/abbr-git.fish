@@ -7,6 +7,9 @@ abbr gad -- git add
 abbr gbr -- git branch
 __abbr_git br -- branch
 
+abbr gcm -- git commit
+__abbr_git cm -- commit
+
 abbr gco -- git checkout
 __abbr_git co -- checkout
 
