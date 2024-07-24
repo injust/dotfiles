@@ -5,6 +5,12 @@ end
 abbr gad -- git add
 __abbr_git ad -- add
 
+abbr gam -- git commit --amend --no-edit
+__abbr_git am -- commit --amend --no-edit
+
+abbr game -- git commit --amend
+__abbr_git ame -- commit --amend
+
 abbr gbr -- git branch
 __abbr_git br -- branch
 
