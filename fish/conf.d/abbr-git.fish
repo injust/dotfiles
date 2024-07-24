@@ -26,6 +26,7 @@ function abbr_git
 end
 
 abbr gad -- git add
+abbr_git ad -- add
 
 abbr gbr -- git branch
 abbr_git br -- branch
@@ -50,6 +51,7 @@ abbr ggr -- git grep --break --heading
 abbr_git gr -- grep --break --heading
 
 abbr glg -- git log
+abbr_git lg -- log
 
 abbr glol -- git lol
 
