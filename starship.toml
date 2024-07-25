@@ -36,6 +36,9 @@ $character\
 """
 palette = "catppuccin_mocha"
 
+[character]
+format = '$symbol'
+
 [cmd_duration]
 format = 'took []($style) [$duration](bold $style) '
 style = 'yellow'
