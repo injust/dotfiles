@@ -24,7 +24,8 @@
   "buffer_font_size": 13,
   "autosave": { "after_delay": { "milliseconds": 500 } },
   "tabs": {
-    "git_status": true
+    "git_status": true,
+    "file_icons": true
   },
   "soft_wrap": "editor_width",
   "preferred_line_length": 120,
