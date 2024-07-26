@@ -16,6 +16,9 @@ adjust-cell-width = -1
 
 theme = catppuccin-mocha
 
+background-opacity = 0.95
+background-blur-radius = 20
+
 keybind = super+enter=ignore
 
 # https://www.gnu.org/software/bash/manual/html_node/Commands-For-Moving.html
