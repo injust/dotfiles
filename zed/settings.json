@@ -1,8 +1,8 @@
 {
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
+    "light": "Catppuccin Latte (Blur)",
+    "dark": "Catppuccin Mocha (Blur)"
   },
   "features": {
     "inline_completion_provider": "none"
