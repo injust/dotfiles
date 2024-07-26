@@ -39,6 +39,9 @@ keybind = super+backspace=text:\x15
 # kill-word (M-d)
 keybind = alt+delete=esc:d
 
+window-padding-x = 4
+window-padding-y = 4
+
 clipboard-paste-protection = false
 
 quit-after-last-window-closed = true
