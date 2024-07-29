@@ -37,6 +37,9 @@ abbr_git ame -- commit --amend
 abbr gbr -- git branch
 abbr_git br -- branch
 
+abbr gcl -- git clone
+abbr_git cl -- clone
+
 abbr gcm -- git commit
 abbr_git cm -- commit
 
