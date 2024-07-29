@@ -12,6 +12,9 @@ abbr --command=git ame -- commit --amend
 abbr gbr -- git branch
 abbr --command=git br -- branch
 
+abbr gcl -- git clone
+abbr --command=git cl -- clone
+
 abbr gcm -- git commit
 abbr --command=git cm -- commit
 
