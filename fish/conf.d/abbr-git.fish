@@ -14,6 +14,9 @@ __abbr_git ame -- commit --amend
 abbr gbr -- git branch
 __abbr_git br -- branch
 
+abbr gcl -- git clone
+__abbr_git cl -- clone
+
 abbr gcm -- git commit
 __abbr_git cm -- commit
 
