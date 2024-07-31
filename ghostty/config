@@ -27,6 +27,10 @@ keybind = shift+home=adjust_selection:beginning_of_line
 keybind = super+shift+left=adjust_selection:beginning_of_line
 keybind = super+shift+right=adjust_selection:end_of_line
 
+# Rebind equalize_splits to match default resize_split keybindings
+keybind = alt+shift+equal=unbind
+keybind = super+ctrl+equal=equalize_splits
+
 # https://www.gnu.org/software/bash/manual/html_node/Commands-For-Moving.html
 # beginning-of-line (C-a)
 keybind = super+left=text:\x01
