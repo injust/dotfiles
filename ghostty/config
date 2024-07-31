@@ -31,6 +31,12 @@ keybind = super+shift+right=adjust_selection:end_of_line
 keybind = alt+shift+equal=unbind
 keybind = super+ctrl+equal=equalize_splits
 
+# Rebind super+page_up/down to jump_to_prompt to free up super+shift+up/down
+keybind = super+page_up=jump_to_prompt:-1
+keybind = super+shift+down=unbind
+keybind = super+shift+up=unbind
+keybind = super+page_down=jump_to_prompt:1
+
 # https://www.gnu.org/software/bash/manual/html_node/Commands-For-Moving.html
 # beginning-of-line (C-a)
 keybind = super+left=text:\x01
