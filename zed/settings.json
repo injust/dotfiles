@@ -22,6 +22,7 @@
   },
   "buffer_font_size": 13,
   "show_signature_help_after_edits": true,
+  "seed_search_query_from_cursor": "selection",
   "inlay_hints": {
     "enabled": true
   },
