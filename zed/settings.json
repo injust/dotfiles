@@ -21,6 +21,7 @@
     "ss09": true
   },
   "buffer_font_size": 13,
+  "seed_search_query_from_cursor": "selection",
   "inlay_hints": {
     "enabled": true
   },
