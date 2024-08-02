@@ -42,5 +42,15 @@
         "html": false // https://github.com/zed-industries/zed/pull/10867
     },
     "completions": { "words": "disabled" },
-    "languages": { "Fish": { "formatter": { "external": { "command": "fish_indent" } } } }
+    "languages": {
+        "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
+        "Python": {
+            "language_servers": ["basedpyright", "ruff"],
+            "formatter": [
+                { "code_action": "source.fixAll.ruff" },
+                { "code_action": "source.organizeImports.ruff" },
+                { "language_server": { "name": "ruff" } }
+            ]
+        }
+    }
 }
