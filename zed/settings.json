@@ -22,6 +22,9 @@
     "ss09": true
   },
   "buffer_font_size": 13,
+  "inlay_hints": {
+    "enabled": true
+  },
   "autosave": { "after_delay": { "milliseconds": 500 } },
   "tabs": {
     "git_status": true,
