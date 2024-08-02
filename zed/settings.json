@@ -21,6 +21,9 @@
     "ss09": true
   },
   "buffer_font_size": 13,
+  "inlay_hints": {
+    "enabled": true
+  },
   "collaboration_panel": {
     "button": false
   },
