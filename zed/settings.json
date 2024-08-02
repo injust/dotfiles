@@ -36,5 +36,12 @@
   "telemetry": {
     "diagnostics": false,
     "metrics": false
+  },
+  "languages": {
+    "Python": {
+      "format_on_save": { "language_server": { "name": "ruff" } },
+      "formatter": { "language_server": { "name": "ruff" } },
+      "language_servers": ["basedpyright", "ruff"]
+    }
   }
 }
