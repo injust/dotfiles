@@ -44,6 +44,9 @@ abbr --command=git gr -- grep --break --heading
 abbr glg -- git log
 abbr --command=git lg -- log
 
+abbr glgu -- git log @{u}
+abbr --command=git lgu -- log @{u}
+
 abbr glol -- git lol
 
 abbr glola -- git lol --all
