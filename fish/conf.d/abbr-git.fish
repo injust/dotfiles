@@ -15,8 +15,8 @@ abbr --command=git br -- branch
 abbr gcl -- git clone
 abbr --command=git cl -- clone
 
-abbr gcm -- git commit
-abbr --command=git cm -- commit
+abbr gcm --set-cursor -- git commit -m \"%\"
+abbr --command=git cm --set-cursor -- commit -m \"%\"
 
 abbr gco -- git checkout
 abbr --command=git co -- checkout
