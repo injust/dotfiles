@@ -66,6 +66,9 @@ abbr_git gr -- grep --break --heading
 abbr glg -- git log
 abbr_git lg -- log
 
+abbr glgu -- git log @{upstream}
+abbr_git lgu -- log @{upstream}
+
 abbr glol -- git lol
 
 abbr glola -- git lol --all
