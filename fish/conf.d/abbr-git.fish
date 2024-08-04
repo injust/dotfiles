@@ -17,8 +17,8 @@ __abbr_git br -- branch
 abbr gcl -- git clone
 __abbr_git cl -- clone
 
-abbr gcm -- git commit
-__abbr_git cm -- commit
+abbr gcm --set-cursor -- git commit --message="'%'"
+__abbr_git cm --set-cursor -- commit --message="'%'"
 
 abbr gco -- git checkout
 __abbr_git co -- checkout
