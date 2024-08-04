@@ -18,6 +18,7 @@
 	diffu = diff @{upstream}
 	gr = grep --break --heading
 	lg = log
+	lgu = log @{upstream}
 	lol = log --decorate --oneline --graph
 	lola = lol --all
 	rb = rebase
