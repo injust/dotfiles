@@ -73,6 +73,7 @@
     "security.workspace.trust.enabled": false,
     "standard.autoFixOnSave": true,
     "telemetry.telemetryLevel": "off",
+    "terminal.external.osxExec": "Ghostty.app",
     "terminal.integrated.allowChords": false,
     "terminal.integrated.commandsToSkipShell": [
         "-workbench.action.quickOpenView"
