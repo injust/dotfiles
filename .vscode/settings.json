@@ -44,6 +44,7 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "git.autofetch": "all",
     "git.fetchOnPull": true,
     "git.followTagsWhenSync": true,
     "git.mergeEditor": true,
