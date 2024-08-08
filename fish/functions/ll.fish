@@ -1,3 +1,3 @@
-function ll --description='alias ll=eza --classify --long --icons --all' --wraps=eza
-    eza --classify --long --icons --all $argv
+function ll --description='alias ll=ls --long --all' --wraps=eza
+    ls --long --all $argv
 end
