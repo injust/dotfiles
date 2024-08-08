@@ -58,6 +58,7 @@
 	file-renamed-label = 
 	hunk-label = 
 	max-line-length = 0
+	max-syntax-highlighting-length = 0
 	navigate = true
 	tabs = 4
 
