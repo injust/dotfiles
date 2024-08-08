@@ -1,5 +1,6 @@
 tap "domt4/autoupdate"
 tap "homebrew/bundle"
+tap "nrlquaker/createzap"
 brew "python@3.12"
 brew "asciinema"
 brew "basedpyright"
