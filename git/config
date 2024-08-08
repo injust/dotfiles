@@ -20,13 +20,10 @@
 [gpg]
 	format = ssh
 
-[gpg "ssh"]
-	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
-
 [pull]
 	rebase = true
 
 [user]
 	email = injustsu@gmail.com
 	name = Justin Su
-	signingKey = key::ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJLaM571ID3CRZfZT31P8jB+9uIbfFDfafRjh6aGj0NM
+	signingKey = ~/.ssh/keys/github-signing.pub
