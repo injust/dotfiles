@@ -21,7 +21,12 @@
     "basedpyright.analysis.diagnosticMode": "workspace",
     "codeium.enableCodeLens": false,
     "codeium.enableCommandSideHintEducation": false,
+    "codeium.enableConfig": {
+        "*": true,
+        "ini": false
+    },
     "codeium.enableExplainProblem": false,
+    "codeium.enableInComments": false,
     "editor.accessibilitySupport": "off",
     "editor.experimental.asyncTokenization": true,
     "editor.find.seedSearchStringFromSelection": "selection",
