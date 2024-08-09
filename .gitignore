@@ -7,6 +7,7 @@
 
 asciinema/install-id
 
+fish/conf.d/secrets.fish
 fish/fisher/
 
 micro/backups/
