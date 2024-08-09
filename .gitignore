@@ -7,6 +7,8 @@
 
 asciinema/install-id
 
+fish/conf.d/env-secret.fish
+
 micro/backups/
 micro/buffers/
 
