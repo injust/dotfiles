@@ -1,4 +1,4 @@
-set -gx FZF_DEFAULT_COMMAND fd --hidden --no-require-git
+set -gx FZF_DEFAULT_COMMAND fd
 set -gx FZF_DEFAULT_OPTS --multi --layout=reverse --scrollbar=▐ --prompt=❯ --marker=▌ --marker-multi-line=▖▌▘ --ellipsis=… --tabstop=4 --highlight-line
 
 # https://github.com/sharkdp/bat/blob/2371077352b06954cc013e3a7830ae4021060d3b/README.md#man
