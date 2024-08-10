@@ -13,7 +13,7 @@ fish_add_path -g \
 
 set -x COLORTERM truecolor
 
-set -x FZF_DEFAULT_COMMAND fd --hidden --no-require-git
+set -x FZF_DEFAULT_COMMAND fd
 set -x FZF_DEFAULT_OPTS_FILE $XDG_CONFIG_HOME/.fzfrc
 
 set -x LESS --quit-if-one-screen --RAW-CONTROL-CHARS
