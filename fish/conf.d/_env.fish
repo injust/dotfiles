@@ -13,7 +13,7 @@ fish_add_path -g \
     /usr/local/opt/uutils-coreutils/libexec/uubin \
     /usr/local/opt/*/libexec/gnubin
 
-set -x FZF_DEFAULT_COMMAND fd --hidden --no-require-git
+set -x FZF_DEFAULT_COMMAND fd
 set -x FZF_DEFAULT_OPTS_FILE $XDG_CONFIG_HOME/.fzfrc
 
 set -x HOMEBREW_BUNDLE_NO_DESCRIBE 1
