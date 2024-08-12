@@ -47,7 +47,7 @@ disabled = false
 # https://github.com/starship/starship/blob/1bf73f7baf9fef372d3fea2208b5fb394f4fc1b5/docs/public/presets/toml/no-empty-icons.toml
 
 [aws]
-symbol = " "
+symbol = " "
 
 [buf]
 format = "(with [$symbol($version )]($style))"
@@ -76,6 +76,9 @@ format = "(via [$symbol($version )]($style))"
 [conda]
 symbol = " "
 
+[container]
+symbol = "󰋘"
+
 [crystal]
 format = "(via [$symbol($version )]($style))"
 symbol = " "
@@ -85,7 +88,7 @@ format = "(via [$symbol($version )]($style))"
 
 [dart]
 format = "(via [$symbol($version )]($style))"
-symbol = " "
+symbol = " "
 
 [deno]
 format = "(via [$symbol($version )]($style))"
@@ -94,7 +97,7 @@ symbol = " "
 [directory]
 truncation_length = 0  # Don't truncate parent directories
 style = "bold lavender"  # Catppuccin lavender
-read_only = " 󰌾"
+read_only = " "
 
 [directory.substitutions]
 "~/code/" = ""  # Truncate to project root
@@ -154,7 +157,7 @@ symbol = " "
 
 [haskell]
 format = "(via [$symbol($version )]($style))"
-symbol = " "
+symbol = " "
 
 [haxe]
 symbol = " "
@@ -193,7 +196,7 @@ symbol = "󰔷 "
 
 [nim]
 format = "(via [$symbol($version )]($style))"
-symbol = "󰆥 "
+symbol = " "
 
 [nix_shell]
 symbol = " "
@@ -234,7 +237,7 @@ Illumos = "󰈸 "
 Ios = "󰀷 "
 Kali = " "
 Linux = " "
-Mabox = " "
+Mabox = " "
 Macos = " "
 Manjaro = " "
 Mariner = " "
@@ -262,7 +265,7 @@ Zorin = " "
 
 [package]
 format = "(is [$symbol$version]($style) )"
-symbol = "󰏗 "
+symbol = " "
 
 [perl]
 format = "(via [$symbol($version )]($style))"
@@ -276,7 +279,7 @@ symbol = " "
 symbol = " "
 
 [pixi]
-symbol = "󰏗 "
+symbol = " "
 
 [purescript]
 format = "(via [$symbol($version )]($style))"
@@ -296,26 +299,26 @@ format = "(via [$symbol($version )]($style))"
 
 [rlang]
 format = "(via [$symbol($version )]($style))"
-symbol = "󰟔 "
+symbol = " "
 
 [ruby]
 format = "(via [$symbol($version )]($style))"
-symbol = " "
+symbol = " "
 
 [rust]
 format = "(via [$symbol($version )]($style))"
-symbol = "󱘗 "
+symbol = " "
 
 [scala]
 format = "(via [$symbol($version )]($style))"
-symbol = " "
+symbol = " "
 
 [status]
 symbol = " "
 
 [swift]
 format = "(via [$symbol($version )]($style))"
-symbol = " "
+symbol = " "
 
 [typst]
 format = "(via [$symbol($version )]($style))"
