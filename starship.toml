@@ -58,7 +58,7 @@ disabled = true
 # ********************
 
 [aws]
-symbol = '  '
+symbol = '  '
 
 [buf]
 format = '(with [$symbol($version )]($style))'
@@ -100,7 +100,7 @@ format = '(via [$symbol($version )]($style))'
 truncation_length = 0
 # Catppuccin lavender
 style = 'bold lavender'
-read_only = ' 󰌾'
+read_only = ' '
 
 [docker_context]
 symbol = ' '
