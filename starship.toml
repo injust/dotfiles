@@ -48,7 +48,7 @@ disabled = false
 # https://github.com/starship/starship/blob/ff0acb193eaa04ab63a8e56e1bd18019444b886f/docs/public/presets/toml/no-empty-icons.toml
 
 [aws]
-symbol = " "
+symbol = " "
 
 [buf]
 format = "(with [$symbol($version )]($style))"
@@ -95,7 +95,7 @@ symbol = " "
 [directory]
 truncation_length = 0   # Don't truncate parent directories
 style = "bold lavender" # Catppuccin lavender
-read_only = " 󰌾"
+read_only = " "
 
 [docker_context]
 symbol = " "
@@ -122,7 +122,7 @@ symbol = " "
 symbol = " "
 
 [gcloud]
-symbol = " "
+symbol = " "
 
 [git_branch]
 symbol = " "
