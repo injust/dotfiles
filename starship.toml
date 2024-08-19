@@ -2,44 +2,44 @@
 symbol = " "
 
 [buf]
-format = '(with [$symbol($version )]($style))'
+format = "(with [$symbol($version )]($style))"
 symbol = " "
 
 [bun]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [c]
-format = '(via [$symbol($version(-$name) )]($style))'
+format = "(via [$symbol($version(-$name) )]($style))"
 symbol = " "
 
 [cpp]
-format = '(via [$symbol($version(-$name) )]($style))'
+format = "(via [$symbol($version(-$name) )]($style))"
 symbol = " "
 
 [cmake]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [cobol]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 
 [conda]
 symbol = " "
 
 [crystal]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [daml]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 
 [dart]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [deno]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [directory]
@@ -49,21 +49,21 @@ read_only = " 󰌾"
 symbol = " "
 
 [dotnet]
-format = '(via [$symbol($version )(🎯 $tfm )]($style))'
+format = "(via [$symbol($version )(🎯 $tfm )]($style))"
 
 [elixir]
 format = '(via [$symbol($version \(OTP $otp_version\) )]($style))'
 symbol = " "
 
 [elm]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [erlang]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 
 [fennel]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [fossil_branch]
@@ -76,13 +76,13 @@ symbol = " "
 symbol = " "
 
 [git_commit]
-tag_symbol = '  '
+tag_symbol = "  "
 
 [gleam]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 
 [golang]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [gradle]
@@ -92,14 +92,14 @@ symbol = " "
 symbol = " "
 
 [haskell]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [haxe]
 symbol = " "
 
 [helm]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 
 [hg_branch]
 symbol = " "
@@ -108,19 +108,19 @@ symbol = " "
 ssh_symbol = " "
 
 [java]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [julia]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [kotlin]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [lua]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [memory_usage]
@@ -130,14 +130,14 @@ symbol = "󰍛 "
 symbol = "󰔷 "
 
 [nim]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = "󰆥 "
 
 [nix_shell]
 symbol = " "
 
 [nodejs]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [ocaml]
@@ -145,7 +145,7 @@ format = '(via [$symbol($version )(\($switch_indicator$switch_name\) )]($style))
 symbol = " "
 
 [opa]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 
 [os.symbols]
 Alpaquita = " "
@@ -196,15 +196,15 @@ Void = " "
 Windows = "󰍲 "
 
 [package]
-format = '(is [$symbol$version]($style) )'
+format = "(is [$symbol$version]($style) )"
 symbol = "󰏗 "
 
 [perl]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [php]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [pijul_channel]
@@ -214,50 +214,50 @@ symbol = " "
 symbol = "󰏗 "
 
 [purescript]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 
 [python]
 format = '(via [${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style))'
 symbol = " "
 
 [quarto]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 
 [raku]
-format = '(via [$symbol($version-$vm_version )]($style))'
+format = "(via [$symbol($version-$vm_version )]($style))"
 
 [red]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 
 [rlang]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = "󰟔 "
 
 [ruby]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [rust]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = "󱘗 "
 
 [scala]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [swift]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
 
 [typst]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 
 [vagrant]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 
 [vlang]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 
 [zig]
-format = '(via [$symbol($version )]($style))'
+format = "(via [$symbol($version )]($style))"
 symbol = " "
