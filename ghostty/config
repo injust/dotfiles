@@ -19,6 +19,16 @@ theme = catppuccin-mocha
 background-opacity = 0.95
 background-blur-radius = 20
 
+# Rebind equalize_splits to match default resize_split keybindings
+keybind = opt+shift+equal=unbind
+keybind = cmd+ctrl+equal=equalize_splits
+
+# Rebind cmd+page_up/down (from scroll_page_up/scroll_page_down to jump_to_prompt) to free up cmd+shift+up/down
+keybind = cmd+page_up=jump_to_prompt:-1
+keybind = cmd+shift+down=unbind
+keybind = cmd+shift+up=unbind
+keybind = cmd+page_down=jump_to_prompt:1
+
 # https://www.gnu.org/software/bash/manual/html_node/Commands-For-Moving.html
 # beginning-of-line (C-a)
 keybind = cmd+left=text:\x01
