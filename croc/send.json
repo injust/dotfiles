@@ -1,0 +1,33 @@
+{
+    "IsSender": true,
+    "SharedSecret": "",
+    "RoomName": "",
+    "Debug": false,
+    "RelayAddress": "5.78.91.237:9009",
+    "RelayAddress6": "[2a01:4ff:1f0:c10b::1]:9009",
+    "RelayPorts": [
+        "9009",
+        "9010",
+        "9011",
+        "9012",
+        "9013"
+    ],
+    "RelayPassword": "pass123",
+    "Stdout": false,
+    "NoPrompt": false,
+    "NoMultiplexing": false,
+    "DisableLocal": false,
+    "OnlyLocal": true,
+    "IgnoreStdin": false,
+    "Ask": false,
+    "SendingText": false,
+    "NoCompress": true,
+    "IP": "",
+    "Overwrite": false,
+    "Curve": "p256",
+    "HashAlgorithm": "xxhash",
+    "ThrottleUpload": "",
+    "ZipFolder": false,
+    "TestFlag": false,
+    "GitIgnore": false
+}
