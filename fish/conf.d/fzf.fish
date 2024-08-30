@@ -4,6 +4,8 @@ end
 
 fzf_configure_bindings --directory=\cf --git_log=\cg --git_status= --processes=
 
+set fzf_diff_highlighter delta --width=\$FZF_PREVIEW_COLUMNS
+
 set fzf_directory_opts --height=90% --border
 
 # fzf.fish ignores fd alias
