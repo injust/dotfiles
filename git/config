@@ -64,6 +64,9 @@
 	navigate = true
 	tabs = 4
 
+[delta "no-line-numbers"]
+	line-numbers = false
+
 [diff]
 	algorithm = histogram
 	colorMoved = default
