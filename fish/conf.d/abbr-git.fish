@@ -102,4 +102,7 @@ abbr_git st -- status
 abbr gsw -- git switch
 abbr_git sw -- switch
 
+abbr gswc -- git switch --create
+abbr_git swc -- switch --create
+
 functions --erase abbr_git
