@@ -72,3 +72,6 @@ abbr --command=git st -- status
 
 abbr gsw -- git switch
 abbr --command=git sw -- switch
+
+abbr gswc -- git switch -c
+abbr --command=git swc -- switch -c
