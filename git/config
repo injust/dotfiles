@@ -26,6 +26,7 @@
 	rbc = rebase --continue
 	rbi = rebase --interactive
 	sh = show
+	showt = -c diff.external=difft show --ext-diff
 	st = status
 	sw = switch
 	swc = switch --create
@@ -76,6 +77,13 @@
 	colorMoved = default
 	mnemonicPrefix = true
 	renames = copies
+	tool = difftastic
+
+[difftool]
+	prompt = false
+
+[difftool "difftastic"]
+	cmd = difft "$LOCAL" "$REMOTE"
 
 [feature]
 	experimental = true
@@ -117,6 +125,10 @@
 [merge]
 	autoStash = true
 	conflictStyle = zdiff3
+
+[pager]
+	difftool = less
+	showt = less
 
 [pull]
 	ff = only
