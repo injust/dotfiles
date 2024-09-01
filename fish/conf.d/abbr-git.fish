@@ -73,6 +73,9 @@ abbr --command=git rbi -- rebase -i
 abbr gsh -- git show
 abbr --command=git sh -- show
 
+abbr gsht -- git showt
+abbr --command=git sht -- showt
+
 abbr gst -- git status
 abbr --command=git st -- status
 
