@@ -45,7 +45,7 @@
 [core]
 	fsmonitor = true
 	# Override `LESS=FRX` default to unbreak mouse scrolling (https://github.com/gwsw/less/issues/445)
-	pager = LESS='--quit-if-one-screen --RAW-CONTROL-CHARS' delta
+	pager = LESS='--quit-if-one-screen --RAW-CONTROL-CHARS' delta --line-numbers
 	# Work around macOS rebase error (https://www.git-tower.com/blog/make-git-rebase-safe-on-osx/)
 	trustctime = false
 	untrackedCache = true
@@ -65,6 +65,13 @@
 	max-syntax-highlighting-length = 0
 	navigate = true
 	tabs = 4
+
+	# TODO(https://github.com/dandavison/delta/issues/1837): Remove when delta uses `line-numbers` styles from Catppuccin feature
+	line-numbers-left-style = "#6c7086"
+	line-numbers-minus-style = bold "#f38ba8"
+	line-numbers-plus-style = bold "#a6e3a1"
+	line-numbers-right-style = "#6c7086"
+	line-numbers-zero-style = "#6c7086"
 
 [diff]
 	algorithm = histogram
@@ -100,7 +107,7 @@
 	defaultBranch = main
 
 [interactive]
-	diffFilter = delta --color-only
+	diffFilter = delta --color-only --line-numbers
 	singleKey = true
 
 [log]
