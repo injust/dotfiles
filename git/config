@@ -44,7 +44,8 @@
 
 [core]
 	fsmonitor = true
-	pager = delta
+	# Repeat `--features=catppuccin-mocha` to work around https://github.com/dandavison/delta/issues/1837
+	pager = delta --features=catppuccin-mocha --line-numbers
 
 [credential]
 	helper = 
@@ -98,7 +99,8 @@
 	defaultBranch = main
 
 [interactive]
-	diffFilter = delta --color-only
+	# Repeat `--features=catppuccin-mocha` to work around https://github.com/dandavison/delta/issues/1837
+	diffFilter = delta --color-only --features=catppuccin-mocha --line-numbers
 	singleKey = true
 
 [log]
