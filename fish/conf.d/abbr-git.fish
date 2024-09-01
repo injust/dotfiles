@@ -34,6 +34,12 @@ abbr gdfc -- git diff -p --stat --cached
 abbr --command=git dfc -- diff -p --stat --cached
 abbr --command=git diffc -- diff -p --stat --cached
 
+abbr gdft -- git difft
+abbr --command=git dft -- difft
+
+abbr gdftc -- git difft --cached
+abbr --command=git dftc -- difft --cached
+
 abbr gdfu -- git diff -p --stat @{u}
 abbr --command=git dfu -- diff -p --stat @{u}
 abbr --command=git diffu -- diff -p --stat @{u}
