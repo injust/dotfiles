@@ -43,6 +43,7 @@
 	rst = reset
 	rsth = reset --hard
 	sh = show --patch --stat
+	sht = showt
 	st = status
 	sw = switch
 	swc = switch --create
