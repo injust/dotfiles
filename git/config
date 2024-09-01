@@ -32,6 +32,7 @@
 	rbi = rebase --interactive
 	sh = show -p --stat
 	showt = -c diff.external=difft show --ext-diff
+	sht = showt
 	st = status
 	sw = switch
 	swc = switch --create
