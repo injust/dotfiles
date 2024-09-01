@@ -14,6 +14,9 @@
 	cp = cherry-pick
 	df = diff -p --stat
 	dfc = diffc
+	dft = difft
+	dftc = difft --cached
+	dftu = difft @{upstream}
 	dfu = diffu
 	diffc = diff -p --stat --cached
 	difft = -c diff.external=difft diff
