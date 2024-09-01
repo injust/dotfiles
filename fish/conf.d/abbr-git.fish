@@ -70,6 +70,9 @@ __abbr_git rbi -- rebase --interactive
 abbr gsh -- git show
 __abbr_git sh -- show
 
+abbr gsht -- git showt
+__abbr_git sht -- showt
+
 abbr gst -- git status
 __abbr_git st -- status
 
