@@ -16,6 +16,7 @@
 	dfc = diffc
 	dfu = diffu
 	diffc = diff -p --stat --cached
+	difft = -c diff.external=difft diff
 	diffu = diff -p --stat @{upstream}
 	gr = grep --break --heading
 	lgu = log @{upstream}
@@ -26,6 +27,7 @@
 	rbc = rebase --continue
 	rbi = rebase --interactive
 	sh = show -p --stat
+	showt = -c diff.external=difft show --ext-diff
 	st = status
 	sw = switch
 	swc = switch --create
@@ -114,6 +116,10 @@
 	autoStash = true
 	conflictStyle = zdiff3
 	ff = false
+
+[pager]
+	difft = less
+	showt = less
 
 [pull]
 	ff = only
