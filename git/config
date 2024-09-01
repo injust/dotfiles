@@ -6,6 +6,10 @@
 	lol = log --oneline --graph
 	show-ignored = "!f() { git ls-files -z --others --ignored --directory --exclude-standard \"${GIT_PREFIX:-.}\" | xargs --null --no-run-if-empty eza --classify --icons --hyperlink --treat-dirs-as-files; }; f"
 
+	# difftastic
+	difft = -c diff.external=difft diff
+	showt = -c diff.external=difft show --ext-diff
+
 	# abbr-git.fish
 	am = commit --amend --no-edit
 	ame = commit --amend
@@ -128,6 +132,10 @@
 	autoStash = true
 	conflictStyle = zdiff3
 	ff = false
+
+[pager]
+	difft = less
+	showt = less
 
 [pull]
 	ff = only
