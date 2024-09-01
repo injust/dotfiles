@@ -13,6 +13,8 @@
 	cp = cherry-pick
 	df = diff
 	dfc = diffc
+	dft = difft
+	dftc = difft --cached
 	dfu = diffu
 	dfus = diffu --stat
 	diffc = diff --cached
