@@ -102,6 +102,9 @@ abbr_git rbi -- rebase --interactive
 abbr gsh -- git show
 abbr_git sh -- show
 
+abbr gsht -- git showt
+abbr_git sht -- showt
+
 abbr gst -- git status
 abbr_git st -- status
 
