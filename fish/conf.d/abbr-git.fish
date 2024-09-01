@@ -33,6 +33,10 @@ abbr gdfc -- git diff --cached
 __abbr_git dfc -- diff --cached
 __abbr_git diffc -- diff --cached
 
+abbr gdft -- git difftool
+__abbr_git dft -- difftool
+__abbr_git difft -- difftool
+
 abbr gdfu -- git diff @{upstream}
 __abbr_git dfu -- diff @{upstream}
 __abbr_git diffu -- diff @{upstream}
