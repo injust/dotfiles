@@ -25,6 +25,9 @@
 	cpn = cherry-pick --no-commit
 	df = diff --patch --stat
 	dfc = diffc
+	dft = difft
+	dftc = difft --cached
+	dftu = difft @{upstream}
 	dfu = diffu
 	diffc = diff --patch --stat --cached
 	diffu = diff --patch --stat @{upstream}
