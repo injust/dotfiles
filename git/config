@@ -13,8 +13,10 @@
 	cp = cherry-pick
 	df = diff
 	dfc = diffc
+	dft = difftool
 	dfu = diffu
 	diffc = diff --cached
+	difft = difftool
 	diffu = diff @{upstream}
 	gr = grep --break --heading
 	lg = log
