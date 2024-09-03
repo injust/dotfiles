@@ -58,6 +58,7 @@
     "git.pullBeforeCheckout": true,
     "git.rebaseWhenSync": true,
     "git.terminalGitEditor": true,
+    "github.codespaces.showPerformanceExplorer": true,
     "gitlens.graph.dimMergeCommits": true,
     "gitlens.plusFeatures.enabled": false,
     "gitlens.telemetry.enabled": false,
