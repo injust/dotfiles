@@ -10,6 +10,7 @@
         "denoland.vscode-deno",
         "detachhead.basedpyright",
         "eamodio.gitlens",
+        "GitHub.codespaces",
         "mechatroner.rainbow-csv",
         "ms-python.debugpy",
         "ms-python.mypy-type-checker",
