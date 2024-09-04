@@ -8,6 +8,8 @@
 	ame = commit --amend
 	br = branch
 	cl = clone
+	clb = cloneb
+	cloneb = clone --filter=blob:none
 	cm = commit
 	co = checkout
 	cp = cherry-pick
