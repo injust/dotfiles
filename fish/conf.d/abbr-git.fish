@@ -8,7 +8,7 @@ function abbr_git
     set -l options (set -q _flag_set_cursor; and echo -- --set-cursor)
 
     if not string match --regex --quiet '^\w[\-\w]*$' -- "$short"
-        or not string match --regex --quiet '^["%\-=@{}\h\w]+$' -- "$long"
+        or not string match --regex --quiet '^["%\-:=@{}\h\w]+$' -- "$long"
         return 1
     end
 
@@ -41,6 +41,10 @@ abbr_git br -- branch
 
 abbr gcl -- git clone
 abbr_git cl -- clone
+
+abbr gclb -- git clone --filter=blob:none
+abbr_git clb -- clone --filter=blob:none
+abbr_git cloneb -- clone --filter=blob:none
 
 abbr gcm --set-cursor -- git commit --message='"%"'
 abbr_git cm --set-cursor -- commit --message='"%"'
