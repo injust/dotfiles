@@ -17,6 +17,9 @@ __abbr_git br -- branch
 abbr gcl -- git clone
 __abbr_git cl -- clone
 
+abbr gclb -- git clone --filter=blob:none
+__abbr_git clb -- clone --filter=blob:none
+
 abbr gcm --set-cursor -- git commit --message='"%"'
 __abbr_git cm --set-cursor -- commit --message='"%"'
 
