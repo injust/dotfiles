@@ -15,6 +15,10 @@ abbr --command=git br -- branch
 abbr gcl -- git clone
 abbr --command=git cl -- clone
 
+abbr gclb -- git clone --filter=blob:none
+abbr --command=git clb -- clone --filter=blob:none
+abbr --command=git cloneb -- clone --filter=blob:none
+
 abbr gcm --set-cursor -- git commit -m \"%\"
 abbr --command=git cm --set-cursor -- commit -m \"%\"
 
