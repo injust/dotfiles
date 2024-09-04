@@ -7,7 +7,7 @@ function abbr_git
     set -l long $argv[2..]
 
     string match --regex --quiet '^\w[\-\w]*$' -- "$short"
-    and string match --regex --quiet '^[%\'\-=@{}\h\w]+$' -- "$long"
+    and string match --regex --quiet '^[%\'\-:=@{}\h\w]+$' -- "$long"
     or return
 
     set -l escaped_long (string escape -- $long)
@@ -36,6 +36,10 @@ abbr_git br -- branch
 
 abbr gcl -- git clone
 abbr_git cl -- clone
+
+abbr gclb -- git clone --filter=blob:none
+abbr_git clb -- clone --filter=blob:none
+abbr_git cloneb -- clone --filter=blob:none
 
 abbr gcm --set-cursor -- git commit --message=\'%\'
 abbr_git cm --set-cursor -- commit --message=\'%\'
