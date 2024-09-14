@@ -40,6 +40,9 @@ abbr gdft -- git difftool
 __abbr_git dft -- difftool
 __abbr_git difft -- difftool
 
+abbr gdftc -- git difftool --cached
+__abbr_git dftc -- difftool --cached
+
 abbr gdfu -- git diff @{upstream}
 __abbr_git dfu -- diff @{upstream}
 __abbr_git diffu -- diff @{upstream}

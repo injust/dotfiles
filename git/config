@@ -15,6 +15,7 @@
 	df = diff
 	dfc = diffc
 	dft = difftool
+	dftc = difftool --cached
 	dfu = diffu
 	diffc = diff --cached
 	difft = difftool
