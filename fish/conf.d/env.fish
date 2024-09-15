@@ -10,4 +10,6 @@ set -gx MANPAGER "sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x0
 # TODO(https://github.com/zyedidia/micro/pull/2867): Unset when micro automatically uses true color support
 set -gx MICRO_TRUECOLOR 1
 
+set -gx PRE_COMMIT_ALLOW_NO_CONFIG 1
+
 set -gx VISUAL micro
