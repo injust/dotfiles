@@ -14,4 +14,6 @@ set -gx MANPAGER sh -c "'col -bx | bat --language=man --style=plain'"
 # TODO(https://github.com/zyedidia/micro/issues/1127): Remove when micro checks the COLORTERM environment variable
 set -gx MICRO_TRUECOLOR 1
 
+set -gx PRE_COMMIT_ALLOW_NO_CONFIG 1
+
 set -gx VISUAL micro
