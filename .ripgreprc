@@ -1,0 +1,4 @@
+--glob=!.git/
+--hidden
+# https://github.com/BurntSushi/ripgrep/issues/3263
+--no-require-git
