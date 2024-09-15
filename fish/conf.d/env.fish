@@ -14,4 +14,6 @@ set -gx MICRO_TRUECOLOR 1
 
 set -gx PRE_COMMIT_ALLOW_NO_CONFIG 1
 
+set -gx RIPGREP_CONFIG_PATH ~/.config/ripgrep/config
+
 set -gx VISUAL micro
