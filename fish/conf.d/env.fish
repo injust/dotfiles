@@ -8,4 +8,6 @@ set -x MANPAGER "sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x08
 
 set -x PRE_COMMIT_ALLOW_NO_CONFIG 1
 
+set -x RIPGREP_CONFIG_PATH ~/.config/ripgrep/config
+
 set -x VISUAL micro
