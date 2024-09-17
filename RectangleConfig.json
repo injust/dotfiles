@@ -233,7 +233,7 @@
       "int" : 0
     },
     "windowSnapping" : {
-      "int" : 0
+      "int" : 1
     }
   },
   "shortcuts" : {
