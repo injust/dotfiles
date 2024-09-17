@@ -36,7 +36,7 @@
         "ignoreDragSnapToo": { "int": 0 },
         "ignoredSnapAreas": { "int": 0 },
         "landscapeSnapAreas": {
-            "string": "[6,{\"action\":13},7,{\"compound\":-4},4,{\"compound\":-2},1,{\"action\":15},8,{\"action\":14},3,{\"action\":16},5,{\"compound\":-3}]"
+            "string": "[1,{\"action\":15},3,{\"action\":16},4,{\"compound\":-2},5,{\"compound\":-3},6,{\"action\":13},7,{\"compound\":-4},8,{\"action\":14}]"
         },
         "launchOnLogin": { "bool": true },
         "minimumWindowHeight": { "float": 0 },
