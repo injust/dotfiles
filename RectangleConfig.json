@@ -23,7 +23,7 @@
       "int" : 0
     },
     "applyGapsToMaximize" : {
-      "int" : 0
+      "int" : 2
     },
     "applyGapsToMaximizeHeight" : {
       "int" : 0
@@ -89,7 +89,7 @@
 
     },
     "gapSize" : {
-      "float" : 0
+      "float" : 8
     },
     "hapticFeedbackOnSnap" : {
       "int" : 1
@@ -233,7 +233,7 @@
       "int" : 0
     },
     "windowSnapping" : {
-      "int" : 0
+      "int" : 1
     }
   },
   "shortcuts" : {
