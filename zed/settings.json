@@ -1,7 +1,6 @@
 {
     "theme": { "light": "Catppuccin Latte", "dark": "Catppuccin Mocha" },
     "icon_theme": { "light": "Catppuccin Latte", "dark": "Catppuccin Mocha" },
-    "features": { "edit_prediction_provider": "none" },
     "buffer_font_family": "MonaspiceAr Nerd Font Propo",
     "buffer_font_features": {
         "calt": true,
@@ -48,6 +47,7 @@
     },
     "completions": { "words": "disabled" },
     "languages": {
+        "Plain Text": { "show_edit_predictions": false },
         "Python": {
             "language_servers": ["basedpyright", "ruff"],
             "formatter": [
