@@ -1,7 +1,7 @@
 {
     "theme": { "light": "Catppuccin Latte", "dark": "Catppuccin Mocha" },
     "icon_theme": { "light": "Catppuccin Latte", "dark": "Catppuccin Mocha" },
-    "features": { "edit_predictions_provider": "none" },
+    "features": { "edit_prediction_provider": "supermaven" },
     "buffer_font_family": "MonaspiceAr Nerd Font Propo",
     "buffer_font_features": {
         "calt": true,
@@ -19,6 +19,7 @@
     "buffer_font_size": 13,
     "show_signature_help_after_edits": true,
     "inline_code_actions": false,
+    "edit_predictions_disabled_in": ["comment"],
     "toolbar": { "code_actions": true },
     "title_bar": { "show_sign_in": false },
     "seed_search_query_from_cursor": "selection",
@@ -46,6 +47,7 @@
     },
     "completions": { "words": "disabled" },
     "languages": {
+        "Plain Text": { "show_edit_predictions": false },
         "Python": {
             "language_servers": ["basedpyright", "ruff"],
             "formatter": [
