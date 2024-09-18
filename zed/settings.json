@@ -31,6 +31,7 @@
     "code_lens": "on",
     "go_to_definition_scroll_strategy": "top",
     "excerpt_context_lines": 5,
+    "show_edit_predictions": false,
     "toolbar": { "code_actions": true },
     "title_bar": {
         "show": "hide_in_full_screen",
@@ -67,7 +68,7 @@
         "commit_view": { "expand_description": true },
         "auto_fetch": { "enabled": true }
     },
-    "edit_predictions": { "provider": "none", "allow_data_collection": "no" },
+    "edit_predictions": { "provider": "mercury", "allow_data_collection": "no" },
     "terminal": {
         "open_links_in_mouse_mode": false,
         "env": { "GIT_EDITOR": "zed --wait" },
@@ -82,7 +83,11 @@
     "completions": { "words": "disabled" },
     "languages": {
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
-        "Python": { "language_servers": ["ruff", "ty"], "code_actions_on_format": { "source.fixAll.ruff": true } }
+        "Python": {
+            "show_edit_predictions": true,
+            "language_servers": ["ruff", "ty"],
+            "code_actions_on_format": { "source.fixAll.ruff": true }
+        }
     },
     "lsp": {
         "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } },
