@@ -27,7 +27,6 @@
     },
     "codeium.enableExplainProblem": false,
     "codeium.enableInComments": false,
-    "editor.accessibilitySupport": "off",
     "editor.experimental.asyncTokenization": true,
     "editor.find.seedSearchStringFromSelection": "selection",
     "editor.foldingImportsByDefault": true,
@@ -90,9 +89,6 @@
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.enableVisualBell": true,
-    "terminal.integrated.env.osx": {
-        "Q_NEW_SESSION": "1"
-    },
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.minimumContrastRatio": 1,
     "terminal.integrated.persistentSessionScrollback": 1000,
