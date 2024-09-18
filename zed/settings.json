@@ -42,7 +42,7 @@
     "preferred_line_length": 120,
     "telemetry": { "diagnostics": false, "metrics": false },
     "git": { "inline_blame": { "show_commit_summary": true } },
-    "edit_predictions": { "provider": "none", "sweep": { "privacy_mode": true } },
+    "edit_predictions": { "provider": "sweep", "sweep": { "privacy_mode": true } },
     "terminal": {
         "env": { "GIT_EDITOR": "zed --wait" },
         "detect_venv": "off",
@@ -56,6 +56,8 @@
     "completions": { "words": "disabled" },
     "languages": {
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
+        "LOG": { "show_edit_predictions": false },
+        "Plain Text": { "show_edit_predictions": false },
         "Python": { "language_servers": ["ruff", "ty"], "code_actions_on_format": { "source.fixAll.ruff": true } },
         "TOML": { "formatter": { "language_server": { "name": "tombi" } } }
     },
