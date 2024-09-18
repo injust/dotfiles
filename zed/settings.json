@@ -1,7 +1,6 @@
 {
     "theme": { "light": "Catppuccin Latte", "dark": "Catppuccin Mocha" },
     "icon_theme": { "light": "Catppuccin Latte", "dark": "Catppuccin Mocha" },
-    "features": { "edit_prediction_provider": "none" },
     "buffer_font_family": "MonaspiceAr Nerd Font Propo",
     "buffer_font_features": {
         "calt": true,
@@ -23,7 +22,7 @@
     "colorize_brackets": true,
     "show_signature_help_after_edits": true,
     "toolbar": { "code_actions": true },
-    "title_bar": { "show_branch_icon": true, "show_sign_in": false },
+    "title_bar": { "show_branch_icon": true },
     "sticky_scroll": { "enabled": true },
     "seed_search_query_from_cursor": "selection",
     "inlay_hints": { "enabled": true, "show_background": true },
@@ -44,6 +43,7 @@
     "completions": { "words": "disabled" },
     "languages": {
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
+        "Plain Text": { "show_edit_predictions": false },
         "Python": { "code_actions_on_format": { "source.fixAll.ruff": true } }
     }
 }
