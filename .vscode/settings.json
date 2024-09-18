@@ -67,6 +67,10 @@
     "remote.SSH.remoteServerListenOnSocket": true,
     "security.workspace.trust.enabled": false,
     "standard.autoFixOnSave": true,
+    "supermaven.enable": {
+        "plaintext": false
+    },
+    "supermaven.enableFixWithSupermaven": false,
     "telemetry.telemetryLevel": "off",
     "terminal.external.osxExec": "Ghostty.app",
     "terminal.integrated.allowChords": false,
