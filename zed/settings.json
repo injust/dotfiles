@@ -44,7 +44,7 @@
     "preferred_line_length": 120,
     "telemetry": { "diagnostics": false, "metrics": false },
     "git": { "inline_blame": { "show_commit_summary": true } },
-    "edit_predictions": { "provider": "none", "sweep": { "privacy_mode": true } },
+    "edit_predictions": { "provider": "sweep", "sweep": { "privacy_mode": true } },
     "terminal": {
         "env": { "GIT_EDITOR": "zed --wait" },
         "detect_venv": "off",
@@ -58,6 +58,7 @@
     "completions": { "words": "disabled" },
     "languages": {
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
+        "Plain Text": { "show_edit_predictions": false },
         "Python": { "code_actions_on_format": { "source.fixAll.ruff": true } }
     },
     "lsp": {
