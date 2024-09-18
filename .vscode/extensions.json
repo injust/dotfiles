@@ -20,6 +20,7 @@
         "pepri.subtitles-editor",
         "redhat.vscode-yaml",
         "standard.vscode-standard",
+        "supermaven.supermaven",
         "tamasfe.even-better-toml",
         "timonwong.shellcheck"
     ]
