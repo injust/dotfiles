@@ -4,7 +4,7 @@
     "dark": "Catppuccin Mocha"
   },
   "features": {
-    "inline_completion_provider": "none"
+    "inline_completion_provider": "supermaven"
   },
   "buffer_font_family": "MonaspiceAr Nerd Font Propo",
   "buffer_font_features": {
@@ -68,6 +68,9 @@
     "detect_venv": "off"
   },
   "languages": {
+    "Plain Text": {
+      "show_inline_completions": false
+    },
     "Python": {
       "language_servers": ["basedpyright", "ruff"],
       "formatter": [
