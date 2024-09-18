@@ -27,7 +27,6 @@
     "inline_code_actions": false, // https://github.com/zed-industries/zed/issues/41563
     "excerpt_context_lines": 3,
     "toolbar": { "code_actions": true },
-    "title_bar": { "show_sign_in": false },
     "sticky_scroll": { "enabled": true },
     "inlay_hints": {
         "enabled": true,
@@ -47,7 +46,6 @@
     "preferred_line_length": 120,
     "telemetry": { "diagnostics": false, "metrics": false },
     "git": { "inline_blame": { "show_commit_summary": true } },
-    "edit_predictions": { "provider": "none" },
     "terminal": {
         "env": { "GIT_EDITOR": "zed --wait" },
         "detect_venv": "off",
@@ -61,6 +59,8 @@
     "completions": { "words": "disabled" },
     "languages": {
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
+        "LOG": { "show_edit_predictions": false },
+        "Plain Text": { "show_edit_predictions": false },
         "Python": { "language_servers": ["ruff", "ty"], "code_actions_on_format": { "source.fixAll.ruff": true } }
     },
     "lsp": {
