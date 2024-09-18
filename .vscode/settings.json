@@ -72,6 +72,9 @@
     "ruff.nativeServer": true,
     "security.workspace.trust.enabled": false,
     "standard.autoFixOnSave": true,
+    "supermaven.enable": {
+        "plaintext": false
+    },
     "telemetry.telemetryLevel": "off",
     "terminal.external.osxExec": "Ghostty.app",
     "terminal.integrated.allowChords": false,
