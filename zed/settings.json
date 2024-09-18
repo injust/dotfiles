@@ -31,7 +31,7 @@
     "go_to_definition_scroll_strategy": "top",
     "excerpt_context_lines": 5,
     "toolbar": { "code_actions": true },
-    "title_bar": { "show_branch_status_icon": true, "show_sign_in": false },
+    "title_bar": { "show_branch_status_icon": true },
     "sticky_scroll": { "enabled": true },
     "inlay_hints": {
         "enabled": true,
@@ -57,7 +57,7 @@
     "preferred_line_length": 120,
     "telemetry": { "diagnostics": false, "metrics": false },
     "git": { "inline_blame": { "location": "status_bar", "show_commit_summary": true } },
-    "edit_predictions": { "provider": "none", "allow_data_collection": "no" },
+    "edit_predictions": { "allow_data_collection": "no" },
     "terminal": {
         "env": { "GIT_EDITOR": "zed --wait" },
         "detect_venv": "off",
@@ -71,6 +71,8 @@
     "completions": { "words": "disabled" },
     "languages": {
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
+        "LOG": { "show_edit_predictions": false },
+        "Plain Text": { "show_edit_predictions": false },
         "Python": { "language_servers": ["ruff", "ty"], "code_actions_on_format": { "source.fixAll.ruff": true } }
     },
     "lsp": {
