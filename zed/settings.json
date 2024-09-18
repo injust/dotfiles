@@ -8,7 +8,7 @@
     "dark": "Catppuccin Mocha"
   },
   "features": {
-    "edit_predictions_provider": "none"
+    "edit_prediction_provider": "supermaven"
   },
   "buffer_font_family": "MonaspiceAr Nerd Font Propo",
   "buffer_font_features": {
@@ -26,6 +26,7 @@
   },
   "buffer_font_size": 13,
   "show_signature_help_after_edits": true,
+  "edit_predictions_disabled_in": ["comment"],
   "seed_search_query_from_cursor": "selection",
   "inlay_hints": {
     "enabled": true
@@ -68,6 +69,9 @@
     "detect_venv": "off"
   },
   "languages": {
+    "Plain Text": {
+      "show_edit_predictions": false
+    },
     "Python": {
       "language_servers": ["basedpyright", "ruff"],
       "formatter": [
