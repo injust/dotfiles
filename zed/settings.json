@@ -5,7 +5,7 @@
   },
   "icon_theme": "Catppuccin Mocha",
   "features": {
-    "inline_completion_provider": "none"
+    "inline_completion_provider": "supermaven"
   },
   "buffer_font_family": "MonaspiceAr Nerd Font Propo",
   "buffer_font_features": {
@@ -23,6 +23,7 @@
   },
   "buffer_font_size": 13,
   "show_signature_help_after_edits": true,
+  "inline_completions_disabled_in": ["comment"],
   "seed_search_query_from_cursor": "selection",
   "inlay_hints": {
     "enabled": true
@@ -65,6 +66,9 @@
     "detect_venv": "off"
   },
   "languages": {
+    "Plain Text": {
+      "show_inline_completions": false
+    },
     "Python": {
       "language_servers": ["basedpyright", "ruff"],
       "formatter": [
