@@ -31,6 +31,7 @@
     "show_sign_in": false
   },
   "seed_search_query_from_cursor": "selection",
+  "use_smartcase_search": true,
   "inlay_hints": {
     "enabled": true,
     "show_background": true
