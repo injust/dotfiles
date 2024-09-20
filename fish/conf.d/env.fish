@@ -6,6 +6,9 @@ set -gx FZF_DEFAULT_OPTS --multi --layout=reverse --scrollbar=▐ --prompt=❯ -
 # https://github.com/catppuccin/fzf/blob/main/README.md
 --color=bg+:#313244,spinner:#f5e0dc,hl:#f38ba8 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc --color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 --color=selected-bg:#45475a --color=border:#313244,label:#cdd6f4
 
+# Overrides Git's `LESS=FRX` default to unbreak mouse scrolling (https://github.com/gwsw/less/issues/445)
+set -gx LESS --quit-if-one-screen --RAW-CONTROL-CHARS
+
 set -gx MANPAGER sh -c "'col -bx | bat --language=man --style=plain'"
 
 # TODO(https://github.com/zyedidia/micro/issues/1127): Remove when micro checks the COLORTERM environment variable
