@@ -29,6 +29,7 @@
     "title_bar": { "show_branch_icon": true, "show_sign_in": false },
     "sticky_scroll": { "enabled": true },
     "seed_search_query_from_cursor": "selection",
+    "use_smartcase_search": true,
     "inlay_hints": { "enabled": true, "show_background": true, "toggle_on_modifiers_press": { "alt": true } },
     "project_panel": { "hide_root": true },
     "collaboration_panel": { "button": false },
