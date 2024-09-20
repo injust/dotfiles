@@ -65,6 +65,7 @@
     "python.terminal.focusAfterLaunch": true,
     "redhat.telemetry.enabled": false,
     "remote.SSH.remoteServerListenOnSocket": true,
+    "search.smartCase": true,
     "security.workspace.trust.enabled": false,
     "standard.autoFixOnSave": true,
     "supermaven.enable": {
