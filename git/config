@@ -43,8 +43,7 @@
 
 [core]
 	fsmonitor = true
-	# Override `LESS=FRX` default to unbreak mouse scrolling (https://github.com/gwsw/less/issues/445)
-	pager = LESS='--quit-if-one-screen --RAW-CONTROL-CHARS' delta --line-numbers
+	pager = delta --line-numbers
 
 [credential]
 	helper = 
