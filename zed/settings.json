@@ -30,6 +30,7 @@
     "toolbar": { "code_actions": true },
     "title_bar": { "show_branch_status_icon": true },
     "sticky_scroll": { "enabled": true },
+    "use_smartcase_search": true,
     "inlay_hints": {
         "enabled": true,
         "show_background": true,
