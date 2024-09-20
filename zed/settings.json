@@ -25,6 +25,7 @@
   "show_signature_help_after_edits": true,
   "inline_completions_disabled_in": ["comment"],
   "seed_search_query_from_cursor": "selection",
+  "use_smartcase_search": true,
   "inlay_hints": {
     "enabled": true
   },
