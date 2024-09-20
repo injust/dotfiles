@@ -24,6 +24,7 @@
     "title_bar": { "show_sign_in": false },
     "scroll_beyond_last_line": "vertical_scroll_margin",
     "seed_search_query_from_cursor": "selection",
+    "use_smartcase_search": true,
     "inlay_hints": { "enabled": true, "show_background": true },
     "collaboration_panel": { "button": false },
     "notification_panel": { "button": false },
