@@ -51,7 +51,7 @@
 [core]
 	fsmonitor = true
 	# Repeat `--features=catppuccin-mocha` to work around https://github.com/dandavison/delta/issues/1837
-	pager = delta --features=catppuccin-mocha --line-numbers
+	pager = LESS=\"$LESS --jump-target=1\" LESSSECURE= delta --features=catppuccin-mocha --line-numbers
 
 [credential]
 	helper = 
