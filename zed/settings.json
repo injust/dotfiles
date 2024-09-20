@@ -24,6 +24,7 @@
     "title_bar": { "show_branch_icon": true },
     "sticky_scroll": { "enabled": true },
     "seed_search_query_from_cursor": "selection",
+    "use_smartcase_search": true,
     "inlay_hints": { "enabled": true, "show_background": true },
     "collaboration_panel": { "button": false },
     "notification_panel": { "button": false },
