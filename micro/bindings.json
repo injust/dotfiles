@@ -10,6 +10,7 @@
     "Alt-Delete": "SelectToEndOfLine,Delete", // ⌘-Delete (VS Code)
     "Alt-d": "DeleteWordRight", // ⌥+Delete
     "Ctrl-Space": "command:palettero",
+    // TODO(https://github.com/ghostty-org/ghostty/pull/2294): See if Ghostty stops translating Ctrl-/ to Ctrl-_
     "Ctrl-Underscore": "lua:comment.comment", // Ctrl-/
     "Ctrl-a": "StartOfTextToggle", // ⌘-Left
     "Ctrl-e": "EndOfLine", // ⌘-Right
