@@ -13,6 +13,7 @@
     "Alt-d": "DeleteWordRight", // opt-delete
     "Alt-g": "None",
     "Ctrl-Space": "command:palettero",
+    // TODO(https://github.com/ghostty-org/ghostty/pull/2294#issue-2543878934): See if Ghostty stops translating ctrl-/ to ctrl-_
     "Ctrl-Underscore": "lua:comment.comment", // ctrl-/
     "Ctrl-a": "StartOfTextToggle", // cmd-left
     "Ctrl-e": "EndOfLine", // cmd-right
