@@ -85,6 +85,10 @@
 	noPrefix = true
 	renames = copies
 
+[diff "lockb"]
+	binary = true
+	textconv = bun
+
 [feature]
 	experimental = true
 	manyFiles = true
