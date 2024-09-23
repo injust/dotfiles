@@ -84,6 +84,10 @@
 	renames = copies
 	tool = difftastic
 
+[diff "lockb"]
+	binary = true
+	textconv = bun
+
 [difftool]
 	prompt = false
 
