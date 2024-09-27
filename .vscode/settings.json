@@ -39,6 +39,26 @@
     "accessibility.signals.terminalBell": {
         "sound": "on"
     },
+    "apc.activityBar": {
+        "itemMargin": 0,
+        "itemSize": 48,
+        "size": 77
+    },
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset"
+    },
+    "apc.header": {
+        "height": 37
+    },
+    "apc.sidebar.titlebar": {
+        "height": 37
+    },
+    "apc.stylesheet": {
+        // Don't indent the side bar title
+        ".custom-sidebar-titlebar .sidebar .composite.title": "padding-left: 0;",
+        // Don't indent the status bar items
+        ".monaco-workbench .part.statusbar > .items-container > .statusbar-item.left.first-visible-item": "padding-left: 0;"
+    },
     "basedpyright.analysis.diagnosticMode": "workspace",
     "chat.commandCenter.enabled": false,
     "editor.experimental.asyncTokenization": true,
@@ -112,6 +132,8 @@
     "timeline.pageOnScroll": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "window.autoDetectColorScheme": true,
+    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "native",
     "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "catppuccin-mocha",
     "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
