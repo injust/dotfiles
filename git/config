@@ -152,6 +152,7 @@
 [rebase]
 	autoSquash = true
 	autoStash = true
+	rebaseMerges = true
 	updateRefs = true
 
 [rerere]
