@@ -4,7 +4,7 @@ tap "indirect/tap"
 tap "nrlquaker/createzap"
 tap "oven-sh/bun"
 brew "asciinema"
-brew "bat"
+brew "bat", args: ["HEAD"]
 brew "croc"
 brew "ctags"
 brew "curl"
