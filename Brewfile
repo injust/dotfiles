@@ -4,7 +4,7 @@ tap "nrlquaker/createzap"
 tap "oven-sh/bun"
 brew "asciinema"
 brew "basedpyright"
-brew "bat"
+brew "bat", args: ["HEAD"]
 brew "croc"
 brew "ctags"
 brew "curl"
