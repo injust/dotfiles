@@ -46,8 +46,8 @@ abbr gclb -- git clone --filter=blob:none
 abbr_git clb -- clone --filter=blob:none
 abbr_git cloneb -- clone --filter=blob:none
 
-abbr gcm --set-cursor -- git commit --message='"%"'
-abbr_git cm --set-cursor -- commit --message='"%"'
+abbr gcm --set-cursor -- git commit -m '"%"'
+abbr_git cm --set-cursor -- commit -m '"%"'
 
 abbr gco -- git checkout
 abbr_git co -- checkout
@@ -68,12 +68,12 @@ abbr_git dft -- difft
 abbr gdftc -- git difft --cached
 abbr_git dftc -- difft --cached
 
-abbr gdfu -- git diff @{upstream}
-abbr_git dfu -- diff @{upstream}
-abbr_git diffu -- diff @{upstream}
+abbr gdfu -- git diff @{u}
+abbr_git dfu -- diff @{u}
+abbr_git diffu -- diff @{u}
 
-abbr gdfus -- git diff @{upstream} --stat
-abbr_git dfus -- diff @{upstream} --stat
+abbr gdfus -- git diff @{u} --stat
+abbr_git dfus -- diff @{u} --stat
 
 abbr ggr -- git grep --break --heading
 abbr_git gr -- grep --break --heading
@@ -81,8 +81,8 @@ abbr_git gr -- grep --break --heading
 abbr glg -- git log
 abbr_git lg -- log
 
-abbr glgu -- git log @{upstream}
-abbr_git lgu -- log @{upstream}
+abbr glgu -- git log @{u}
+abbr_git lgu -- log @{u}
 
 abbr glol -- git lol
 
@@ -98,8 +98,8 @@ abbr_git rba -- rebase --abort
 abbr grbc -- git rebase --continue
 abbr_git rbc -- rebase --continue
 
-abbr grbi -- git rebase --interactive
-abbr_git rbi -- rebase --interactive
+abbr grbi -- git rebase -i
+abbr_git rbi -- rebase -i
 
 abbr gsh -- git show
 abbr_git sh -- show
@@ -113,7 +113,7 @@ abbr_git st -- status
 abbr gsw -- git switch
 abbr_git sw -- switch
 
-abbr gswc -- git switch --create
-abbr_git swc -- switch --create
+abbr gswc -- git switch -c
+abbr_git swc -- switch -c
 
 functions --erase abbr_git
