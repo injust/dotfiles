@@ -5,5 +5,5 @@ abbr cat -- bat
 abbr find -- fd
 abbr grep -- rg
 abbr wget -- wget2
-abbr where -- type --all
+abbr where -- type -a
 abbr which -- type
