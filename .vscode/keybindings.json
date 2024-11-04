@@ -9,6 +9,11 @@
         "key": "cmd+0"
     },
     {
+        "command": "python.execInDedicatedTerminal",
+        "key": "cmd+r",
+        "when": "(editorTextFocus && editorLangId == 'python' || terminalFocus) && !accessibilityModeEnabled && !inlineChatVisible && !isDevelopment && !python.hasActiveTensorBoardsession"
+    },
+    {
         "command": "editor.action.jumpToBracket",
         "key": "ctrl+m",
         "when": "editorTextFocus"
