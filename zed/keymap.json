@@ -1,5 +1,12 @@
 [
   {
+    "context": "Editor && mode == full && inline_completion",
+    "bindings": {
+      // TODO(https://github.com/zed-industries/zed/issues/20167): Actually unset this so cmd-right always uses the `Editor` context keybinding
+      "cmd-right": "editor::MoveToEndOfLine"
+    }
+  },
+  {
     "context": "Workspace",
     "bindings": {
       "ctrl-r": "projects::OpenRecent"
