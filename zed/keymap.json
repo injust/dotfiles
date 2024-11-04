@@ -7,6 +7,12 @@
     }
   },
   {
+    "context": "Editor && mode == full && !(ContextEditor > Editor) || Terminal",
+    "bindings": {
+      "cmd-r": ["task::Spawn", { "task_name": "Python: $ZED_STEM" }]
+    }
+  },
+  {
     "context": "Workspace",
     "bindings": {
       "ctrl-r": "projects::OpenRecent"
