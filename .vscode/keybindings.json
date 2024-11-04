@@ -7,5 +7,10 @@
     {
         "command": "workbench.action.zoomReset",
         "key": "cmd+0"
+    },
+    {
+        "command": "editor.action.jumpToBracket",
+        "key": "ctrl+m",
+        "when": "editorTextFocus"
     }
 ]
