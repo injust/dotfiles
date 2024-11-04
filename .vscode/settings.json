@@ -73,6 +73,7 @@
     "editor.guides.bracketPairs": "active",
     "editor.inlayHints.enabled": "onUnlessPressed",
     "editor.inlayHints.fontFamily": "'MonaspiceRn Nerd Font Propo'",
+    "editor.inlineSuggest.suppressSuggestions": true,
     "editor.renderFinalNewline": "dimmed",
     "editor.wordWrap": "on",
     "editor.wordWrapColumn": 120,
