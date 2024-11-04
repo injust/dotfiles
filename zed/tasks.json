@@ -1,0 +1,8 @@
+[
+  {
+    "label": "Python: $ZED_STEM",
+    "command": "python3",
+    "args": ["$ZED_FILE"],
+    "allow_concurrent_runs": true
+  }
+]
