@@ -1,5 +1,18 @@
 [
     {
+        "context": "Editor && extension == py",
+        "use_key_equivalents": true,
+        "bindings": { "cmd-r": ["task::Spawn", { "task_name": "run module '$ZED_FILE'" }] }
+    },
+    { "context": "Terminal", "use_key_equivalents": true, "bindings": { "cmd-r": "terminal::RerunTask" } },
+    {
+        "context": "Workspace",
+        "use_key_equivalents": true,
+        "bindings": {
+            "cmd-r": null // workspace::ToggleRightDock
+        }
+    },
+    {
         "context": "Workspace && !Terminal",
         "use_key_equivalents": true,
         "bindings": { "ctrl-r": ["projects::OpenRecent", { "create_new_window": false }] }
