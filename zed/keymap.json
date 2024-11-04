@@ -1,0 +1,9 @@
+[
+  {
+    "context": "Workspace",
+    "use_key_equivalents": true,
+    "bindings": {
+      "ctrl-r": "projects::OpenRecent"
+    }
+  }
+]
