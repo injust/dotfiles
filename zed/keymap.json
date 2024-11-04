@@ -3,7 +3,15 @@
     "context": "Workspace",
     "use_key_equivalents": true,
     "bindings": {
+      "cmd-r": null,
       "ctrl-r": "projects::OpenRecent"
+    }
+  },
+  {
+    "context": "Editor && mode == full && !(ContextEditor > Editor) && extension == py",
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-r": ["task::Spawn", { "task_name": "run '$ZED_FILE'" }]
     }
   }
 ]
