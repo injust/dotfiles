@@ -10,6 +10,8 @@ set -gx MANPAGER "sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x0
 
 set -gx PRE_COMMIT_ALLOW_NO_CONFIG 1
 
+set -gx PYTHONSTARTUP ~/.config/pythonstartup.py
+
 set -gx RIPGREP_CONFIG_PATH ~/.config/ripgrep/config
 
 set -gx VISUAL micro
