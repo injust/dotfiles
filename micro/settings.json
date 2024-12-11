@@ -1,4 +1,15 @@
 {
+    "autosu": true,
+    "clipboard": "terminal",
     "colorscheme": "catppuccin-mocha-transparent",
-    "statusformatr": "$(bind:ToggleHelp): help"
+    "diffgutter": true,
+    "hlsearch": true,
+    "hltaberrors": true,
+    "rmtrailingws": true,
+    "scrollbar": true,
+    "scrollbarchar": "▌",
+    "softwrap": true,
+    "statusformatr": "$(bind:ToggleHelp): help",
+    "tabmovement": true,
+    "wordwrap": true
 }
