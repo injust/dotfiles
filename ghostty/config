@@ -61,6 +61,8 @@ window-padding-x = 4
 window-padding-balance = true
 window-padding-color = extend
 
+clipboard-read = allow
+
 clipboard-paste-protection = false
 
 quit-after-last-window-closed = true
