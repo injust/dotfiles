@@ -115,6 +115,7 @@
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.enableVisualBell": true,
     "terminal.integrated.focusAfterRun": "terminal",
+    "terminal.integrated.fontLigatures": true,
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.minimumContrastRatio": 1,
     "terminal.integrated.persistentSessionScrollback": 1000,
