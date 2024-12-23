@@ -22,9 +22,9 @@ background-blur-radius = 20
 # Unbind toggle_fullscreen default and suppress escape sequence
 keybind = cmd+enter=ignore
 
-# Rebind equalize_splits to match default resize_split keybindings
-keybind = opt+shift+equal=unbind
-keybind = cmd+ctrl+equal=equalize_splits
+# Unbind jump_to_prompt default to free up cmd+up/down for TUI applications
+keybind = cmd+up=unbind
+keybind = cmd+down=unbind
 
 # Rebind scroll_page_up/down -> jump_to_prompt (to free up cmd+shift+up/down for adjust_selection)
 keybind = cmd+page_up=jump_to_prompt:-1
