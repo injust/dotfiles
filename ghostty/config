@@ -40,6 +40,10 @@ keybind = shift+end=adjust_selection:end_of_line
 
 # Chrome default keybinds for tabs
 keybind = cmd+physical:nine=last_tab
+keybind = ctrl+page_up=previous_tab
+keybind = ctrl+page_down=next_tab
+keybind = ctrl+shift+page_up=move_tab:-1
+keybind = ctrl+shift+page_down=move_tab:1
 
 # https://www.gnu.org/software/bash/manual/html_node/Commands-For-Killing.html
 # kill-line (C-k)
