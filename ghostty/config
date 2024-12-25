@@ -38,16 +38,6 @@ keybind = cmd+shift+right=adjust_selection:end_of_line
 keybind = shift+home=adjust_selection:beginning_of_line
 keybind = shift+end=adjust_selection:end_of_line
 
-# https://www.gnu.org/software/bash/manual/html_node/Commands-For-Moving.html
-# beginning-of-line (C-a)
-keybind = cmd+left=text:\x01
-# end-of-line (C-e)
-keybind = cmd+right=text:\x05
-# forward-word (M-f)
-keybind = opt+right=esc:f
-# backward-word (M-b)
-keybind = opt+left=esc:b
-
 # https://www.gnu.org/software/bash/manual/html_node/Commands-For-Killing.html
 # kill-line (C-k)
 keybind = cmd+delete=text:\x0b
