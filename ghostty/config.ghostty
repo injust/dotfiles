@@ -49,6 +49,14 @@ keybind = performable:cmd+shift+arrow_right=adjust_selection:end_of_line
 keybind = performable:shift+home=adjust_selection:beginning_of_line
 keybind = performable:shift+end=adjust_selection:end_of_line
 
+# Tab keybinds (from Chrome)
+keybind = cmd+opt+arrow_left=previous_tab
+keybind = cmd+opt+arrow_right=next_tab
+keybind = ctrl+page_up=previous_tab
+keybind = ctrl+page_down=next_tab
+keybind = ctrl+shift+page_up=move_tab:-1
+keybind = ctrl+shift+page_down=move_tab:1
+
 # https://www.gnu.org/software/bash/manual/html_node/Commands-For-Killing.html
 # kill-line (C-k)
 keybind = cmd+delete=text:\x0b
