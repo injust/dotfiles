@@ -1,0 +1,39 @@
+{
+    "actions": [
+        { "direction": "BottomHalf", "keybind": [125] },
+        { "direction": "BottomLeftQuarter", "keybind": [123, 125] },
+        { "direction": "BottomRightQuarter", "keybind": [124, 125] },
+        { "direction": "Center", "keybind": [49] },
+        {
+            "cycle": [
+                { "direction": "LeftHalf", "keybind": [] },
+                { "direction": "LeftThird", "keybind": [] }
+            ],
+            "direction": "Cycle",
+            "keybind": [123],
+            "name": "Left Cycle"
+        },
+        {
+            "cycle": [
+                { "direction": "RightHalf", "keybind": [] },
+                { "direction": "RightThird", "keybind": [] }
+            ],
+            "direction": "Cycle",
+            "keybind": [124],
+            "name": "Right Cycle"
+        },
+        { "direction": "HorizontalCenterThird", "keybind": [125, 126] },
+        { "direction": "Larger", "keybind": [24] },
+        { "direction": "LeftTwoThirds", "keybind": [123, 125, 126] },
+        { "direction": "Maximize", "keybind": [36] },
+        { "direction": "NextScreen", "keybind": [30] },
+        { "direction": "PreviousScreen", "keybind": [33] },
+        { "direction": "RightTwoThirds", "keybind": [124, 125, 126] },
+        { "direction": "Smaller", "keybind": [27] },
+        { "direction": "TopHalf", "keybind": [126] },
+        { "direction": "TopLeftQuarter", "keybind": [123, 126] },
+        { "direction": "TopRightQuarter", "keybind": [124, 126] }
+    ],
+    "triggerKey": [63],
+    "version": "1.4.2"
+}
