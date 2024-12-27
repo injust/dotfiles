@@ -5,7 +5,7 @@
       "bool" : true
     },
     "allowAnyShortcut" : {
-      "bool" : false
+      "bool" : true
     },
     "almostMaximizeHeight" : {
       "float" : 0
@@ -50,7 +50,7 @@
       "int" : 0
     },
     "cycleSizesIsChanged" : {
-      "bool" : false
+      "bool" : true
     },
     "disabledApps" : {
 
@@ -104,7 +104,7 @@
       "int" : 0
     },
     "landscapeSnapAreas" : {
-      "string" : "[1,{\"action\":15},3,{\"action\":16},4,{\"compound\":-2},5,{\"compound\":-3},6,{\"action\":13},7,{\"compound\":-4},8,{\"action\":14}]"
+      "string" : "null"
     },
     "launchOnLogin" : {
       "bool" : true
@@ -164,7 +164,7 @@
       "bool" : false
     },
     "selectedCycleSizes" : {
-      "int" : 0
+      "int" : 6
     },
     "shortEdgeSnapAreaSize" : {
       "float" : 145
@@ -203,7 +203,7 @@
       "float" : 190
     },
     "subsequentExecutionMode" : {
-      "int" : 1
+      "int" : 0
     },
     "systemWideMouseDown" : {
       "int" : 0
@@ -250,7 +250,7 @@
       "modifierFlags" : 786432
     },
     "center" : {
-      "keyCode" : 8,
+      "keyCode" : 49,
       "modifierFlags" : 786432
     },
     "centerThird" : {
@@ -285,17 +285,13 @@
       "keyCode" : 36,
       "modifierFlags" : 786432
     },
-    "maximizeHeight" : {
-      "keyCode" : 126,
-      "modifierFlags" : 917504
-    },
     "nextDisplay" : {
-      "keyCode" : 124,
-      "modifierFlags" : 1835008
+      "keyCode" : 30,
+      "modifierFlags" : 786432
     },
     "previousDisplay" : {
-      "keyCode" : 123,
-      "modifierFlags" : 1835008
+      "keyCode" : 33,
+      "modifierFlags" : 786432
     },
     "reflowTodo" : {
       "keyCode" : 45,
