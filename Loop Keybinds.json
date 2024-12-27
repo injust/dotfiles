@@ -1,0 +1,40 @@
+{
+    "actions": [
+        { "direction": "Maximize", "keybind": [36] },
+        { "direction": "Center", "keybind": [49] },
+        { "direction": "Undo", "keybind": [51] },
+        { "direction": "PreviousScreen", "keybind": [33] },
+        { "direction": "NextScreen", "keybind": [30] },
+        { "direction": "Smaller", "keybind": [27] },
+        { "direction": "Larger", "keybind": [24] },
+        { "direction": "TopHalf", "keybind": [126] },
+        { "direction": "BottomHalf", "keybind": [125] },
+        {
+            "cycle": [
+                { "direction": "LeftHalf", "keybind": [] },
+                { "direction": "LeftThird", "keybind": [] }
+            ],
+            "direction": "Cycle",
+            "keybind": [123],
+            "name": "Left Cycle"
+        },
+        {
+            "cycle": [
+                { "direction": "RightHalf", "keybind": [] },
+                { "direction": "RightThird", "keybind": [] }
+            ],
+            "direction": "Cycle",
+            "keybind": [124],
+            "name": "Right Cycle"
+        },
+        { "direction": "HorizontalCenterThird", "keybind": [125, 126] },
+        { "direction": "LeftTwoThirds", "keybind": [123, 125, 126] },
+        { "direction": "RightTwoThirds", "keybind": [124, 125, 126] },
+        { "direction": "TopLeftQuarter", "keybind": [123, 126] },
+        { "direction": "TopRightQuarter", "keybind": [124, 126] },
+        { "direction": "BottomLeftQuarter", "keybind": [123, 125] },
+        { "direction": "BottomRightQuarter", "keybind": [124, 125] }
+    ],
+    "triggerKey": [58, 59],
+    "version": "🧪 1.3.0"
+}
