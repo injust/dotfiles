@@ -166,6 +166,9 @@
 [url "git@github.com:"]
 	insteadOf = gh:
 
+[url "git@gist.github.com:"]
+	insteadOf = gist:
+
 [user]
 	email = injustsu@gmail.com
 	name = Justin Su
