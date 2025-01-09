@@ -1,0 +1,6 @@
+-r requirements.txt
+basedpyright~=1.26
+mypy[faster-cache]~=1.15
+pre-commit~=4.1
+rich~=13.9
+ruff~=0.9
