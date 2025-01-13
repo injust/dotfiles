@@ -1,6 +1,9 @@
 set -gx FZF_DEFAULT_COMMAND fd
 set -gx FZF_DEFAULT_OPTS --multi --layout=reverse --scrollbar=▐ --prompt=❯ --marker=▌ --marker-multi-line=▖▌▘ --ellipsis=… --tabstop=4 --highlight-line
 
+set -gx HOMEBREW_NO_ANALYTICS 1 # In addition to `brew analytics off`
+set -gx HOMEBREW_NO_ENV_HINTS 1
+
 set -gx LESS --quit-if-one-screen --ignore-case --jump-target=.1 --LONG-PROMPT --quiet --RAW-CONTROL-CHARS --incsearch --no-vbell
 set -gx LESSSECURE 1
 
