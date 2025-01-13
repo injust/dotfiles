@@ -4,6 +4,9 @@ set -gx DIRENV_LOG_FORMAT
 set -gx FZF_DEFAULT_COMMAND fd
 set -gx FZF_DEFAULT_OPTS --multi --layout=reverse --scrollbar=▐ --prompt=❯ --marker=▌ --marker-multi-line=▖▌▘ --ellipsis=… --tabstop=4 --color=bg+:#313244,spinner:#f5e0dc,hl:#f38ba8 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc --color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 --color=selected-bg:#45475a --highlight-line --preview-window=wrap
 
+# In addition to `brew analytics off`
+set -gx HOMEBREW_NO_ANALYTICS 1
+
 # Overrides Git's `LESS=FRX` default to unbreak mouse scrolling (https://github.com/gwsw/less/issues/445)
 set -gx LESS --quit-if-one-screen --ignore-case --jump-target=.5 --LONG-PROMPT --quiet --RAW-CONTROL-CHARS --incsearch --no-vbell
 
