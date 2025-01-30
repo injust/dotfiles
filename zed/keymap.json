@@ -16,7 +16,13 @@
     "context": "Workspace",
     "use_key_equivalents": true,
     "bindings": {
-      "cmd-r": null,
+      "cmd-r": null
+    }
+  },
+  {
+    "context": "Workspace && !Terminal",
+    "use_key_equivalents": true,
+    "bindings": {
       "ctrl-r": "projects::OpenRecent"
     }
   },
