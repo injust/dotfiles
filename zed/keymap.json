@@ -1,5 +1,11 @@
 [
     {
+        "use_key_equivalents": true,
+        "bindings": {
+            "cmd-shift-c": null // collab_panel::ToggleFocus
+        }
+    },
+    {
         "context": "Editor && extension == py",
         "use_key_equivalents": true,
         "bindings": { "cmd-r": ["task::Spawn", { "task_name": "run module '$ZED_FILE'" }] }
