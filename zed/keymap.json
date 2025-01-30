@@ -1,5 +1,11 @@
 [
   {
+    "use_key_equivalents": true,
+    "bindings": {
+      "cmd-shift-c": null
+    }
+  },
+  {
     "context": "Workspace",
     "use_key_equivalents": true,
     "bindings": {
