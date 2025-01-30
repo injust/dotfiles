@@ -6,18 +6,11 @@
         }
     },
     { "context": "ProjectSearchBar", "use_key_equivalents": true, "bindings": { "cmd-shift-f": "pane::DeploySearch" } },
+    { "context": "Workspace", "use_key_equivalents": true, "bindings": { "cmd-r": null } },
     {
-        "context": "Workspace",
+        "context": "Workspace && !Terminal",
         "use_key_equivalents": true,
-        "bindings": {
-            "cmd-r": null,
-            "ctrl-r": "projects::OpenRecent" // TODO(https://github.com/zed-industries/zed/issues/23886): Use `Workspace && !Terminal` context instead and remove `Terminal` context override
-        }
-    },
-    {
-        "context": "Terminal",
-        "use_key_equivalents": true,
-        "bindings": { "ctrl-r": ["terminal::SendKeystroke", "ctrl-r"] }
+        "bindings": { "ctrl-r": "projects::OpenRecent" }
     },
     {
         "context": "Editor && mode == full && !(ContextEditor > Editor) && extension == py",
