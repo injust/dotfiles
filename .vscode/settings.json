@@ -100,6 +100,8 @@
         "-workbench.action.quickOpenView" // ctrl-q for micro
     ],
     "terminal.integrated.confirmOnExit": "hasChildProcesses",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.enableVisualBell": true,
     "terminal.integrated.focusAfterRun": "terminal",
