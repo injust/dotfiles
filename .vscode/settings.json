@@ -41,6 +41,7 @@
     },
     "basedpyright.analysis.diagnosticMode": "workspace",
     "chat.commandCenter.enabled": false,
+    "editor.cursorBlinking": "smooth",
     "editor.experimental.asyncTokenization": true,
     "editor.find.seedSearchStringFromSelection": "selection",
     "editor.foldingImportsByDefault": true,

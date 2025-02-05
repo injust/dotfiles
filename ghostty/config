@@ -13,8 +13,12 @@ font-feature = ss08
 font-feature = ss09
 
 adjust-cell-width = -1
+adjust-cursor-thickness = 1
 
 theme = catppuccin-mocha
+
+cursor-style = bar
+cursor-style-blink = true
 
 background-opacity = 0.9
 background-blur = true
