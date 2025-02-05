@@ -20,6 +20,9 @@ adjust-cursor-thickness = 1
 
 theme = light:Catppuccin Latte,dark:Catppuccin Mocha
 
+cursor-style = bar
+cursor-style-blink = true
+
 mouse-hide-while-typing = true
 
 background-opacity = 0.9

@@ -38,7 +38,7 @@
     "preferred_line_length": 120,
     "telemetry": { "diagnostics": false, "metrics": false },
     "git": { "inline_blame": { "show_commit_summary": true } },
-    "terminal": { "detect_venv": "off", "minimum_contrast": 0 },
+    "terminal": { "blinking": "on", "cursor_shape": "bar", "detect_venv": "off", "minimum_contrast": 0 },
     "auto_install_extensions": {
         "html": false // https://github.com/zed-industries/zed/pull/10867
     },
