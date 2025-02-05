@@ -60,6 +60,8 @@
     "git": { "inline_blame": { "location": "status_bar", "show_commit_summary": true } },
     "edit_predictions": { "allow_data_collection": "no" },
     "terminal": {
+        "blinking": "on",
+        "cursor_shape": "bar",
         "open_links_in_mouse_mode": false,
         "env": { "GIT_EDITOR": "zed --wait" },
         "detect_venv": "off",
