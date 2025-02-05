@@ -39,6 +39,8 @@
     "git": { "inline_blame": { "show_commit_summary": true } },
     "edit_predictions": { "enabled_in_text_threads": false },
     "terminal": {
+        "blinking": "on",
+        "cursor_shape": "bar",
         "env": { "GIT_EDITOR": "zed --wait" },
         "line_height": "standard",
         "detect_venv": "off",
