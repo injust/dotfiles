@@ -38,6 +38,8 @@
     "telemetry": { "diagnostics": false, "metrics": false },
     "git": { "inline_blame": { "show_commit_summary": true } },
     "terminal": {
+        "blinking": "on",
+        "cursor_shape": "bar",
         "env": { "GIT_EDITOR": "zed --wait" },
         "line_height": "standard",
         "detect_venv": "off",
