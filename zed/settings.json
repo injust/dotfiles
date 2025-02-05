@@ -60,6 +60,8 @@
     }
   },
   "terminal": {
+    "blinking": "on",
+    "cursor_shape": "bar",
     "env": {
       "GIT_EDITOR": "zed --wait"
     },
