@@ -56,6 +56,8 @@
     "git": { "inline_blame": { "show_commit_summary": true } },
     "edit_predictions": { "allow_data_collection": "no" },
     "terminal": {
+        "blinking": "on",
+        "cursor_shape": "bar",
         "env": { "GIT_EDITOR": "zed --wait" },
         "detect_venv": "off",
         "max_scroll_history_lines": 100000,
