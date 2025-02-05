@@ -23,6 +23,9 @@ theme = light:Catppuccin Latte,dark:Catppuccin Mocha
 # Add `=` and `❯` (prompt character) to word boundaries
 selection-word-chars = " \t'\"│`|:;,()[]{}<>$=❯"
 
+cursor-style = bar
+cursor-style-blink = true
+
 mouse-hide-while-typing = true
 
 background-opacity = 0.9
