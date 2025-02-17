@@ -56,7 +56,20 @@
     },
     "file_types": { "JSONC": ["*.json"] },
     "auto_install_extensions": {
-        "html": false // https://github.com/zed-industries/zed/pull/10867
+        "catppuccin": true,
+        "catppuccin-icons": true,
+        "csv": true,
+        "dependi": true,
+        "fish": true,
+        "ghostty": true,
+        "git-firefly": true,
+        "html": true, // Auto-installed by default (https://github.com/zed-industries/zed/pull/10867)
+        "ini": true,
+        "log": true,
+        "python-requirements": true,
+        "tombi": true,
+        "toml": true,
+        "xml": true
     },
     "completions": { "words": "disabled" },
     "languages": {
