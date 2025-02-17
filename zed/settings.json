@@ -39,7 +39,18 @@
     "git": { "inline_blame": { "show_commit_summary": true } },
     "terminal": { "blinking": "on", "cursor_shape": "bar", "detect_venv": "off", "minimum_contrast": 0 },
     "auto_install_extensions": {
-        "html": false // https://github.com/zed-industries/zed/pull/10867
+        "catppuccin": true,
+        "catppuccin-icons": true,
+        "csv": true,
+        "fish": true,
+        "ghostty": true,
+        "git-firefly": true,
+        // "html": true, // Auto-installed by default (https://github.com/zed-industries/zed/pull/10867)
+        "ini": true,
+        "python-requirements": true,
+        "tombi": true,
+        "toml": true,
+        "xml": true
     },
     "completions": { "words": "disabled" },
     "languages": {
