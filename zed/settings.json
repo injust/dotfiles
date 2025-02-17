@@ -46,7 +46,14 @@
         "minimum_contrast": 0
     },
     "auto_install_extensions": {
-        "html": false // https://github.com/zed-industries/zed/pull/10867
+        "basedpyright": true,
+        "catppuccin": true,
+        "catppuccin-icons": true,
+        "fish": true,
+        "git-firefly": true,
+        "html": false, // https://github.com/zed-industries/zed/pull/10867
+        "ruff": true,
+        "toml": true
     },
     "completions": { "words": "disabled" },
     "languages": {
