@@ -73,6 +73,16 @@
     "line_height": "standard",
     "detect_venv": "off"
   },
+  "auto_install_extensions": {
+    "basedpyright": true,
+    "catppuccin": true,
+    "catppuccin-icons": true,
+    "fish": true,
+    "git-firefly": true,
+    "html": false,
+    "ruff": true,
+    "toml": true
+  },
   "languages": {
     "Plain Text": {
       "show_edit_predictions": false
