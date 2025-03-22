@@ -66,6 +66,7 @@
   "terminal": {
     "blinking": "on",
     "cursor_shape": "bar",
+    "alternate_scroll": "on", // TODO(https://github.com/zed-industries/zed/pull/27302)
     "env": {
       "GIT_EDITOR": "zed --wait"
     },
