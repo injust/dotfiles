@@ -20,13 +20,6 @@
     "[markdown]": {
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
-    "[python]": {
-        "editor.codeActionsOnSave": {
-            "source.fixAll": "explicit",
-            "source.organizeImports": "explicit"
-        },
-        "editor.defaultFormatter": "charliermarsh.ruff"
-    },
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
@@ -39,7 +32,6 @@
     "accessibility.signals.terminalBell": {
         "sound": "on"
     },
-    "basedpyright.analysis.diagnosticMode": "workspace",
     "chat.commandCenter.enabled": false,
     "editor.cursorBlinking": "smooth",
     "editor.experimental.asyncTokenization": true,
@@ -76,15 +68,11 @@
     "github.codespaces.showPerformanceExplorer": true,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "markdown.validate.enabled": true,
-    "mypy-type-checker.importStrategy": "fromEnvironment",
-    "mypy-type-checker.reportingScope": "workspace",
     "notebook.codeActionsOnSave": {
         "notebook.source.fixAll": "explicit",
         "notebook.source.organizeImports": "explicit"
     },
     "notebook.formatOnSave.enabled": true,
-    "python.REPL.sendToNativeREPL": true,
-    "python.terminal.activateEnvironment": false,
     "redhat.telemetry.enabled": false,
     "remote.SSH.remoteServerListenOnSocket": true,
     "search.smartCase": true,
