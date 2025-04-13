@@ -4,18 +4,11 @@
         "command": "-editor.action.inlineSuggest.acceptNextWord",
         "when": "inlineSuggestionVisible && !editorReadonly"
     },
-    {
-        "key": "cmd+0",
-        "command": "workbench.action.zoomReset"
-    },
+    { "key": "cmd+0", "command": "workbench.action.zoomReset" },
     {
         "key": "cmd+r",
         "command": "python.execInDedicatedTerminal",
         "when": "(editorTextFocus && editorLangId == 'python' || terminalFocus) && !accessibilityModeEnabled && !inlineChatVisible && !isDevelopment && !python.hasActiveTensorBoardsession"
     },
-    {
-        "key": "ctrl+m",
-        "command": "editor.action.jumpToBracket",
-        "when": "editorTextFocus"
-    }
+    { "key": "ctrl+m", "command": "editor.action.jumpToBracket", "when": "editorTextFocus" }
 ]
