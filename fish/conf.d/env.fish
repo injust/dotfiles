@@ -1,6 +1,3 @@
-# TODO(https://github.com/direnv/direnv/issues/68, https://github.com/direnv/direnv/issues/1419): Use a less hacky way to suppress logging so `log_status` still works in `layout_uv()`
-set -gx DIRENV_LOG_FORMAT
-
 set -gx FZF_DEFAULT_COMMAND fd
 set -gx FZF_DEFAULT_OPTS --multi --layout=reverse --scrollbar=▐ --prompt=❯ --marker=▌ --marker-multi-line=▖▌▘ --ellipsis=… --tabstop=4 --highlight-line --preview-window=wrap \
 # https://github.com/catppuccin/fzf/blob/main/README.md
