@@ -1,30 +1,26 @@
 [
-  {
-    "use_key_equivalents": true,
-    "bindings": {
-      "cmd-shift-c": null // collab_panel::ToggleFocus
+    {
+        "use_key_equivalents": true,
+        "bindings": {
+            "cmd-shift-c": null // collab_panel::ToggleFocus
+        }
+    },
+    {
+        "context": "Workspace",
+        "use_key_equivalents": true,
+        "bindings": {
+            "cmd-r": null, // workspace::ToggleRightDock
+            "ctrl-r": "projects::OpenRecent" // TODO(https://github.com/zed-industries/zed/issues/23886): Use `Workspace && !Terminal` context instead and remove `Terminal` context override
+        }
+    },
+    {
+        "context": "Terminal",
+        "use_key_equivalents": true,
+        "bindings": { "ctrl-r": ["terminal::SendKeystroke", "ctrl-r"] }
+    },
+    {
+        "context": "Editor && mode == full && !(ContextEditor > Editor) && extension == py",
+        "use_key_equivalents": true,
+        "bindings": { "cmd-r": ["task::Spawn", { "task_name": "run '$ZED_FILE'" }] }
     }
-  },
-  {
-    "context": "Workspace",
-    "use_key_equivalents": true,
-    "bindings": {
-      "cmd-r": null, // workspace::ToggleRightDock
-      "ctrl-r": "projects::OpenRecent" // TODO(https://github.com/zed-industries/zed/issues/23886): Use `Workspace && !Terminal` context instead and remove `Terminal` context override
-    }
-  },
-  {
-    "context": "Terminal",
-    "use_key_equivalents": true,
-    "bindings": {
-      "ctrl-r": ["terminal::SendKeystroke", "ctrl-r"]
-    }
-  },
-  {
-    "context": "Editor && mode == full && !(ContextEditor > Editor) && extension == py",
-    "use_key_equivalents": true,
-    "bindings": {
-      "cmd-r": ["task::Spawn", { "task_name": "run '$ZED_FILE'" }]
-    }
-  }
 ]
