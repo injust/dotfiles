@@ -1,108 +1,64 @@
 {
-  "theme": {
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
-  },
-  "icon_theme": {
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
-  },
-  "features": {
-    "edit_prediction_provider": "supermaven"
-  },
-  "buffer_font_family": "MonaspiceAr Nerd Font Propo",
-  "buffer_font_features": {
-    "calt": true,
-    "liga": true,
-    "ss01": true,
-    "ss02": true,
-    "ss03": true,
-    "ss04": true,
-    "ss05": true,
-    "ss06": true,
-    "ss07": true,
-    "ss08": true,
-    "ss09": true
-  },
-  "buffer_font_size": 13,
-  "show_signature_help_after_edits": true,
-  "edit_predictions_disabled_in": ["comment"],
-  "seed_search_query_from_cursor": "selection",
-  "use_smartcase_search": true,
-  "inlay_hints": {
-    "enabled": true
-  },
-  "collaboration_panel": {
-    "button": false
-  },
-  "notification_panel": {
-    "button": false
-  },
-  "assistant": {
-    "version": "2",
-    "enabled": false
-  },
-  "autosave": {
-    "after_delay": {
-      "milliseconds": 500
-    }
-  },
-  "tabs": {
-    "git_status": true,
-    "file_icons": true
-  },
-  "extend_comment_on_newline": false, // TODO(https://github.com/zed-industries/zed/discussions/24972)
-  "soft_wrap": "editor_width",
-  "preferred_line_length": 120,
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
-  },
-  "git": {
-    "inline_blame": {
-      "show_commit_summary": true
-    }
-  },
-  "terminal": {
-    "blinking": "on",
-    "cursor_shape": "bar",
-    "alternate_scroll": "on", // TODO(https://github.com/zed-industries/zed/pull/27302)
-    "env": {
-      "GIT_EDITOR": "zed --wait"
+    "theme": { "light": "Catppuccin Latte", "dark": "Catppuccin Mocha" },
+    "icon_theme": { "light": "Catppuccin Latte", "dark": "Catppuccin Mocha" },
+    "features": { "edit_prediction_provider": "supermaven" },
+    "buffer_font_family": "MonaspiceAr Nerd Font Propo",
+    "buffer_font_features": {
+        "calt": true,
+        "liga": true,
+        "ss01": true,
+        "ss02": true,
+        "ss03": true,
+        "ss04": true,
+        "ss05": true,
+        "ss06": true,
+        "ss07": true,
+        "ss08": true,
+        "ss09": true
     },
-    "line_height": "standard",
-    "detect_venv": "off"
-  },
-  "auto_install_extensions": {
-    "basedpyright": true,
-    "catppuccin": true,
-    "catppuccin-icons": true,
-    "deno": true,
-    "fish": true,
-    "git-firefly": true,
-    "html": false,
-    "ruff": true,
-    "toml": true
-  },
-  "languages": {
-    "Plain Text": {
-      "show_edit_predictions": false
+    "buffer_font_size": 13,
+    "show_signature_help_after_edits": true,
+    "edit_predictions_disabled_in": ["comment"],
+    "seed_search_query_from_cursor": "selection",
+    "use_smartcase_search": true,
+    "inlay_hints": { "enabled": true },
+    "collaboration_panel": { "button": false },
+    "notification_panel": { "button": false },
+    "assistant": { "version": "2", "enabled": false },
+    "autosave": { "after_delay": { "milliseconds": 500 } },
+    "tabs": { "git_status": true, "file_icons": true },
+    "extend_comment_on_newline": false, // TODO(https://github.com/zed-industries/zed/discussions/24972)
+    "soft_wrap": "editor_width",
+    "preferred_line_length": 120,
+    "telemetry": { "diagnostics": false, "metrics": false },
+    "git": { "inline_blame": { "show_commit_summary": true } },
+    "terminal": {
+        "blinking": "on",
+        "cursor_shape": "bar",
+        "alternate_scroll": "on", // TODO(https://github.com/zed-industries/zed/pull/27302)
+        "env": { "GIT_EDITOR": "zed --wait" },
+        "line_height": "standard",
+        "detect_venv": "off"
     },
-    "Python": {
-      "language_servers": ["basedpyright", "ruff"],
-      "formatter": [
-        {
-          "code_actions": {
-            "source.fixAll.ruff": true,
-            "source.organizeImports.ruff": true
-          }
-        },
-        {
-          "language_server": {
-            "name": "ruff"
-          }
+    "auto_install_extensions": {
+        "basedpyright": true,
+        "catppuccin": true,
+        "catppuccin-icons": true,
+        "deno": true,
+        "fish": true,
+        "git-firefly": true,
+        "html": false,
+        "ruff": true,
+        "toml": true
+    },
+    "languages": {
+        "Plain Text": { "show_edit_predictions": false },
+        "Python": {
+            "language_servers": ["basedpyright", "ruff"],
+            "formatter": [
+                { "code_actions": { "source.fixAll.ruff": true, "source.organizeImports.ruff": true } },
+                { "language_server": { "name": "ruff" } }
+            ]
         }
-      ]
     }
-  }
 }
