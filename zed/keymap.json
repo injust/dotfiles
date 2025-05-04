@@ -5,6 +5,7 @@
             "cmd-shift-c": null // collab_panel::ToggleFocus
         }
     },
+    { "context": "ProjectSearchBar", "use_key_equivalents": true, "bindings": { "cmd-shift-f": "pane::DeploySearch" } },
     {
         "context": "Workspace",
         "use_key_equivalents": true,
