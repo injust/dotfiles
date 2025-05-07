@@ -35,6 +35,6 @@
         { "direction": "BottomLeftQuarter", "keybind": [123, 125] },
         { "direction": "BottomRightQuarter", "keybind": [124, 125] }
     ],
-    "triggerKey": [58, 59],
+    "triggerKey": [63],
     "version": "🧪 1.3.0"
 }
