@@ -46,25 +46,28 @@
         "minimum_contrast": 0
     },
     "auto_install_extensions": {
-        "basedpyright": true,
         "catppuccin": true,
         "catppuccin-icons": true,
         "fish": true,
         "git-firefly": true,
         "html": false, // https://github.com/zed-industries/zed/pull/10867
         "ruff": true,
-        "toml": true
+        "toml": true,
+        "ty": true
     },
     "completions": { "words": "disabled" },
     "languages": {
         "Plain Text": { "show_edit_predictions": false },
         "Python": {
-            "language_servers": ["basedpyright", "ruff"],
+            "language_servers": ["ty", "ruff"],
             "formatter": [
                 { "code_actions": { "source.fixAll.ruff": true, "source.organizeImports.ruff": true } },
                 { "language_server": { "name": "ruff" } }
             ]
         }
     },
-    "lsp": { "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } } }
+    "lsp": {
+        "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } },
+        "ty": { "binary": { "path": "/Users/jsu/.local/bin/ty", "arguments": ["server"] } }
+    }
 }
