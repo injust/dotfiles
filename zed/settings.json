@@ -41,23 +41,24 @@
         "detect_venv": "off"
     },
     "auto_install_extensions": {
-        "basedpyright": true,
         "catppuccin": true,
         "catppuccin-icons": true,
         "fish": true,
         "git-firefly": true,
         "html": false,
         "ruff": true,
-        "toml": true
+        "toml": true,
+        "ty": true
     },
     "languages": {
         "Plain Text": { "show_edit_predictions": false },
         "Python": {
-            "language_servers": ["basedpyright", "ruff"],
+            "language_servers": ["ty", "ruff"],
             "formatter": [
                 { "code_actions": { "source.fixAll.ruff": true, "source.organizeImports.ruff": true } },
                 { "language_server": { "name": "ruff" } }
             ]
         }
-    }
+    },
+    "lsp": { "ty": { "binary": { "path": "/Users/jsu/.local/bin/ty", "arguments": ["server"] } } }
 }
