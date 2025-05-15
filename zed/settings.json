@@ -54,11 +54,12 @@
     "languages": {
         "Plain Text": { "show_edit_predictions": false },
         "Python": {
-            "language_servers": ["basedpyright", "ruff"],
+            "language_servers": ["ty", "ruff"],
             "formatter": [
                 { "code_actions": { "source.fixAll.ruff": true, "source.organizeImports.ruff": true } },
                 { "language_server": { "name": "ruff" } }
             ]
         }
-    }
+    },
+    "lsp": { "ty": { "binary": { "path": "/Users/jsu/.local/bin/ty", "arguments": ["server"] } } }
 }
