@@ -1,0 +1,30 @@
+{
+    "accessibility.signals.terminalBell": { "sound": "on" },
+    "editor.cursorBlinking": "smooth",
+    "editor.foldingImportsByDefault": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.guides.bracketPairs": true, // https://github.com/zed-industries/zed/issues/5259
+    "editor.inlayHints.enabled": "onUnlessPressed",
+    "editor.renderFinalNewline": "dimmed", // https://github.com/zed-industries/zed/discussions/33887
+    "explorer.confirmDragAndDrop": false,
+    "explorer.fileNesting.enabled": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveWorkspaceFilesOnly": true,
+    "git.autofetch": "all",
+    "git.enableCommitSigning": true,
+    "git.fetchOnPull": true,
+    "git.followTagsWhenSync": true,
+    "git.mergeEditor": true,
+    "git.pruneOnFetch": true,
+    "git.pullBeforeCheckout": true,
+    "git.rebaseWhenSync": true,
+    "git.terminalGitEditor": true,
+    "python.REPL.sendToNativeREPL": true,
+    "terminal.integrated.confirmOnExit": "hasChildProcesses", // https://github.com/zed-industries/zed/discussions/31377
+    "terminal.integrated.fontLigatures": true, // https://github.com/zed-industries/zed/issues/11127
+    "terminal.integrated.persistentSessionScrollback": 1000,
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.suggest.enabled": true
+}
