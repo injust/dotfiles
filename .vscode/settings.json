@@ -1,0 +1,16 @@
+{
+    "editor.cursorBlinking": "smooth",
+    "editor.foldingImportsByDefault": true, // https://github.com/zed-industries/zed/discussions/30763
+    "editor.inlayHints.enabled": "onUnlessPressed",
+    "editor.renderFinalNewline": "dimmed", // https://github.com/zed-industries/zed/discussions/33887
+    "explorer.fileNesting.enabled": true, // https://github.com/zed-industries/zed/discussions/25156
+    "files.autoSaveWorkspaceFilesOnly": true,
+    "git.autofetch": "all", // https://github.com/zed-industries/zed/discussions/24611
+    "git.enableCommitSigning": true, // https://github.com/zed-industries/zed/discussions/37899
+    "git.mergeEditor": true, // https://github.com/zed-industries/zed/discussions/26770
+    "git.pruneOnFetch": true, // https://github.com/zed-industries/zed/discussions/36751
+    "python.REPL.sendToNativeREPL": true,
+    "terminal.integrated.confirmOnExit": "hasChildProcesses", // https://github.com/zed-industries/zed/issues/20051
+    "terminal.integrated.fontLigatures": true, // https://github.com/zed-industries/zed/issues/11127
+    "terminal.integrated.persistentSessionScrollback": 1000
+}
