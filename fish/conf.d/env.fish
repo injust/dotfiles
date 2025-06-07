@@ -9,9 +9,6 @@ set -gx LESS --quit-if-one-screen --ignore-case --jump-target=.1 --LONG-PROMPT -
 
 set -gx MANPAGER sh -c "'col -bx | bat --language=man --style=plain'"
 
-# TODO(micro 2.0.15): Remove this, micro automatically uses true color support now (https://github.com/zyedidia/micro/pull/2867)
-set -gx MICRO_TRUECOLOR 1
-
 set -gx PRE_COMMIT_ALLOW_NO_CONFIG 1
 
 set -gx PYTHONSTARTUP ~/.config/pythonstartup.py
