@@ -1,0 +1,15 @@
+printWidth = 120
+tabWidth = 4
+semi = false
+singleQuote = true
+objectWrap = "collapse"
+proseWrap = "never"
+
+# https://github.com/prettier/prettier/issues/15956
+[[overrides]]
+files = ["*.json", "*.jsonc"]
+options = { trailingComma = "none" }
+
+[[overrides]]
+files = ["*.yaml", "*.yml"]
+options = { tabWidth = 2 }
