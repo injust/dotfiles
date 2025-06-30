@@ -48,7 +48,7 @@ brew "p7zip"
 brew "prettier"
 brew "pv"
 brew "ripgrep"
-brew "starship"
+brew "starship", args: ["HEAD"]
 brew "tofrodos"
 brew "unar"
 brew "uutils-coreutils"
