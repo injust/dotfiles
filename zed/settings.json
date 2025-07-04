@@ -65,5 +65,6 @@
                 { "language_server": { "name": "ruff" } }
             ]
         }
-    }
+    },
+    "lsp": { "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } } }
 }
