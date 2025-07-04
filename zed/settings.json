@@ -57,5 +57,6 @@
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
         "Plain Text": { "show_edit_predictions": false },
         "Python": { "code_actions_on_format": { "source.fixAll.ruff": true } }
-    }
+    },
+    "lsp": { "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } } }
 }
