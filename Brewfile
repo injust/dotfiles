@@ -49,7 +49,7 @@ brew "prettier"
 brew "pv"
 brew "ripgrep"
 brew "showkey"
-brew "starship", args: ["HEAD"]
+brew "starship",
 brew "tofrodos"
 brew "unar"
 brew "uutils-coreutils"
