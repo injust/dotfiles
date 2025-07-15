@@ -21,6 +21,7 @@
     "Ctrl-n": "None",
     "Ctrl-p": "command:palettero",
     "Ctrl-u": "SelectToStartOfLine,Backspace", // cmd-backspace
+    "F1": "command:palettero",
     "F3": "FindNext",
     "Shift-F3": "FindPrevious" // shift-F3 (Zed)
 }
