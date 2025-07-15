@@ -2,6 +2,7 @@
     "Ctrl-j": "None",
     "Ctrl-n": "None",
     "Ctrl-p": "command:palettero",
+    "F1": "command:palettero",
     "F3": "FindNext",
 
     "Shift-F3": "FindPrevious",
