@@ -1,6 +1,4 @@
-if not status is-interactive
-    exit
-end
+status is-interactive || exit
 
 # https://github.com/fish-shell/fish-shell/blob/9870faa8beceb8807a79802cb6ff457e7a3bf956/share/functions/fish_title.fish but unshortened and `caffeinate -> ☕`
 function fish_title

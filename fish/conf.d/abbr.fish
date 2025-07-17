@@ -1,6 +1,4 @@
-if not status is-interactive
-    exit
-end
+status is-interactive || exit
 
 abbr b3sum -- hashsum --b3sum
 abbr cat -- bat

@@ -1,6 +1,4 @@
-if not status is-interactive
-    exit
-end
+status is-interactive || exit
 
 # Inspired by https://github.com/paulirish/dotfiles/blob/3412844c7a0a768864a0ac384731721de1dd9c2e/fish/aliases.fish#L44
 function abbr_git
