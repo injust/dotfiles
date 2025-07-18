@@ -50,14 +50,12 @@
 	gpgSign = true
 
 [core]
-	# Repeat `--features=catppuccin-mocha` to work around https://github.com/dandavison/delta/issues/1837
-	pager = "LESS=\"$LESS --jump-target=1\" LESSSECURE= delta --features=catppuccin-mocha --line-numbers"
+	pager = "LESS=\"$LESS --jump-target=1\" LESSSECURE= delta --line-numbers"
 
 [credential]
 	helper =
 
 [delta]
-	features = catppuccin-mocha
 	commit-decoration-style = "#6c7086"  # Unbold and remove `box ul`
 	file-decoration-style = "#6c7086" box ul  # Add `box ul`
 	hunk-header-decoration-style = "#6c7086"  # Remove `box ul`
@@ -116,8 +114,7 @@
 	defaultBranch = main
 
 [interactive]
-	# Repeat `--features=catppuccin-mocha` to work around https://github.com/dandavison/delta/issues/1837
-	diffFilter = delta --color-only --features=catppuccin-mocha --line-numbers
+	diffFilter = delta --color-only --line-numbers
 	singleKey = true
 
 [log]
