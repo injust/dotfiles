@@ -1,6 +1,7 @@
 brew "asciinema"
 brew "bash"
 brew "bat"
+brew "btop"
 brew "coreutils"
 brew "csvlens"
 brew "zstd"
