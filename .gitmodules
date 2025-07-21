@@ -2,6 +2,10 @@
 	path = catppuccin/bat
 	url = git@github.com:catppuccin/bat
 
+[submodule "catppuccin/btop"]
+	path = catppuccin/btop
+	url = git@github.com:catppuccin/btop
+
 [submodule "catppuccin/delta"]
 	path = catppuccin/delta
 	url = git@github.com:catppuccin/delta
