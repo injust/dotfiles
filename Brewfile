@@ -1,6 +1,7 @@
 brew "asciinema"
 brew "bash"
 brew "bat"
+brew "btop"
 brew "csvlens"
 brew "zstd"
 brew "curl"
