@@ -1,0 +1,6 @@
+--abort-on-unavailable-fragments
+--mtime
+--embed-subs
+--embed-thumbnail
+--embed-metadata
+--xattrs
