@@ -26,6 +26,8 @@ mouse-hide-while-typing = true
 background-opacity = 0.9
 background-blur = true
 
+keybind = global:cmd+grave_accent=toggle_quick_terminal
+
 # Unbind toggle_fullscreen and suppress escape sequence
 keybind = cmd+enter=ignore
 
@@ -68,7 +70,7 @@ clipboard-read = allow
 
 clipboard-paste-protection = false
 
-quit-after-last-window-closed = true
+quick-terminal-animation-duration = 0
 
 shell-integration-features = true
 
