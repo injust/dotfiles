@@ -1,6 +1,8 @@
 set -gx FZF_DEFAULT_COMMAND fd
 set -gx FZF_DEFAULT_OPTS --multi --layout=reverse --scrollbar=▐ --prompt=❯ --marker=▌ --marker-multi-line=▖▌▘ --ellipsis=… --tabstop=4 --highlight-line --preview-window=wrap
 
+# TODO: Unset when this becomes the default
+set -gx HOMEBREW_DOWNLOAD_CONCURRENCY auto
 # In addition to `brew analytics off`
 set -gx HOMEBREW_NO_ANALYTICS 1
 
