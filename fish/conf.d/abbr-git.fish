@@ -57,8 +57,7 @@ abbr --command=git lgu -- log @{u}
 
 abbr glol -- git lol
 
-abbr glola -- git lol --all
-abbr --command=git lola -- lol --all
+abbr glola -- git lola
 
 abbr gpull -- git pull
 
