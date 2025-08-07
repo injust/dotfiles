@@ -4,6 +4,7 @@
 
 [alias]
 	lol = log --oneline --graph
+	lola = "!f() { git lol --all $(git rev-parse --verify --quiet --not refs/spice/data); }; f"
 	show-ignored = "!f() { git ls-files -z --others --ignored --directory --exclude-standard \"${GIT_PREFIX:-.}\" | xargs --null --no-run-if-empty eza --classify --icons --hyperlink --treat-dirs-as-files; }; f"
 
 	# difftastic
@@ -34,7 +35,6 @@
 	fe = fetch
 	gr = grep --break --heading
 	lgu = log @{upstream}
-	lola = lol --all
 	pushf = push --force-with-lease
 	rb = rebase
 	rba = rebase --abort
