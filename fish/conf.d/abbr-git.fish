@@ -86,8 +86,7 @@ abbr_git lgu -- log @{u}
 
 abbr glol -- git lol
 
-abbr glola -- git lol --all
-abbr_git lola -- lol --all
+abbr glola -- git lola
 
 abbr grb -- git rebase
 abbr_git rb -- rebase
