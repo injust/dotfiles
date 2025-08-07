@@ -26,7 +26,7 @@
 	lg = log
 	lgu = log @{upstream}
 	lol = log --decorate --oneline --graph
-	lola = lol --all
+	lola = !git lol --all $(git rev-parse --verify --quiet --not refs/spice/data)
 	rb = rebase
 	rba = rebase --abort
 	rbc = rebase --continue
