@@ -169,6 +169,10 @@
 [sequence]
 	editor = interactive-rebase-tool
 
+[spice "branchCheckout"]
+	showUntracked = true
+	trackUntracked = true
+
 [stash]
 	showIncludeUntracked = true
 	showPatch = true
