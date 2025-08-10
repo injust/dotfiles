@@ -112,7 +112,7 @@ abbr_git st -- status
 abbr gsw -- git switch
 abbr_git sw -- switch
 
-abbr gswc -- git switch -c
+abbr gswc -- gs branch create --no-commit
 abbr_git swc -- switch -c
 
 functions --erase abbr_git
