@@ -109,10 +109,10 @@ abbr_git sht -- showt
 abbr gst -- git status
 abbr_git st -- status
 
-abbr gsw -- git switch
+abbr gsw -- gs branch checkout
 abbr_git sw -- switch
 
-abbr gswc -- git switch -c
+abbr gswc -- gs branch create --no-commit
 abbr_git swc -- switch -c
 
 functions --erase abbr_git
