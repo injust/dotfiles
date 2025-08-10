@@ -61,6 +61,11 @@ abbr glol -- git lol
 
 abbr glola -- git lola
 
+abbr gpull -- git pull
+
+abbr gpush -- git push
+abbr gpushf -- git push --force-with-lease
+
 abbr grb -- git rebase
 abbr --command=git rb -- rebase
 
