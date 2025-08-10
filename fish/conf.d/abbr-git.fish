@@ -85,6 +85,8 @@ abbr --command=git sh -- show -p --stat
 abbr gsht -- git showt
 abbr --command=git sht -- showt
 
+abbr gsrr -- gs repo restack
+
 abbr gst -- git status
 abbr --command=git st -- status
 
