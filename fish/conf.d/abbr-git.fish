@@ -101,6 +101,8 @@ abbr_git sh -- show
 abbr gsht -- git showt
 abbr_git sht -- showt
 
+abbr gsrr -- gs repo restack
+
 abbr gst -- git status
 abbr_git st -- status
 
