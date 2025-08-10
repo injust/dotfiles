@@ -88,8 +88,8 @@ abbr --command=git sht -- showt
 abbr gst -- git status
 abbr --command=git st -- status
 
-abbr gsw -- git switch
+abbr gsw -- gs branch checkout
 abbr --command=git sw -- switch
 
-abbr gswc -- git switch -c
+abbr gswc -- gs branch create --no-commit
 abbr --command=git swc -- switch -c

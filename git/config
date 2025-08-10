@@ -149,6 +149,9 @@
 [sequence]
 	editor = interactive-rebase-tool
 
+[spice "branchCheckout"]
+	trackUntracked = always
+
 [stash]
 	showIncludeUntracked = true
 	showPatch = true
