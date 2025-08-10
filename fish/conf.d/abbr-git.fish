@@ -14,7 +14,7 @@ abbr --command=git ap -- add -p
 abbr gbr -- git branch
 abbr --command=git br -- branch
 
-abbr gbrd -- git branch -d
+abbr gbrd -- gs branch delete
 abbr --command=git brd -- branch -d
 
 abbr gcl -- git clone
@@ -108,8 +108,8 @@ abbr --command=git sht -- showt
 abbr gst -- git status
 abbr --command=git st -- status
 
-abbr gsw -- git switch
+abbr gsw -- gs branch checkout
 abbr --command=git sw -- switch
 
-abbr gswc -- git switch -c
+abbr gswc -- gs branch create --no-commit
 abbr --command=git swc -- switch -c
