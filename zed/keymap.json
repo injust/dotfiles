@@ -5,6 +5,7 @@
             "cmd-shift-c": null // collab_panel::ToggleFocus
         }
     },
+    { "context": "Picker", "use_key_equivalents": true, "bindings": { "cmd-w": "menu::Cancel" } },
     {
         "context": "Workspace",
         "use_key_equivalents": true,
