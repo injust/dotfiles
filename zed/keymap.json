@@ -10,6 +10,7 @@
         "use_key_equivalents": true,
         "bindings": { "cmd-r": ["task::Spawn", { "task_name": "run module '$ZED_FILE'" }] }
     },
+    { "context": "Picker", "use_key_equivalents": true, "bindings": { "cmd-w": "menu::Cancel" } },
     {
         "context": "ProjectSearchBar",
         "use_key_equivalents": true,
