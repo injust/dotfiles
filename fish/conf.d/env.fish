@@ -4,6 +4,8 @@ set -gx FZF_DEFAULT_OPTS --multi --layout=reverse --scrollbar=▐ --prompt=❯ -
 set -gx HOMEBREW_NO_ANALYTICS 1 # In addition to `brew analytics off`
 set -gx HOMEBREW_NO_ENV_HINTS 1
 
+set -gx HWATCH --beep --mouse --color --differences
+
 set -gx LESS --quit-if-one-screen --ignore-case --jump-target=.1 --LONG-PROMPT --quiet --RAW-CONTROL-CHARS --incsearch --no-vbell
 set -gx LESSSECURE 1
 
