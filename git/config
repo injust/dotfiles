@@ -154,6 +154,9 @@
 	autoUpdate = true
 	enabled = true
 
+[safe]
+	bareRepository = explicit
+
 [sequence]
 	editor = interactive-rebase-tool
 
