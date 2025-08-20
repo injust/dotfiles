@@ -119,6 +119,7 @@
 
 [init]
 	defaultBranch = main
+	defaultRefFormat = files
 
 [interactive]
 	diffFilter = delta --color-only --line-numbers
