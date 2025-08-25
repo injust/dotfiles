@@ -48,7 +48,7 @@
 
 [core]
 	fsmonitor = true
-	pager = LESS=\"$LESS --jump-target=1\" delta --line-numbers
+	pager = LESS=\"$LESS --jump-target=1\" LESSSECURE= delta --line-numbers
 
 [credential]
 	helper = 
