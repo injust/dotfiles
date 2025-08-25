@@ -10,6 +10,7 @@ set -gx HWATCH --beep --mouse --color --differences
 
 # Override Git's `LESS=FRX` default to unbreak mouse scrolling (https://github.com/gwsw/less/issues/445)
 set -gx LESS --quit-if-one-screen --ignore-case --jump-target=.1 --LONG-PROMPT --quiet --RAW-CONTROL-CHARS --incsearch --no-vbell
+set -gx LESSSECURE 1
 
 set -gx MANPAGER sh -c "'col -bx | bat --language=man --style=plain'"
 

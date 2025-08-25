@@ -51,7 +51,7 @@
 
 [core]
 	fsmonitor = true
-	pager = LESS=\"$LESS --jump-target=1\" delta --line-numbers
+	pager = LESS=\"$LESS --jump-target=1\" LESSSECURE= delta --line-numbers
 	# Work around macOS rebase error (https://www.git-tower.com/blog/make-git-rebase-safe-on-osx/)
 	trustctime = false
 
