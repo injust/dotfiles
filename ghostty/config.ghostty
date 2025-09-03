@@ -78,4 +78,6 @@ macos-secure-input-indication = false
 macos-applescript = false
 macos-shortcuts = deny
 
+term = ghostty
+
 auto-update = download
