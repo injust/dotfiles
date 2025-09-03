@@ -1,3 +1,4 @@
+.ssh/*/config
 .ssh/id_*
 
 catppuccin/*/*
