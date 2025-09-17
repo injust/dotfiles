@@ -65,5 +65,10 @@
             ]
         }
     },
-    "lsp": { "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } } }
+    "lsp": {
+        "basedpyright": {
+            "initialization_options": { "diagnosticMode": "workspace" }, // TODO(https://github.com/zed-industries/zed/issues/36810)
+            "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } }
+        }
+    }
 }
