@@ -63,14 +63,15 @@
         "python-requirements": true,
         "tombi": true,
         "toml": true,
-        "xml": true
+        "xml": true,
+        "zuban": true
     },
     "completions": { "words": "disabled" },
     "languages": {
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
         "Git Config": { "hard_tabs": true },
         "Plain Text": { "show_edit_predictions": false },
-        "Python": { "code_actions_on_format": { "source.fixAll.ruff": true } }
+        "Python": { "language_servers": ["ruff", "zuban"], "code_actions_on_format": { "source.fixAll.ruff": true } }
     },
     "lsp": { "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } } }
 }
