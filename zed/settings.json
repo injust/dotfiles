@@ -60,14 +60,15 @@
         "ini": true,
         "python-requirements": true,
         "tombi": true,
-        "toml": true
+        "toml": true,
+        "zuban": true
     },
     "completions": { "words": "disabled" },
     "languages": {
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
         "Git Config": { "hard_tabs": true }, // TODO(https://github.com/zed-extensions/git_firefly/pull/27)
         "Plain Text": { "show_edit_predictions": false },
-        "Python": { "code_actions_on_format": { "source.fixAll.ruff": true } }
+        "Python": { "language_servers": ["ruff", "zuban"], "code_actions_on_format": { "source.fixAll.ruff": true } }
     },
     "lsp": { "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } } }
 }
