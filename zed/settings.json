@@ -53,14 +53,15 @@
         "git-firefly": true,
         "html": false, // https://github.com/zed-industries/zed/pull/10867
         "tombi": true,
-        "toml": true
+        "toml": true,
+        "zuban": true
     },
     "completions": { "words": "disabled" },
     "languages": {
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
         "Plain Text": { "show_edit_predictions": false },
         "Python": {
-            "language_servers": ["basedpyright", "ruff"],
+            "language_servers": ["ruff", "zuban"],
             "formatter": [
                 { "code_action": "source.fixAll.ruff" },
                 { "code_action": "source.organizeImports.ruff" },
