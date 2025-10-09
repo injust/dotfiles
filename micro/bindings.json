@@ -15,6 +15,7 @@
     "Ctrl-Space": "command:palettero",
     "Ctrl-Underscore": "lua:comment.comment", // ctrl-/
     "Ctrl-a": "StartOfTextToggle", // cmd-left
+    "Ctrl-c": "Copy,Deselect",
     "Ctrl-e": "EndOfLine", // cmd-right
     "Ctrl-j": "None",
     "Ctrl-k": "SelectToEndOfLine,Delete", // cmd-delete
