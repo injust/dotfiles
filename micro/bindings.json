@@ -1,6 +1,7 @@
 {
     "Alt-/": "lua:comment.comment",
     "Ctrl-Space": "command:palettero",
+    "Ctrl-c": "Copy,Deselect",
     "Ctrl-j": "None",
     "Ctrl-n": "None",
     "Ctrl-p": "command:palettero",

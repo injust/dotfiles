@@ -36,7 +36,13 @@
     "preferred_line_length": 120,
     "telemetry": { "diagnostics": false, "metrics": false },
     "git": { "inline_blame": { "show_commit_summary": true } },
-    "terminal": { "blinking": "on", "cursor_shape": "bar", "detect_venv": "off", "minimum_contrast": 0 },
+    "terminal": {
+        "blinking": "on",
+        "cursor_shape": "bar",
+        "keep_selection_on_copy": false,
+        "detect_venv": "off",
+        "minimum_contrast": 0
+    },
     "auto_install_extensions": {
         "catppuccin": true,
         "catppuccin-icons": true,

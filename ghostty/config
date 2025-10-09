@@ -22,6 +22,8 @@ adjust-cursor-thickness = 1
 
 theme = light:Catppuccin Latte,dark:Catppuccin Mocha
 
+selection-clear-on-copy = true
+
 cursor-style = bar
 cursor-style-blink = true
 
