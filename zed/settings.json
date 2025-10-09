@@ -40,6 +40,7 @@
     "terminal": {
         "blinking": "on",
         "cursor_shape": "bar",
+        "keep_selection_on_copy": false,
         "env": { "GIT_EDITOR": "zed --wait" },
         "detect_venv": "off",
         "minimum_contrast": 0
