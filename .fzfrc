@@ -7,4 +7,4 @@
 --tabstop=4
 --scrollbar=▐
 --prompt=❯
---bind=shift-page-up:preview-page-up,shift-page-down:preview-page-down
+--bind=ctrl-k:kill-line,shift-page-up:preview-page-up,shift-page-down:preview-page-down
