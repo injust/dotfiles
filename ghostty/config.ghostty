@@ -69,6 +69,14 @@ keybind = ctrl+page_down=next_tab
 keybind = ctrl+shift+page_up=move_tab:-1
 keybind = ctrl+shift+page_down=move_tab:1
 
+# https://www.gnu.org/software/bash/manual/html_node/Commands-For-Killing.html
+# kill-line (C-k)
+keybind = cmd+delete=text:\x0b
+# kill-word (M-d)
+keybind = opt+delete=esc:d
+# unix-word-rubout (C-w)
+keybind = ctrl+backspace=text:\x17
+
 window-padding-x = 4
 window-padding-color = extend
 
