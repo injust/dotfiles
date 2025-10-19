@@ -10,6 +10,9 @@ set -gx HWATCH --beep --mouse --color --differences
 # Override Git's `LESS=FRX` default to unbreak mouse scrolling (https://github.com/gwsw/less/issues/445)
 set -gx LESS --quit-if-one-screen --ignore-case --jump-target=.1 --LONG-PROMPT --quiet --RAW-CONTROL-CHARS --incsearch --no-vbell
 set -gx LESSSECURE 1
+# Stop bat from passing `--quit-on-intr` to less (https://github.com/sharkdp/bat/blob/master/README.md#using-less-as-a-pager)
+# TODO(https://github.com/sharkdp/bat/issues/3444): This should stop ctrl-c from exiting less
+set -gx BAT_PAGER less $LESS
 
 # https://github.com/sharkdp/bat/blob/f754f43e84a275d7a9a0ee3544c485eed747b311/README.md#man
 set -gx MANPAGER "sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x08/, \"\", \$0); print }'\'' | bat -p -lman'"
