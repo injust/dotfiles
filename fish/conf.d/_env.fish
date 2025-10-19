@@ -1,3 +1,7 @@
+# Stop bat from passing `--quit-on-intr` to less (https://github.com/sharkdp/bat/blob/652489251b5e8eeefea0c339adf293e5f8341db7/README.md#using-less-as-a-pager)
+# TODO(https://github.com/sharkdp/bat/issues/3444): This should stop ctrl-c from exiting less
+set -x BAT_PAGER less $LESS
+
 set -x FZF_DEFAULT_COMMAND fd
 set -x FZF_DEFAULT_OPTS --layout=reverse --multi --highlight-line --marker=▌ --marker-multi-line=▖▌▘ --ellipsis=… --tabstop=4 --scrollbar=▐ --prompt=❯
 
