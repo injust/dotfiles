@@ -67,10 +67,7 @@
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
         "Git Config": { "hard_tabs": true }, // TODO(https://github.com/zed-extensions/git_firefly/pull/27)
         "Plain Text": { "show_edit_predictions": false },
-        "Python": {
-            "language_servers": ["basedpyright", "ruff"],
-            "code_actions_on_format": { "source.fixAll.ruff": true }
-        }
+        "Python": { "code_actions_on_format": { "source.fixAll.ruff": true } }
     },
     "lsp": {
         "basedpyright": {
