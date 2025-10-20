@@ -41,8 +41,14 @@
         "blinking": "on",
         "cursor_shape": "bar",
         "keep_selection_on_copy": false,
+        "env": { "GIT_EDITOR": "zed --wait" },
         "detect_venv": "off",
         "minimum_contrast": 0
+    },
+    "file_types": {
+        "Git Attributes": ["**/{git,.git,.git/info}/attributes"],
+        "Git Config": ["*.gitconfig", "**/{git,.git/modules,.git/modules/*}/config"],
+        "Git Ignore": ["**/{git,.git}/ignore", "**/.git/info/exclude"]
     },
     "auto_install_extensions": {
         "catppuccin": true,
@@ -58,6 +64,7 @@
     "completions": { "words": "disabled" },
     "languages": {
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
+        "Git Config": { "hard_tabs": true }, // TODO(https://github.com/zed-extensions/git_firefly/pull/27)
         "Plain Text": { "show_edit_predictions": false },
         "Python": { "code_actions_on_format": { "source.fixAll.ruff": true } }
     },
