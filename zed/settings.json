@@ -54,7 +54,12 @@
         "max_scroll_history_lines": 100000,
         "minimum_contrast": 0
     },
-    "file_types": { "JSONC": ["*.json"] },
+    "file_types": {
+        "Git Attributes": ["**/{git,.git,.git/info}/attributes"],
+        "Git Config": ["*.gitconfig", "**/{git,.git/modules,.git/modules/*}/config"],
+        "Git Ignore": ["**/{git,.git}/ignore", "**/.git/info/exclude"],
+        "JSONC": ["*.json"]
+    },
     "auto_install_extensions": {
         "catppuccin": true,
         "catppuccin-icons": true,
