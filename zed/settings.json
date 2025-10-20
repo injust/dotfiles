@@ -32,7 +32,7 @@
     "agent": { "enabled": false },
     "autosave": { "after_delay": { "milliseconds": 500 } },
     "tabs": { "git_status": true, "file_icons": true, "show_diagnostics": "all" },
-    "file_finder": { "include_ignored": true },
+    "file_finder": { "include_ignored": "all" },
     "extend_comment_on_newline": false, // TODO(https://github.com/zed-industries/zed/discussions/24972)
     "soft_wrap": "editor_width",
     "preferred_line_length": 120,
