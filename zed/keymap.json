@@ -2,7 +2,9 @@
     {
         "use_key_equivalents": true,
         "bindings": {
-            "cmd-shift-c": null // collab_panel::ToggleFocus
+            "cmd-shift-c": null, // collab_panel::ToggleFocus
+            "cmd-,": "zed::OpenSettingsFile",
+            "cmd-alt-,": "zed::OpenDefaultSettings"
         }
     },
     {
@@ -24,6 +26,8 @@
         "use_key_equivalents": true,
         "bindings": {
             "cmd-r": null, // workspace::ToggleRightDock
+            "cmd-k cmd-s": "zed::OpenKeymapFile",
+            "cmd-k cmd-alt-s": "zed::OpenDefaultKeymap",
             "f1": "command_palette::Toggle"
         }
     },
