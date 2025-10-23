@@ -1,5 +1,9 @@
 [
-    { "use_key_equivalents": true, "unbind": { "cmd-shift-c": "collab_panel::ToggleFocus" } },
+    {
+        "use_key_equivalents": true,
+        "bindings": { "cmd-,": "zed::OpenSettingsFile", "cmd-alt-,": "zed::OpenDefaultSettings" },
+        "unbind": { "cmd-shift-c": "collab_panel::ToggleFocus" }
+    },
     {
         "context": "Editor && mode == full && extension == py",
         "use_key_equivalents": true,
@@ -17,7 +21,11 @@
     {
         "context": "Workspace",
         "use_key_equivalents": true,
-        "bindings": { "f1": "command_palette::Toggle" },
+        "bindings": {
+            "cmd-k cmd-s": "zed::OpenKeymapFile",
+            "cmd-k cmd-alt-s": "zed::OpenDefaultKeymap",
+            "f1": "command_palette::Toggle"
+        },
         "unbind": { "cmd-r": "workspace::ToggleRightDock" }
     },
     {
