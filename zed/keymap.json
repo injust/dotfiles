@@ -12,6 +12,11 @@
         "use_key_equivalents": true,
         "bindings": { "cmd-r": ["task::Spawn", { "task_name": "run module '$ZED_FILE'" }] }
     },
+    {
+        "context": "Editor",
+        "use_key_equivalents": true,
+        "bindings": { "cmd-shift-l": "editor::SplitSelectionIntoLines" }
+    },
     { "context": "Picker", "use_key_equivalents": true, "bindings": { "cmd-w": "menu::Cancel" } },
     {
         "context": "ProjectSearchBar",
