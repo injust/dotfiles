@@ -28,6 +28,8 @@ set -x LESSUTFCHARDEF e000-e09f:w,e0a0-e0bf:p,e0c0-f8ff:w,f0001-fffff:w
 
 # https://github.com/sharkdp/bat/blob/master/README.md#man
 set -x MANPAGER "sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x08/, \"\", \$0); print }'\'' | bat --plain --language=man'"
+# Unset inherited $MANPATH to stop macOS path_helper from prepending to man's standard search path (https://github.com/fish-shell/fish-shell/issues/10684)
+status is-login; and command -q /usr/libexec/path_helper; and set -ge MANPATH
 
 set -x PYTHONSTARTUP $XDG_CONFIG_HOME/.pythonrc.py
 
