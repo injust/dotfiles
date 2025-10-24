@@ -15,6 +15,6 @@ set fzf_variables_opts --height=90% --border
 
 # Export because fzf preview runs in a non-interactive subshell
 set -x fzf_preview_dir_cmd la --oneline --color=always
-set -x fzf_preview_file_cmd bat --color=always --style=full,-changes,-grid,-numbers
+set -x fzf_preview_file_cmd bat --color=always --style=-grid
 
 fzf_configure_bindings --directory=ctrl-f --git-log=ctrl-g --git-status= --history=ctrl-r --processes= --variables=ctrl-v
