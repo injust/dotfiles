@@ -7,3 +7,6 @@
 
 --theme-dark="Catppuccin Mocha"
 --theme-light="Catppuccin Latte"
+
+# https://github.com/sharkdp/bat/issues/3454
+--style=full,-changes,-numbers
