@@ -1,2 +1,4 @@
 --theme-light="Catppuccin Latte"
 --theme-dark="Catppuccin Mocha"
+# TODO(https://github.com/sharkdp/bat/issues/3454)
+--style=full,-changes,-numbers
