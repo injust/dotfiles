@@ -15,4 +15,4 @@ set fzf_variables_opts --height=90% --border
 
 # Export because fzf preview runs in a non-interactive subshell
 set -x fzf_preview_dir_cmd la --oneline --color=always
-set -x fzf_preview_file_cmd bat --color=always --style=full,-changes,-grid,-numbers
+set -x fzf_preview_file_cmd bat --color=always --style=-grid
