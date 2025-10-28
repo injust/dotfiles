@@ -21,5 +21,9 @@
     "Ctrl-a": "StartOfTextToggle", // cmd-left
     "Ctrl-e": "EndOfLine", // cmd-right
     "Ctrl-k": "SelectToEndOfLine,Delete", // cmd-delete
-    "Ctrl-u": "SelectToStartOfLine,Backspace" // cmd-backspace
+    "Ctrl-u": "SelectToStartOfLine,Backspace", // cmd-backspace
+
+    // Override platform-specific keybinds
+    "Alt-Shift-Left": "SelectWordLeft",
+    "Alt-Shift-Right": "SelectWordRight"
 }
