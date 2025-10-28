@@ -23,6 +23,10 @@
     "Ctrl-k": "SelectToEndOfLine,Delete", // cmd-delete
     "Ctrl-u": "SelectToStartOfLine,Backspace", // cmd-backspace
 
+    // Override platform-specific keybinds
+    "Alt-Shift-Left": "SelectWordLeft",
+    "Alt-Shift-Right": "SelectWordRight",
+
     "command": {
         // https://github.com/micro-editor/micro/issues/3383
         "\u001b[96;5u": "AbortCommand" // ctrl-`
