@@ -24,6 +24,7 @@
     "inline_code_actions": false, // TODO(https://github.com/zed-industries/zed/issues/41563): Re-enable when global code actions don't show inline
     "toolbar": { "code_actions": true },
     "title_bar": { "show_branch_icon": true, "show_sign_in": false },
+    "sticky_scroll": { "enabled": true },
     "seed_search_query_from_cursor": "selection",
     "use_smartcase_search": true,
     "inlay_hints": { "enabled": true, "show_background": true },
