@@ -20,4 +20,6 @@ set -gx PYTHONSTARTUP ~/.config/pythonstartup.py
 
 set -gx RIPGREP_CONFIG_PATH ~/.config/ripgrep/config
 
+set -gx UV_VENV_CLEAR 1
+
 set -gx VISUAL micro
