@@ -48,7 +48,9 @@
     "file_types": {
         "Git Attributes": ["**/{git,.git,.git/info}/attributes"],
         "Git Config": ["*.gitconfig", "**/{git,.git/modules,.git/modules/*}/config"],
-        "Git Ignore": ["**/{,.}git/ignore", "**/.git/info/exclude"]
+        "Git Ignore": ["**/{,.}git/ignore", "**/.git/info/exclude"],
+        "Python constraints": ["*constraints*.txt"],
+        "Python requirements": ["*requirements*.{in,txt}", "**/requirements/*.{in,txt}"]
     },
     "auto_install_extensions": {
         "catppuccin": true,
