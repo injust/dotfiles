@@ -16,4 +16,7 @@ set -x PYTHONSTARTUP ~/.config/.pythonrc.py
 
 set -x RIPGREP_CONFIG_PATH ~/.config/ripgrep/config
 
+set -x UV_PYTHON_PREFERENCE only-managed
+set -x UV_VENV_CLEAR 1
+
 set -x VISUAL micro
