@@ -98,7 +98,10 @@
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
         "LOG": { "show_edit_predictions": false },
         "Plain Text": { "show_edit_predictions": false },
-        "Python": { "code_actions_on_format": { "source.fixAll.ruff": true } },
+        "Python": {
+            "language_servers": ["ty", "!basedpyright", "..."],
+            "code_actions_on_format": { "source.fixAll.ruff": true }
+        },
         "TOML": { "formatter": { "language_server": { "name": "tombi" } } }
     },
     "lsp": {
