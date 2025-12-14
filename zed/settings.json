@@ -46,8 +46,8 @@
         "env/",
         ".venv/",
         "venv/",
-        "~/.local/share/uv/python/",
-        "~/Library/Application Support/Zed/languages/basedpyright/node_modules/basedpyright/dist/typeshed-fallback/"
+        "~/.cache/ty/vendored/typeshed/",
+        "~/.local/share/uv/python/"
     ],
     "git": { "inline_blame": { "show_commit_summary": true } },
     "terminal": {
@@ -85,11 +85,11 @@
     "languages": {
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
         "Plain Text": { "show_edit_predictions": false },
-        "Python": { "code_actions_on_format": { "source.fixAll.ruff": true } }
+        "Python": { "code_actions_on_format": { "source.fixAll.ruff": true }, "language_servers": ["ruff", "ty"] }
     },
     "lsp": {
-        "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } },
-        "gopls": { "initialization_options": { "gofumpt": true } }
+        "gopls": { "initialization_options": { "gofumpt": true } },
+        "ty": { "settings": { "diagnosticMode": "workspace" } }
     },
     "which_key": { "enabled": true, "delay_ms": 500 }
 }
