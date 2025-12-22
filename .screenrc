@@ -1,0 +1,3 @@
+hardstatus string "[%S] %h"
+startup_message off
+truecolor on
