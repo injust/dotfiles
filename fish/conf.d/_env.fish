@@ -16,4 +16,6 @@ set -x PYTHONSTARTUP ~/.config/.pythonrc.py
 
 set -x RIPGREP_CONFIG_PATH ~/.config/ripgrep/config
 
+set -x SCREENRC ~/.config/.screenrc
+
 set -x VISUAL micro
