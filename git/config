@@ -117,8 +117,12 @@
 
 [merge]
 	autoStash = true
-	conflictStyle = zdiff3
+	conflictStyle = diff3
 	ff = false
+
+[merge "mergiraf"]
+	name = mergiraf
+	driver = mergiraf merge --git %O %A %B -s %S -x %X -y %Y -p %P -l %L
 
 [pager]
 	difft = less
