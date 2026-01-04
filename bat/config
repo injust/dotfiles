@@ -1,3 +1,7 @@
+# https://github.com/sharkdp/bat/pull/3814
+--map-syntax="/etc/dnf/dnf.conf:INI"
+--map-syntax="/etc/yum.repos.d/*.repo:INI"
+
 # https://github.com/sharkdp/bat/pull/3759
 --map-syntax="**/ghostty/**/*.ghostty:INI"
 --map-syntax="**/ghostty/themes/*:INI"
