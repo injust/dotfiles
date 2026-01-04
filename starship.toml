@@ -4,12 +4,12 @@
 # Move less important modules to the right prompt
 format = """\
 $username\
-$hostname\
 $directory\
 $git_branch\
 $git_commit\
 $git_state\
 $git_status\
+$hostname\
 $fill \
 $all\
 $line_break\
@@ -170,6 +170,7 @@ symbol = " "
 
 [hostname]
 ssh_symbol = " "
+format = "on [$ssh_symbol$hostname]($style)"  # "on" prefix instead of "in" suffix
 style = "bold green"  # Not dimmed
 
 [java]
