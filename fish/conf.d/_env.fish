@@ -2,16 +2,24 @@ status is-login; or exit
 
 set -x XDG_CONFIG_HOME ~/code/dotfiles
 
+# Homebrew paths
+switch (uname)
+    case Darwin
+        fish_add_path -g \
+            /usr/local/opt/curl/bin \
+            /usr/local/opt/file-formula/bin \
+            /usr/local/opt/uutils-coreutils/libexec/uubin \
+            /usr/local/opt/*/libexec/gnubin
+    case Linux
+        fish_add_path -g \
+            /home/linuxbrew/.linuxbrew/bin
+end
+
+# User paths
 fish_add_path -g \
-    # User
     $XDG_CONFIG_HOME/git/commands \
     ~/.local/bin \
-    ~/code/scripts \
-    # Homebrew
-    /usr/local/opt/curl/bin \
-    /usr/local/opt/file-formula/bin \
-    /usr/local/opt/uutils-coreutils/libexec/uubin \
-    /usr/local/opt/*/libexec/gnubin
+    ~/code/scripts
 
 set -x FZF_DEFAULT_COMMAND fd
 set -x FZF_DEFAULT_OPTS_FILE $XDG_CONFIG_HOME/.fzfrc
