@@ -19,9 +19,8 @@ set -gx LESSSECURE 1
 # TODO(https://github.com/sharkdp/bat/issues/3444): This should stop ctrl-c from exiting less
 set -gx BAT_PAGER less $LESS
 
-# https://github.com/sharkdp/bat/blob/2371077352b06954cc013e3a7830ae4021060d3b/README.md#man
-# TODO(bat v0.26.2): Simplify to `bat --plain --language=man` (https://github.com/sharkdp/bat/blob/59c58969024d48c0575c42250c7dd87a70106fbd/README.md#man)
-set -gx MANPAGER "sh -c 'awk '\''{ gsub(/\x1B\[[0-9;]*m/, \"\", \$0); gsub(/.\x08/, \"\", \$0); print }'\'' | bat --plain --language=man'"
+# https://github.com/sharkdp/bat/blob/59c58969024d48c0575c42250c7dd87a70106fbd/README.md#man
+set -gx MANPAGER bat --plain --language=man
 
 set -gx PRE_COMMIT_ALLOW_NO_CONFIG 1
 
