@@ -1,4 +1,4 @@
-"$schema" = "https://starship.rs/config-schema.json"
+#:schema https://starship.rs/config-schema.json
 
 # Insert $fill and trailing space before $line_break
 # Move less important modules to the right prompt
