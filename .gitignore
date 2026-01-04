@@ -10,4 +10,7 @@ micro/plug/
 
 raycast/
 
+# https://github.com/axodotdev/cargo-dist/issues/2240
+uv/uv-receipt.json
+
 zed/prompts/
