@@ -1,3 +1,9 @@
+set -l board_vendor_file /sys/devices/virtual/dmi/id/board_vendor
+if not set -q AWS_REGION; and test -f $board_vendor_file; and test (cat $board_vendor_file) = 'Amazon EC2'
+    set -l token (curl -fsS -X PUT http://169.254.169.254/latest/api/token -H 'X-AWS-EC2-Metadata-Token-TTL-Seconds: 5')
+    set -gx AWS_REGION (curl -fsS http://169.254.169.254/latest/meta-data/placement/region -H "X-AWS-EC2-Metadata-Token: $token")
+end
+
 set -gx FZF_DEFAULT_COMMAND fd
 set -gx FZF_DEFAULT_OPTS --multi --layout=reverse --scrollbar=▐ --prompt=❯ --marker=▌ --marker-multi-line=▖▌▘ --ellipsis=… --tabstop=4 --highlight-line
 
