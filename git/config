@@ -188,6 +188,9 @@
 [transfer]
 	fsckObjects = true
 
+[url "codecommit://"]
+	insteadOf = cc:
+
 [url "github.com:"]
 	insteadOf = gh:
 
