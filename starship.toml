@@ -1,5 +1,6 @@
 format = """\
 $username\
+${env_var.SHPOOL_SESSION_NAME}\
 $directory\
 $git_branch\
 $git_commit\
@@ -24,6 +25,11 @@ read_only = " "
 
 [directory.substitutions]
 "~/code/" = ""  # Truncate to project root
+
+[env_var.SHPOOL_SESSION_NAME]
+symbol = " "
+format = "[$symbol$env_value]($style) "  # Remove "with" prefix
+style = "bold sapphire"
 
 [git_branch]
 symbol = " "
