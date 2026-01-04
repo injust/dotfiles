@@ -1,5 +1,8 @@
 .ssh/*/config
+.ssh/authorized_keys
 .ssh/id_*
+
+.wrangler/
 
 catppuccin/*/*
 
