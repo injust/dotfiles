@@ -1,4 +1,5 @@
 .ssh/*/config
+.ssh/authorized_keys
 .ssh/id_*
 
 catppuccin/*/*
@@ -6,6 +7,8 @@ catppuccin/*/*
 fish/fisher/
 
 git/gitignore/*
+
+go/telemetry/
 
 micro/backups/
 micro/buffers/
