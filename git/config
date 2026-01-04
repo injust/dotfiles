@@ -49,9 +49,6 @@
 [commit]
 	gpgSign = true
 
-[core]
-	fsmonitor = true
-
 [credential]
 	helper =
 
