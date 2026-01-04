@@ -1,0 +1,14 @@
+default_dir = "."
+# TODO(https://github.com/shell-pool/shpool/issues/241): Inherit entire environment
+forward_env = [
+  "SHLVL",  # Starship SHLVL module
+  "SSH_CONNECTION",  # Starship Hostname module  # TODO(https://github.com/starship/starship/issues/7207): Use $SSH_TTY instead
+  "SSH_TTY",  # Starship Username module
+]
+initial_path = "/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin"  # https://github.com/shell-pool/shpool/issues/276
+prompt_prefix = ""
+session_restore_mode = { lines = 65535 }
+
+[[keybinding]]
+action = "detach"
+binding = "Ctrl-a d"
