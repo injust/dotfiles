@@ -1,11 +1,18 @@
 set -x XDG_CONFIG_HOME ~/code/dotfiles
 
 # Homebrew paths
-fish_add_path --path \
-    /usr/local/opt/curl/bin \
-    /usr/local/opt/file-formula/bin \
-    /usr/local/opt/uutils-coreutils/libexec/uubin \
-    /usr/local/opt/*/libexec/gnubin
+switch (uname)
+    case Darwin
+        fish_add_path --path \
+            /usr/local/opt/curl/bin \
+            /usr/local/opt/file-formula/bin \
+            /usr/local/opt/uutils-coreutils/libexec/uubin \
+            /usr/local/opt/*/libexec/gnubin
+    case Linux
+        fish_add_path --path \
+            /home/linuxbrew/.linuxbrew/bin
+end
+
 # User paths
 fish_add_path -g \
     $XDG_CONFIG_HOME/git/commands \
