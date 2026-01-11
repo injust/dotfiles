@@ -7,6 +7,12 @@
             "cmd-alt-,": "zed::OpenDefaultSettings"
         }
     },
+    {
+        "context": "BufferSearchBar || ProjectSearchBar",
+        "bindings": {
+            "ctrl-enter": "editor::Newline" // https://github.com/zed-industries/zed/issues/15046
+        }
+    },
     { "context": "Editor", "bindings": { "cmd-shift-l": "editor::SplitSelectionIntoLines" } },
     {
         "context": "Editor && extension == py",
