@@ -8,6 +8,11 @@
         }
     },
     {
+        "context": "BufferSearchBar || ProjectSearchBar",
+        "use_key_equivalents": true,
+        "bindings": { "ctrl-enter": "editor::Newline" }
+    },
+    {
         "context": "Editor",
         "use_key_equivalents": true,
         "bindings": { "cmd-shift-l": "editor::SplitSelectionIntoLines" }
