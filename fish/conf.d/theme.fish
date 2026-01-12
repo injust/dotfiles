@@ -2,9 +2,12 @@ status is-interactive; or exit
 
 fish_config theme choose 'Catppuccin Mocha'
 
+# https://github.com/junegunn/fzf/issues/4549
+set -a fzf_preview_file_cmd --theme=\$__fish_terminal_color_theme
+
 function apply_theme --on-variable fish_terminal_color_theme
-    # https://github.com/junegunn/fzf/issues/4549
-    set -a fzf_preview_file_cmd --theme=$fish_terminal_color_theme
+    # https://github.com/fish-shell/fish-shell/issues/12308
+    set -gx __fish_terminal_color_theme $fish_terminal_color_theme
 
     switch $fish_terminal_color_theme
         case light
