@@ -44,6 +44,20 @@
     "extend_comment_on_newline": false, // https://github.com/zed-industries/zed/discussions/24972
     "preferred_line_length": 120,
     "telemetry": { "diagnostics": false, "metrics": false },
+    // https://github.com/zed-industries/zed/discussions/46827
+    "read_only_files": [
+        // `detect_venv.directories`
+        ".env/",
+        "env/",
+        ".venv/",
+        "venv/",
+        // basedpyright
+        "~/Library/Application Support/Zed/languages/basedpyright/node_modules/basedpyright/dist/typeshed-fallback/",
+        // ty
+        "~/.cache/ty/vendored/typeshed/",
+        // uv
+        "~/.local/share/uv/python/"
+    ],
     "git": { "inline_blame": { "show_commit_summary": true } },
     "edit_predictions": { "provider": "sweep", "sweep": { "privacy_mode": true } },
     "terminal": {
