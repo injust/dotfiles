@@ -7,7 +7,8 @@
     {
         "context": "Editor",
         "use_key_equivalents": true,
-        "bindings": { "cmd-shift-l": "editor::SplitSelectionIntoLines" }
+        "bindings": { "cmd-shift-l": "editor::SplitSelectionIntoLines" },
+        "unbind": { "cmd-\\": "pane::SplitRight" }
     },
     {
         "context": "Editor && mode == full && extension == py",
