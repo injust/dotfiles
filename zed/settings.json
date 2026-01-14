@@ -40,6 +40,15 @@
     "soft_wrap": "editor_width",
     "preferred_line_length": 120,
     "telemetry": { "diagnostics": false, "metrics": false },
+    "read_only_files": [
+        // https://github.com/zed-industries/zed/discussions/46827
+        ".env/",
+        "env/",
+        ".venv/",
+        "venv/",
+        "~/.local/share/uv/python/",
+        "~/Library/Application Support/Zed/languages/basedpyright/node_modules/basedpyright/dist/typeshed-fallback/"
+    ],
     "git": { "inline_blame": { "show_commit_summary": true } },
     "terminal": {
         "blinking": "on",
