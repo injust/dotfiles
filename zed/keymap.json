@@ -15,7 +15,10 @@
     {
         "context": "Editor",
         "use_key_equivalents": true,
-        "bindings": { "cmd-shift-l": "editor::SplitSelectionIntoLines" }
+        "bindings": {
+            "cmd-\\": null, // pane::SplitRight
+            "cmd-shift-l": "editor::SplitSelectionIntoLines"
+        }
     },
     {
         "context": "Editor && extension == py",
