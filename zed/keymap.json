@@ -39,14 +39,16 @@
         "use_key_equivalents": true,
         "bindings": {
             "cmd-r": null, // workspace::ToggleRightDock
-            "cmd-k cmd-s": "zed::OpenKeymapFile",
-            "cmd-k cmd-alt-s": "zed::OpenDefaultKeymap",
             "f1": "command_palette::Toggle"
         }
     },
     {
         "context": "Workspace && !Terminal",
         "use_key_equivalents": true,
-        "bindings": { "ctrl-r": ["projects::OpenRecent", { "create_new_window": false }] }
+        "bindings": {
+            "cmd-k cmd-s": "zed::OpenKeymapFile",
+            "cmd-k cmd-alt-s": "zed::OpenDefaultKeymap",
+            "ctrl-r": ["projects::OpenRecent", { "create_new_window": false }]
+        }
     }
 ]
