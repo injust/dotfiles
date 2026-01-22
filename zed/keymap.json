@@ -7,8 +7,18 @@
     {
         "context": "Editor",
         "use_key_equivalents": true,
-        "bindings": { "cmd-shift-l": "editor::SplitSelectionIntoLines" },
-        "unbind": { "cmd-\\": "pane::SplitRight" }
+        "bindings": {
+            "cmd-ctrl-up": "editor::SelectLargerSyntaxNode",
+            "cmd-ctrl-down": "editor::SelectSmallerSyntaxNode",
+            "cmd-ctrl-left": "editor::SelectPreviousSyntaxNode",
+            "cmd-ctrl-right": "editor::SelectNextSyntaxNode",
+            "cmd-shift-l": "editor::SplitSelectionIntoLines"
+        },
+        "unbind": {
+            "cmd-\\": "pane::SplitRight",
+            "ctrl-shift-left": "editor::SelectSmallerSyntaxNode",
+            "ctrl-shift-right": "editor::SelectLargerSyntaxNode"
+        }
     },
     {
         "context": "Editor && mode == full && extension == py",
