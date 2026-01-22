@@ -17,6 +17,12 @@
         "use_key_equivalents": true,
         "bindings": {
             "cmd-\\": null, // pane::SplitRight
+            "ctrl-shift-left": null, // editor::SelectSmallerSyntaxNode
+            "ctrl-shift-right": null, // editor::SelectLargerSyntaxNode
+            "cmd-ctrl-up": "editor::SelectLargerSyntaxNode",
+            "cmd-ctrl-down": "editor::SelectSmallerSyntaxNode",
+            "cmd-ctrl-left": "editor::SelectPreviousSyntaxNode",
+            "cmd-ctrl-right": "editor::SelectNextSyntaxNode",
             "cmd-shift-l": "editor::SplitSelectionIntoLines"
         }
     },
