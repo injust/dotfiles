@@ -5,7 +5,7 @@ if test -f $board_vendor_file; and test (cat $board_vendor_file) = 'Amazon EC2'
 end
 
 set -gx FZF_DEFAULT_COMMAND fd
-set -gx FZF_DEFAULT_OPTS --multi --layout=reverse --scrollbar=▐ --prompt=❯ --marker=▌ --marker-multi-line=▖▌▘ --ellipsis=… --tabstop=4 --highlight-line --preview-window=wrap
+set -gx FZF_DEFAULT_OPTS --multi --layout=reverse --scrollbar=▐ --prompt=❯ --marker=▌ --marker-multi-line=▖▌▘ --ellipsis=… --tabstop=4 --highlight-line
 
 set -gx HOMEBREW_NO_ANALYTICS 1 # In addition to `brew analytics off`
 set -gx HOMEBREW_NO_ENV_HINTS 1
