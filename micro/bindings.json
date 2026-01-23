@@ -25,5 +25,7 @@
 
     // Override platform-specific keybinds
     "Alt-Shift-Left": "SelectWordLeft",
-    "Alt-Shift-Right": "SelectWordRight"
+    "Alt-Shift-Right": "SelectWordRight",
+
+    "command": { "Ctrl-c": "Copy", "Ctrl-x": "Cut" } // https://github.com/micro-editor/micro/issues/3972
 }
