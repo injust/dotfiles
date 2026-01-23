@@ -8,7 +8,5 @@
     "rmtrailingws": true,
     "scrollbar": true,
     "scrollbarchar": "▐",
-    "softwrap": true,
-    "tabmovement": true,
-    "wordwrap": true
+    "tabmovement": true
 }
