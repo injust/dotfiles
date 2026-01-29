@@ -28,10 +28,6 @@
     "Alt-Shift-Right": "SelectWordRight",
 
     "command": {
-        "\u001b[96;5u": "AbortCommand", // ctrl-`
-
-        // https://github.com/micro-editor/micro/issues/3972
-        "Ctrl-c": "Copy",
-        "Ctrl-x": "Cut"
+        "\u001b[96;5u": "AbortCommand" // ctrl-`
     }
 }
