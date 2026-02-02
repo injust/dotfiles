@@ -20,6 +20,9 @@ adjust-cursor-thickness = 1
 
 theme = light:Catppuccin Latte,dark:Catppuccin Mocha
 
+# Add equal sign and prompt character (❯) to word boundaries
+selection-word-chars = " \t'\"│`|:;,()[]{}<>$=❯"
+
 cursor-style = bar
 cursor-style-blink = true
 
