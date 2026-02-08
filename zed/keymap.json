@@ -31,6 +31,11 @@
         "use_key_equivalents": true,
         "bindings": { "cmd-r": ["task::Spawn", { "task_name": "run module '$ZED_FILE'" }] }
     },
+    {
+        "context": "Pane || (!ContextEditor > Editor && mode == full) || Terminal", // https://github.com/zed-industries/zed/issues/48713
+        "use_key_equivalents": true,
+        "bindings": { "ctrl-enter": "workspace::ToggleZoom" }
+    },
     { "context": "Picker", "use_key_equivalents": true, "bindings": { "cmd-w": "menu::Cancel" } },
     {
         "context": "ProjectSearchBar",
