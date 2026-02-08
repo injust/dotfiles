@@ -40,6 +40,10 @@ keybind = cmd+enter=ignore
 keybind = cmd+arrow_up=unbind
 keybind = cmd+arrow_down=unbind
 
+# Use ctrl-enter for toggle_split_zoom
+keybind = cmd+shift+enter=unbind
+keybind = ctrl+enter=toggle_split_zoom
+
 # Rebind scroll_page_up/down to jump_to_prompt (to free up cmd-shift-up/down for adjust_selection)
 keybind = cmd+page_up=jump_to_prompt:-1
 keybind = cmd+page_down=jump_to_prompt:1
