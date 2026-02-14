@@ -27,6 +27,7 @@
     "inline_code_actions": false, // https://github.com/zed-industries/zed/issues/41563
     "toolbar": { "code_actions": true },
     "title_bar": { "show_branch_icon": true, "show_sign_in": false },
+    "fast_scroll_sensitivity": 1.0,
     "sticky_scroll": { "enabled": true },
     "seed_search_query_from_cursor": "selection",
     "use_smartcase_search": true,
