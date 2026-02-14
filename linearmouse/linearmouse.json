@@ -1,0 +1,10 @@
+{
+    "$schema": "https:\/\/schema.linearmouse.app\/0.10.4",
+    "schemes": [
+        {
+            "buttons": { "universalBackForward": true },
+            "if": { "device": { "category": "mouse" } },
+            "scrolling": { "reverse": true }
+        }
+    ]
+}
