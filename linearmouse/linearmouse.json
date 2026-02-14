@@ -1,0 +1,19 @@
+{
+    "$schema": "https:\/\/schema.linearmouse.app\/0.11.2",
+    "schemes": [
+        {
+            "buttons": { "universalBackForward": true },
+            "if": { "device": { "category": "mouse" } },
+            "scrolling": { "reverse": true }
+        },
+        {
+            // https://github.com/linearmouse/linearmouse/issues/1153
+            "if": { "app": "com.colliderli.iina", "device": { "category": "mouse" } },
+            "scrolling": { "reverse": false }
+        },
+        {
+            "if": { "app": "com.colliderli.iina", "device": { "category": "trackpad" } },
+            "scrolling": { "reverse": { "horizontal": true } }
+        }
+    ]
+}
