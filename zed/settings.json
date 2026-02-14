@@ -38,6 +38,7 @@
     "agent": { "enabled": false },
     "semantic_tokens": "combined",
     "document_folding_ranges": "on",
+    "document_symbols": "on",
     "autosave": { "after_delay": { "milliseconds": 500 } },
     "tab_bar": { "show_pinned_tabs_in_separate_row": true },
     "tabs": { "git_status": true, "file_icons": true, "show_diagnostics": "all" },
