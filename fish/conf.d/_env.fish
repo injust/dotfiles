@@ -2,6 +2,7 @@ set -x XDG_CONFIG_HOME ~/code/dotfiles
 
 # Homebrew paths
 fish_add_path --path \
+    /usr/local/opt/{curl,file-formula}/bin \
     /usr/local/opt/*/libexec/gnubin
 # User paths
 fish_add_path -g \
