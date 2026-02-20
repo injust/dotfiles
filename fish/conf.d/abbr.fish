@@ -4,3 +4,4 @@ abbr find -- fd
 abbr grep -- rg
 abbr where -- type -a
 abbr which -- type
+abbr xxhash -- xxh3sum
