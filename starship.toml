@@ -1,5 +1,6 @@
 format = """\
 $username\
+${env_var.ZMX_SESSION}\
 $directory\
 $git_branch\
 $git_commit\
@@ -24,6 +25,12 @@ read_only = " "
 
 [directory.substitutions]
 "~/code/" = ""  # Truncate to project root
+
+[env_var.ZMX_SESSION]
+symbol = " "
+format = "[$symbol$env_value]($style) "  # Remove "with" prefix
+description = "zmx session name"
+style = "bold sapphire"
 
 [git_branch]
 symbol = " "
