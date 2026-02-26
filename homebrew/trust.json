@@ -1,1 +1,1 @@
-{ "trustedcommands": ["domt4/autoupdate/autoupdate"] }
+{ "trustedcommands": ["domt4/autoupdate/autoupdate"], "trustedformulae": ["neurosnap/tap/zmx"] }
