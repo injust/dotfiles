@@ -1,3 +1,4 @@
+tap "neurosnap/tap"
 brew "asciinema"
 brew "bash"
 brew "bat"
@@ -62,6 +63,7 @@ brew "xh"
 brew "xray"
 brew "yt-dlp"
 brew "zoxide"
+brew "neurosnap/tap/zmx", trusted: true
 cask "1password"
 cask "aldente"
 cask "alt-tab"
