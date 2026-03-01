@@ -37,7 +37,7 @@
 	sw = switch
 	swc = switch --create
 
-	show-ignored = !git clean -d --dry-run -X | sed 's/^Would remove //' | eza --classify --icons --hyperlink --treat-dirs-as-files
+	show-ignored = "!git ls-files -z --others --ignored --directory --exclude-standard \"${GIT_PREFIX:-.}\" | xargs -0 --no-run-if-empty eza --classify --icons --hyperlink --treat-dirs-as-files"
 
 [branch]
 	autoSetupRebase = always
