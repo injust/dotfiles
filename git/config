@@ -36,6 +36,7 @@
 	st = status
 	sw = switch
 	swc = switch --create
+	ws = watch-sync
 
 	show-ignored = "!git ls-files -z --others --ignored --directory --exclude-standard \"${GIT_PREFIX:-.}\" | xargs -0 --no-run-if-empty eza --classify --icons --hyperlink --treat-dirs-as-files"
 
