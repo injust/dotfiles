@@ -1,0 +1,17 @@
+#! /usr/bin/env fish
+
+if not set -q argv[1]
+    echo 'Usage: git watch-sync [user@]<host> [dest]'
+    return 2
+end
+
+set -l REMOTE $argv[1]
+set -l DEST $argv[2]
+set -l REPO_ROOT (git rev-parse --show-toplevel)
+if not set -q argv[2]
+    set DEST "~/code/$(basename $REPO_ROOT)/"
+end
+
+watchexec --interactive --exit-on-error --on-busy-update=queue --clear -- \
+    git ls-files -z --cached --others --exclude-standard --full-name \| \
+    rsync -avz --mkpath --ignore-missing-args --files-from=- --from0 (string escape -- $REPO_ROOT $REMOTE:$DEST | string join ' ')
