@@ -1,0 +1,4 @@
+#! /usr/bin/env fish
+
+watchexec --interactive --exit-on-error --on-busy-update=queue --clear -- \
+    git sync $argv
