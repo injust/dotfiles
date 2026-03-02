@@ -8,6 +8,7 @@ fish_add_path --path \
     /usr/local/opt/uutils-coreutils/libexec/uubin
 # User paths
 fish_add_path -g \
+    $XDG_CONFIG_HOME/git/commands \
     ~/.local/bin \
     ~/code/scripts
 
