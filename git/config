@@ -47,6 +47,7 @@
 	st = status
 	sw = switch
 	swc = switch --create
+	ws = watch-sync
 
 [branch]
 	autoSetupRebase = always
