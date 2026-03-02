@@ -1,0 +1,17 @@
+#! /usr/bin/env fish
+
+set -l repo_root (git rev-parse --show-toplevel); or exit
+
+if not set -q argv[1]
+    echo "Usage: $(status basename) [user@]<host> [dest]" >&2
+    exit 2
+end
+set -l remote $argv[1]
+
+set -l dest $argv[2]
+if not set -q argv[2]
+    set dest "~/code/$(basename $repo_root)/"
+end
+
+git ls-files -z --cached --others --exclude-standard --full-name |
+    rsync -avz --mkpath --ignore-missing-args --files-from=- --from0 -- $repo_root $remote:$dest

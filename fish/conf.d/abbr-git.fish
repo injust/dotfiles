@@ -97,3 +97,6 @@ abbr --command=git sw -- switch
 
 abbr gswc -- gs branch create --no-commit
 abbr --command=git swc -- switch -c
+
+abbr gws -- git watch-sync
+abbr --command=git ws -- watch-sync
