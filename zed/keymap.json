@@ -60,6 +60,7 @@
         "use_key_equivalents": true,
         "bindings": {
             "cmd-r": null, // workspace::ToggleRightDock
+            "cmd-9": "workspace::ActivateLastPane",
             "f1": "command_palette::Toggle"
         }
     },
