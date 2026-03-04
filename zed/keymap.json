@@ -8,6 +8,14 @@
         }
     },
     {
+        "context": "BufferSearchBar || ProjectSearchBar",
+        "use_key_equivalents": true,
+        "bindings": {
+            "cmd-up": ["editor::MoveToBeginningOfLine", { "stop_at_soft_wraps": false, "stop_at_indent": false }],
+            "cmd-down": ["editor::MoveToEndOfLine", { "stop_at_soft_wraps": false }]
+        }
+    },
+    {
         "context": "!ContextEditor > Editor && mode == full",
         "use_key_equivalents": true,
         "bindings": {
