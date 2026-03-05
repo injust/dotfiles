@@ -13,6 +13,7 @@ $jobs\
 $shlvl\
 $character\
 """
+add_newline = false
 palette = "catppuccin_mocha"
 
 [character]
