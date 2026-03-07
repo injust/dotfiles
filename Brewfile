@@ -25,7 +25,7 @@ brew "fisher"
 brew "fzf"
 brew "gawk"
 brew "git"
-brew "git-delta", args: ["HEAD"]
+brew "git-delta"
 brew "git-interactive-rebase-tool"
 brew "git-lfs"
 brew "git-spice"
