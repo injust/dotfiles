@@ -107,8 +107,7 @@
                     "arguments": ["--filename", "{buffer_path}", "--simplify", "--indent", "4"]
                 }
             }
-        },
-        "TOML": { "formatter": { "language_server": { "name": "tombi" } } }
+        }
     },
     "lsp": {
         "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } },
