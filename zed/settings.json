@@ -102,8 +102,7 @@
         "Python": {
             "language_servers": ["ty", "!basedpyright", "..."],
             "code_actions_on_format": { "source.fixAll.ruff": true }
-        },
-        "TOML": { "formatter": { "language_server": { "name": "tombi" } } }
+        }
     },
     "lsp": {
         "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } },
