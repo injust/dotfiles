@@ -54,6 +54,14 @@
 	file-decoration-style = "#6c7086" box ul  # Add `box ul`
 	hunk-header-decoration-style = "#6c7086"  # Remove `box ul`
 
+	# Octicons
+	file-added-label = 
+	file-copied-label = 
+	file-modified-label = 
+	file-removed-label = 
+	file-renamed-label = 
+	hunk-label = 
+
 	max-line-length = 0
 	max-syntax-highlighting-length = 0
 	navigate = true
