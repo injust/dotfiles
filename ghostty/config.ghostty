@@ -40,6 +40,10 @@ keybind = cmd+enter=ignore
 keybind = cmd+arrow_up=unbind
 keybind = cmd+arrow_down=unbind
 
+# Populate scrollback search with selected text
+keybind = cmd+f=search_selection
+keybind = chain=start_search
+
 # Use ctrl-enter for toggle_split_zoom
 keybind = cmd+shift+enter=unbind
 keybind = ctrl+enter=toggle_split_zoom
