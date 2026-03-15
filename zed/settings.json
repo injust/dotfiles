@@ -80,6 +80,7 @@
         "Python requirements": ["*requirements*.{in,txt}", "**/requirements/*.{in,txt}"]
     },
     "auto_install_extensions": {
+        "basher": true,
         "catppuccin": true,
         "catppuccin-icons": true,
         "csv": true,
@@ -100,7 +101,15 @@
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
         "LOG": { "show_edit_predictions": false },
         "Plain Text": { "show_edit_predictions": false },
-        "Python": { "language_servers": ["ruff", "ty"], "code_actions_on_format": { "source.fixAll.ruff": true } }
+        "Python": { "language_servers": ["ruff", "ty"], "code_actions_on_format": { "source.fixAll.ruff": true } },
+        "Shell Script": {
+            "formatter": {
+                "external": {
+                    "command": "shfmt",
+                    "arguments": ["--filename", "{buffer_path}", "--simplify", "--indent", "4"]
+                }
+            }
+        }
     },
     "lsp": {
         "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } },
