@@ -44,7 +44,10 @@
     {
         "context": "Terminal",
         "use_key_equivalents": true,
-        "bindings": { "cmd-r": "terminal::RerunTask" },
+        "bindings": {
+            "cmd-r": "terminal::RerunTask",
+            "ctrl-delete": ["terminal::SendText", "\u001b[3;5~"] // https://github.com/zed-industries/zed/issues/51725
+        },
         "unbind": {
             "ctrl-enter": "assistant::InlineAssist" // https://github.com/zed-industries/zed/discussions/50762
         }
