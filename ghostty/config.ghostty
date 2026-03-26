@@ -40,6 +40,9 @@ keybind = cmd+enter=ignore
 keybind = cmd+arrow_up=unbind
 keybind = cmd+arrow_down=unbind
 
+# Work around broken pasting in scrollback search (https://github.com/ghostty-org/ghostty/issues/10749#issuecomment-4131892831)
+keybind = cmd+v=paste_from_clipboard
+
 # Populate scrollback search with selected text
 keybind = cmd+f=search_selection
 keybind = chain=start_search
