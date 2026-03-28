@@ -2,6 +2,9 @@ status is-interactive; or exit
 
 set -a FZF_DEFAULT_OPTS --bind=ctrl-k:kill-line,shift-page-up:preview-page-up,shift-page-down:preview-page-down
 
+# fish: Use autopair for shift-tab completion (with pager search)
+bind shift-tab _autopair_shift_tab
+
 # fish: Override platform-specific keybinds (https://github.com/fish-shell/fish-shell/issues/10926#issue-2753198774)
 bind alt-left prevd-or-backward-word
 bind alt-right nextd-or-forward-word
