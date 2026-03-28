@@ -1,2 +1,3 @@
 [global]
+strict_env = true
 log_format = "-"
