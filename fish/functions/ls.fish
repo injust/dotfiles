@@ -1,3 +1,3 @@
 function ls --description='alias ls=eza -F --icons --hyperlink' --wraps=eza
-    eza --classify --icons --hyperlink $argv
+    eza --classify --icons --hyperlink=auto $argv
 end
