@@ -10,3 +10,6 @@ bind ctrl-right forward-token
 bind ctrl-backspace backward-kill-token
 bind ctrl-delete kill-token
 bind ctrl-alt-h backward-kill-word
+
+# Ghostty: Work around broken cmd-k (https://github.com/ghostty-org/ghostty/discussions/10288)
+bind ctrl-l clear-screen
