@@ -1,3 +1,3 @@
-function wget --description='alias wget=wget2' --wraps=wget2
-    wget2 $argv
+function wget --description='alias wget=wcurl' --wraps=wcurl
+    wcurl $argv
 end
