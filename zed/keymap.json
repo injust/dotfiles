@@ -23,6 +23,8 @@
             "cmd-shift-l": "editor::SplitSelectionIntoLines"
         },
         "unbind": {
+            "cmd-[": "editor::Outdent",
+            "cmd-]": "editor::Indent",
             "cmd-\\": "pane::SplitRight",
             "ctrl-shift-left": "editor::SelectSmallerSyntaxNode",
             "ctrl-shift-right": "editor::SelectLargerSyntaxNode"
@@ -33,7 +35,11 @@
         "use_key_equivalents": true,
         "bindings": { "cmd-r": ["task::Spawn", { "task_name": "run module '$ZED_FILE'" }] }
     },
-    { "context": "Pane", "use_key_equivalents": true, "bindings": { "ctrl-enter": "workspace::ToggleZoom" } },
+    {
+        "context": "Pane",
+        "use_key_equivalents": true,
+        "bindings": { "cmd-[": "pane::GoBack", "cmd-]": "pane::GoForward", "ctrl-enter": "workspace::ToggleZoom" }
+    },
     { "context": "Picker", "use_key_equivalents": true, "bindings": { "cmd-w": "menu::Cancel" } },
     {
         "context": "ProjectSearchBar",
