@@ -27,6 +27,7 @@ cursor-style = bar
 cursor-style-blink = true
 
 mouse-hide-while-typing = true
+mouse-scroll-multiplier = 1
 
 background-opacity = 0.9
 background-blur = true
