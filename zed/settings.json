@@ -39,6 +39,7 @@
         "show_worktree_name": false,
         "show_sign_in": false
     },
+    "fast_scroll_sensitivity": 1.0,
     "sticky_scroll": { "enabled": true },
     "seed_search_query_from_cursor": "selection",
     "use_smartcase_search": true,
