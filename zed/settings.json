@@ -116,6 +116,7 @@
     "completions": { "words": "disabled" },
     "languages": {
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
+        "Plain Text": { "language_servers": [] },
         "Python": {
             "show_edit_predictions": true,
             "language_servers": ["ruff", "ty"],
