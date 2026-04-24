@@ -26,6 +26,10 @@
     "completion_detail_alignment": "right",
     "show_signature_help_after_edits": true,
     "inline_code_actions": false, // https://github.com/zed-industries/zed/issues/41563
+    // "code_lens": "on",
+    // "code_lens": "menu",
+    // "go_to_definition_scroll_strategy": "center",
+    // "go_to_definition_scroll_strategy": "top",
     "excerpt_context_lines": 5,
     "toolbar": { "code_actions": true },
     "title_bar": { "show_branch_status_icon": true, "show_sign_in": false },
