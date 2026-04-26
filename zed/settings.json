@@ -121,9 +121,6 @@
                     "arguments": ["--filename", "{buffer_path}", "--simplify", "--indent", "4"]
                 }
             }
-        },
-        "TOML": {
-            "show_edit_predictions": false // https://github.com/tombi-toml/tombi/issues/1556
         }
     },
     "lsp": {
