@@ -2,6 +2,7 @@ status is-interactive; or exit
 
 # https://github.com/fish-shell/fish-shell/blob/9870faa8beceb8807a79802cb6ff457e7a3bf956/share/functions/fish_title.fish:
 # - `caffeinate` command -> ☕
+# - `~/code/` pwd prefix -> 🔨
 # - Strip leading whitespace from $argv[1]
 # - Unshorten command, hostname, and pwd
 
@@ -24,5 +25,7 @@ function fish_title
         set command
     end
 
-    echo -- $ssh $command (prompt_pwd --dir-length=0)
+    set -l pwd (prompt_pwd --dir-length=0 | string replace --regex --max-matches=1 '^~/code($|/)' 🔨)
+
+    echo -- $ssh $command $pwd
 end
