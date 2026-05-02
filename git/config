@@ -176,6 +176,9 @@
 [transfer]
 	fsckObjects = true
 
+[url "codeberg.org:"]
+	insteadOf = cb:
+
 [url "github.com:"]
 	insteadOf = gh:
 
