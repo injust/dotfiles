@@ -1,1 +1,3 @@
+.ssh/id_*
+
 git/gitignore/*
