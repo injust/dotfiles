@@ -4,12 +4,12 @@
         {
             "buttons": { "universalBackForward": true },
             "if": { "device": { "category": "mouse" } },
-            "scrolling": { "reverse": true }
+            "scrolling": { "reverse": true, "smoothed": { "bouncing": false, "enabled": true, "preset": "linear" } }
         },
         {
             // https://github.com/linearmouse/linearmouse/issues/1153
             "if": { "app": "com.colliderli.iina", "device": { "category": "mouse" } },
-            "scrolling": { "reverse": false }
+            "scrolling": { "reverse": false, "smoothed": { "enabled": false } }
         },
         {
             "if": { "app": "com.colliderli.iina", "device": { "category": "trackpad" } },
