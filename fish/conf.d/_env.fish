@@ -3,6 +3,7 @@ status is-login; or exit
 set -x XDG_CONFIG_HOME ~/code/dotfiles
 
 fish_add_path -g \
+    $XDG_CONFIG_HOME/git/commands \
     ~/.local/bin \
     ~/code/scripts
 
