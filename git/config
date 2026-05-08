@@ -4,6 +4,7 @@
 
 [alias]
 	lol = log --oneline --graph
+	show-ignored = "!f() { git ls-files --others --ignored --directory --exclude-standard \"${GIT_PREFIX:-.}\"; }; f"
 
 	# abbr-git.fish
 	am = commit --amend --no-edit
