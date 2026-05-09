@@ -120,6 +120,10 @@
 [grep]
 	lineNumber = true
 
+[hook "prek pre-commit"]
+	event = pre-commit
+	command = prek hook-impl --hook-type=pre-commit --config=$XDG_CONFIG_HOME/prek/global-hooks.toml --quiet --
+
 [include]
 	path = catppuccin.gitconfig
 
