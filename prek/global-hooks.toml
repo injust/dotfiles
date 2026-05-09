@@ -1,0 +1,31 @@
+[auto_update]
+cooldown_days = 7
+
+[[repos]]
+repo = "builtin"
+hooks = [
+  { id = "check-case-conflict", priority = 0 },
+  { id = "check-executables-have-shebangs", priority = 0 },
+  { id = "check-illegal-windows-names", priority = 0 },
+  { id = "check-json5", priority = 0 },
+  { id = "check-merge-conflict", args = ["--assume-in-merge"], priority = 0 },
+  { id = "check-shebang-scripts-are-executable", priority = 0 },
+  { id = "check-symlinks", priority = 0 },
+  { id = "check-toml", priority = 0 },
+  { id = "check-vcs-permalinks", priority = 0 },
+  { id = "check-xml", priority = 0 },
+  { id = "check-yaml", priority = 0 },
+  { id = "destroyed-symlinks", priority = 0 },
+  { id = "detect-private-key", priority = 0 },
+  { id = "end-of-file-fixer" },
+  { id = "fix-byte-order-marker" },
+  { id = "mixed-line-ending" },
+  { id = "trailing-whitespace" },
+]
+
+[[repos]]
+repo = "https://github.com/betterleaks/betterleaks"
+rev = "v1.5.0"
+hooks = [
+  { id = "betterleaks", priority = 0 },
+]
