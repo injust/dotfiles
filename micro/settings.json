@@ -8,5 +8,6 @@
     "rmtrailingws": true,
     "scrollbar": true,
     "scrollbarchar": "▐",
-    "tabmovement": true
+    "tabmovement": true,
+    "xterm": true // https://github.com/micro-editor/micro/issues/4093
 }
