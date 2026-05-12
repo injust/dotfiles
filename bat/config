@@ -1,3 +1,6 @@
+# Let pager handle text wrapping to unbreak terminal search
+--wrap=never
+
 # https://github.com/sharkdp/bat/pull/3814
 --map-syntax="/etc/dnf/dnf.conf:INI"
 --map-syntax="/etc/yum.repos.d/*.repo:INI"
