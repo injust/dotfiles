@@ -21,6 +21,7 @@
     "buffer_font_size": 13,
     "cli_default_open_behavior": "new_window",
     "zoomed_padding": false,
+    "focus_follows_mouse": { "enabled": true, "debounce_ms": 100 },
     "minimum_contrast_for_highlights": 0,
     "colorize_brackets": true,
     "completion_detail_alignment": "right",
