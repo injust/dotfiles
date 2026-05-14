@@ -85,6 +85,8 @@ window-padding-color = extend
 
 window-inherit-working-directory = false
 
+focus-follows-mouse = true
+
 clipboard-read = allow
 
 quit-after-last-window-closed = true
