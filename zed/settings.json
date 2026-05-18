@@ -86,6 +86,7 @@
         "minimum_contrast": 0
     },
     "file_types": {
+        "Ghostty": ["**/com.mitchellh.ghostty/config", "**/ghostty/config", "**/ghostty/themes/*"],
         "Git Attributes": ["**/{git,.git,.git/info}/attributes"],
         "Git Config": ["*.gitconfig", "**/{git,.git,.git/modules,.git/modules/*}/config"],
         "Git Ignore": ["**/{git,.git}/ignore", "**/.git/info/exclude"],
