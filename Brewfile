@@ -13,7 +13,7 @@ brew "difftastic"
 brew "diffutils"
 brew "direnv", args: ["HEAD"]
 brew "exiftool"
-brew "eza"
+brew "eza", args: ["HEAD"]
 brew "fd"
 brew "ffmpeg"
 brew "file-formula"
