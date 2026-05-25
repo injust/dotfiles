@@ -2,7 +2,7 @@ tap "domt4/autoupdate", trusted: { commands: ["autoupdate"] }
 tap "neurosnap/tap"
 brew "asciinema"
 brew "bash"
-brew "bat"
+brew "bat", args: ["HEAD"]
 brew "btop"
 brew "bttf"
 brew "csvlens"
