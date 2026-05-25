@@ -11,7 +11,7 @@ brew "curl"
 brew "diffoscope"
 brew "difftastic"
 brew "diffutils"
-brew "direnv"
+brew "direnv", args: ["HEAD"]
 brew "exiftool"
 brew "eza"
 brew "fd"
