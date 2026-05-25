@@ -1,7 +1,7 @@
 tap "neurosnap/tap"
 brew "asciinema"
 brew "bash"
-brew "bat"
+brew "bat", args: ["HEAD"]
 brew "btop"
 brew "csvlens"
 brew "zstd"

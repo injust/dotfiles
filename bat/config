@@ -1,17 +1,6 @@
 # Let pager handle text wrapping to unbreak terminal search
 --wrap=never
 
-# https://github.com/sharkdp/bat/pull/3814
---map-syntax="/etc/dnf/dnf.conf:INI"
---map-syntax="/etc/yum.repos.d/*.repo:INI"
-
-# https://github.com/sharkdp/bat/pull/3759
---map-syntax="**/ghostty/**/*.ghostty:INI"
---map-syntax="**/ghostty/themes/*:INI"
-
-# https://github.com/sharkdp/bat/pull/3758
---map-syntax="**/.ssh/**/config:SSH Config"
-
 --theme-dark="Catppuccin Mocha"
 --theme-light="Catppuccin Latte"
 
