@@ -1,5 +1,6 @@
 tap "domt4/autoupdate", trusted: { commands: ["autoupdate"] }
 tap "neurosnap/tap"
+tap "oven-sh/bun"
 brew "asciinema"
 brew "bash"
 brew "bat", args: ["HEAD"]
@@ -66,6 +67,7 @@ brew "xray"
 brew "yt-dlp"
 brew "zoxide"
 brew "neurosnap/tap/zmx"
+brew "oven-sh/bun/bun"
 cask "1password"
 cask "aldente"
 cask "alt-tab"
