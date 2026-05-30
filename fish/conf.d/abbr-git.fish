@@ -118,3 +118,11 @@ abbr --command=git swc -- switch -c
 
 abbr gws -- git watch-sync
 abbr --command=git ws -- watch-sync
+
+# git stash
+abbr gapply -- git stash apply
+abbr gdrop -- git stash drop
+abbr glist -- git stash list
+abbr gpop -- git stash pop
+abbr gsave -- git stash push
+abbr gshow -- git stash show
