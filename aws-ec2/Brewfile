@@ -1,5 +1,6 @@
 tap "neurosnap/tap"
 brew "asciinema"
+brew "bat", args: ["HEAD"]
 brew "curl"
 brew "direnv", args: ["HEAD"]
 brew "eza", args: ["HEAD"]
