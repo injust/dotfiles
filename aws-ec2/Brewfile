@@ -2,6 +2,7 @@ tap "neurosnap/tap"
 brew "asciinema"
 brew "curl"
 brew "direnv", args: ["HEAD"]
+brew "eza", args: ["HEAD"]
 brew "fish"
 brew "fisher"
 brew "git-interactive-rebase-tool"
