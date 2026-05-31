@@ -14,6 +14,9 @@ fish_add_path -g \
 
 set -x COLORTERM truecolor
 
+# https://github.com/fish-shell/fish-shell/discussions/12795
+set -q fish_private_mode; and set -x fish_private_mode $fish_private_mode
+
 set -x FZF_DEFAULT_COMMAND fd
 set -x FZF_DEFAULT_OPTS --layout=reverse --multi --highlight-line --marker=▌ --marker-multi-line=▖▌▘ --ellipsis=… --tabstop=4 --scrollbar=▐ --prompt=❯
 
