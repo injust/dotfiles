@@ -1,4 +1,5 @@
 format = """\
+${env_var.fish_private_mode}\
 $username\
 ${env_var.ZMX_SESSION}\
 $directory\
@@ -26,6 +27,12 @@ read_only = " "  # nf-oct-lock
 
 [directory.substitutions]
 "~/code/" = ""  # Truncate to project root
+
+[env_var.fish_private_mode]
+symbol = "󰗹"  # nf-md-incognito
+format = "[$symbol]($style) "  # Remove "with" prefix and value
+description = "fish private mode"
+style = "bold sapphire"
 
 [env_var.ZMX_SESSION]
 symbol = " "  # nf-cod-layout
