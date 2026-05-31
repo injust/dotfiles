@@ -12,6 +12,9 @@ fish_add_path -g \
     ~/.local/bin \
     ~/code/scripts
 
+# https://github.com/fish-shell/fish-shell/discussions/12795
+set -q fish_private_mode; and set -x fish_private_mode $fish_private_mode
+
 set -x FZF_DEFAULT_COMMAND fd
 set -x FZF_DEFAULT_OPTS_FILE $XDG_CONFIG_HOME/.fzfrc
 
