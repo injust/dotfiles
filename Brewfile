@@ -39,7 +39,7 @@ brew "less"
 brew "magic-wormhole"
 brew "mas"
 brew "mergiraf"
-brew "micro"
+brew "micro", args: ["HEAD"]
 brew "moreutils"
 brew "ntfy"
 brew "openssh"
