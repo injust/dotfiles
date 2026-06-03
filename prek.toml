@@ -1,0 +1,10 @@
+[update]
+cooldown_days = 3
+
+[[repos]]
+repo = "https://github.com/tombi-toml/tombi-pre-commit"
+rev = "v1.9.8"
+hooks = [
+  { id = "tombi-format" },
+  { id = "tombi-lint" },
+]
