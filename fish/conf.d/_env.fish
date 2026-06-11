@@ -21,8 +21,12 @@ set -q fish_private_mode; and set -x fish_private_mode $fish_private_mode
 set -x FZF_DEFAULT_COMMAND fd
 set -x FZF_DEFAULT_OPTS_FILE $XDG_CONFIG_HOME/.fzfrc
 
+set -x HOMEBREW_BUNDLE_NO_DESCRIBE 1
 set -x HOMEBREW_NO_ANALYTICS 1
 set -x HOMEBREW_NO_ENV_HINTS 1
+# https://github.com/orgs/Homebrew/discussions/6916
+set -x HOMEBREW_NO_UPGRADE_AUTO_UPDATES_CASKS 1
+set -x HOMEBREW_NO_UPGRADE_QUIT_CASKS 1
 
 set -x HWATCH --beep --mouse --color --differences
 

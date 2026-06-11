@@ -66,8 +66,8 @@ brew "xh"
 brew "xray"
 brew "yt-dlp"
 brew "zoxide"
-brew "neurosnap/tap/zmx"
-brew "oven-sh/bun/bun"
+brew "neurosnap/tap/zmx", trusted: true
+brew "oven-sh/bun/bun", trusted: true
 cask "1password"
 cask "aldente"
 cask "alt-tab"
