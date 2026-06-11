@@ -20,6 +20,7 @@ set -q fish_private_mode; and set -x fish_private_mode $fish_private_mode
 set -x FZF_DEFAULT_COMMAND fd
 set -x FZF_DEFAULT_OPTS --layout=reverse --multi --highlight-line --marker=▌ --marker-multi-line=▖▌▘ --ellipsis=… --tabstop=4 --scrollbar=▐ --prompt=❯
 
+set -x HOMEBREW_BUNDLE_NO_DESCRIBE 1
 set -x HOMEBREW_NO_ANALYTICS 1
 set -x HOMEBREW_NO_ENV_HINTS 1
 

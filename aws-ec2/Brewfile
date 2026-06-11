@@ -17,4 +17,4 @@ brew "starship"
 brew "uv"
 brew "vivid"
 brew "xxhash"
-brew "neurosnap/tap/zmx"
+brew "neurosnap/tap/zmx", trusted: true
