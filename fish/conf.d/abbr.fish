@@ -1,5 +1,6 @@
 status is-interactive; or exit
 
+abbr date -- bttf
 abbr find -- fd
 abbr grep -- rg
 abbr where -- type -a
