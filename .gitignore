@@ -10,6 +10,9 @@ git/gitignore/*
 
 go/telemetry/
 
+homebrew/trust.json.lock
+systemd/user/**/homebrew.*
+
 micro/backups/
 micro/buffers/
 micro/palettero.cfg
