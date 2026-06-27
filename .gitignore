@@ -8,6 +8,9 @@ fish/fisher/
 
 git/gitignore/*
 
+homebrew/trust.json.lock
+systemd/user/**/homebrew.*
+
 micro/backups/
 micro/buffers/
 micro/palettero.cfg
