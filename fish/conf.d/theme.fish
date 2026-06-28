@@ -10,7 +10,7 @@ function apply_theme --on-variable=fish_terminal_color_theme
     set -gx DELTA_FEATURES +catppuccin-$flavor
 
     # Remove `bg` color to support transparent terminal background
-    set -a FZF_DEFAULT_OPTS (string replace --regex 'bg:#[[:xdigit:]]{6},' '' <(status dirname)/../../catppuccin/fzf/themes/catppuccin-fzf-$flavor.rc)
+    set -gx FZF_DEFAULT_OPTS (string replace --regex 'bg:#[[:xdigit:]]{6},' '' <(status dirname)/../../catppuccin/fzf/themes/catppuccin-fzf-$flavor.rc)
 
     set -gx LS_COLORS (vivid generate catppuccin-$flavor)
 
