@@ -1,0 +1,5 @@
+#! /usr/bin/env fish
+
+set repo_root (git rev-parse --show-toplevel); or exit
+
+git bundle create $repo_root.bundle --all (git rev-parse --verify --quiet --not refs/spice/data)
