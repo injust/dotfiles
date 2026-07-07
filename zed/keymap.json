@@ -53,6 +53,13 @@
         }
     },
     {
+        "context": "ProjectSearchBar || ProjectSearchView",
+        "use_key_equivalents": true,
+        "unbind": {
+            "alt-cmd-f": "project_search::OpenTextFinder" // https://github.com/zed-industries/zed/issues/60540
+        }
+    },
+    {
         "context": "Terminal",
         "use_key_equivalents": true,
         "bindings": { "cmd-r": "terminal::RerunTask" },
