@@ -3,6 +3,7 @@ status is-interactive; or exit
 abbr date -- bttf
 abbr find -- fd
 abbr grep -- rg
+abbr hexdump -- hexyl
 abbr wget -- wcurl
 abbr where -- type -a
 abbr xxhash -- xxh3sum
