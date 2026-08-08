@@ -1,4 +1,5 @@
 tap "neurosnap/tap"
+tap "oven-sh/bun"
 brew "asciinema"
 brew "bash"
 brew "bat", args: ["HEAD"]
@@ -65,6 +66,7 @@ brew "xray"
 brew "yt-dlp"
 brew "zoxide"
 brew "neurosnap/tap/zmx", trusted: true
+brew "oven-sh/bun/bun", trusted: true
 cask "1password"
 cask "aldente"
 cask "alt-tab"
