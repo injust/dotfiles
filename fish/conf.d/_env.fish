@@ -19,7 +19,8 @@ set -x HOMEBREW_NO_ANALYTICS 1
 set -x HOMEBREW_NO_ENV_HINTS 1
 set -x HOMEBREW_NO_UPGRADE_QUIT_CASKS 1
 
-set -x LESS --quit-if-one-screen --ignore-case --RAW-CONTROL-CHARS
+set -x LESS --quit-if-one-screen --ignore-case --jump-target=.1 --LONG-PROMPT --quiet --RAW-CONTROL-CHARS --incsearch --no-vbell
+set -x LESSSECURE 1
 # https://github.com/ryanoasis/nerd-fonts/wiki/FAQ-and-Troubleshooting#less-settings
 set -x LESSUTFCHARDEF e000-e09f:w,e0a0-e0bf:p,e0c0-f8ff:w,f0001-fffff:w
 
