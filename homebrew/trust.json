@@ -1,1 +1,1 @@
-{ "trustedformulae": ["neurosnap/tap/zmx"] }
+{ "trustedformulae": ["neurosnap/tap/zmx", "oven-sh/bun/bun"] }
