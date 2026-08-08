@@ -17,6 +17,7 @@ end
 # User paths
 fish_add_path -g \
     $XDG_CONFIG_HOME/git/commands \
+    ~/.bun/bin \
     ~/.local/bin \
     ~/code/scripts
 
