@@ -58,7 +58,7 @@
 	gpgSign = true
 
 [core]
-	pager = delta --line-numbers
+	pager = "LESS=\"$LESS --jump-target=1\" LESSSECURE= delta --line-numbers"
 
 [credential]
 	helper =
