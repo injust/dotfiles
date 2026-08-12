@@ -38,6 +38,7 @@ set -x MANPAGER bat --plain --language=man
 status is-login; and command -q /usr/libexec/path_helper; and set -ge MANPATH
 
 set -x PYTHONSTARTUP $XDG_CONFIG_HOME/.pythonrc.py
+set -x PYTHON_HISTORY /tmp/.python_history
 
 set -x RIPGREP_CONFIG_PATH $XDG_CONFIG_HOME/.ripgreprc
 
