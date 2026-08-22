@@ -24,8 +24,12 @@ abbr gclb -- git clone --filter=blob:none
 abbr --command=git clb -- clone --filter=blob:none
 abbr --command=git cloneb -- clone --filter=blob:none
 
-abbr gcm --set-cursor -- git commit -m \"%\"
-abbr --command=git cm --set-cursor -- commit -m \"%\"
+# https://github.com/fish-shell/fish-shell/discussions/12451
+function _abbr_git_commit
+    echo (test $argv[1] = gcm; and echo git) commit (commandline --cut-at-cursor | string match -q '* '; and echo -m \"%\")
+end
+abbr gcm --set-cursor --function=_abbr_git_commit
+abbr --command=git cm --set-cursor --function=_abbr_git_commit
 
 abbr gcmf -- git commit --fixup
 abbr --command=git cmf -- commit --fixup
