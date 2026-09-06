@@ -1,6 +1,8 @@
 # Let pager handle text wrapping to unbreak terminal search
 --wrap=never
 
+--pager=moor
+
 --theme-dark="Catppuccin Mocha"
 --theme-light="Catppuccin Latte"
 
