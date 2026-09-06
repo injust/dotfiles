@@ -43,6 +43,8 @@ set -x MANPAGER bat --plain --language=man
 # Unset inherited $MANPATH to stop macOS path_helper from prepending to man's standard search path (https://github.com/fish-shell/fish-shell/issues/10684)
 status is-login; and command -q /usr/libexec/path_helper; and set -ge MANPATH
 
+set -x PAGER bat --plain
+
 set -x PYTHONSTARTUP $XDG_CONFIG_HOME/.pythonrc.py
 set -x PYTHON_HISTORY /tmp/.python_history
 
