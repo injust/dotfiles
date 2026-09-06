@@ -59,7 +59,7 @@
 	gpgSign = true
 
 [core]
-	pager = "LESS=\"$LESS --jump-target=1\" LESSSECURE= delta --line-numbers"
+	pager = LESS='--quit-if-one-screen --ignore-case --LONG-PROMPT --quiet --RAW-CONTROL-CHARS --incsearch --no-vbell' LESSSECURE= delta --line-numbers --pager=less
 
 [credential]
 	helper =
@@ -152,8 +152,8 @@
 	driver = mergiraf merge --git %O %A %B -s %S -x %X -y %Y -p %P -l %L
 
 [pager]
-	difft = less
-	showt = less
+	difft = moor
+	showt = moor
 
 [pull]
 	ff = only
