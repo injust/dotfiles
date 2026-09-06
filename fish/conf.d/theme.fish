@@ -14,5 +14,7 @@ function apply_theme --on-variable=fish_terminal_color_theme
 
     set -gx LS_COLORS (vivid generate catppuccin-$flavor)
 
+    set -gxa MOOR --style=catppuccin-$flavor
+
     starship config palette catppuccin_$flavor
 end
