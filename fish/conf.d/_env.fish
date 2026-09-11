@@ -1,12 +1,15 @@
 set -x XDG_CONFIG_HOME ~/code/dotfiles
 
-# Homebrew paths
 switch (uname)
     case Darwin
         fish_add_path --path \
+            # Homebrew
             /usr/local/opt/{curl,file-formula}/bin \
             /usr/local/opt/*/libexec/gnubin \
-            /usr/local/opt/uutils-coreutils/libexec/uubin
+            # MacPorts
+            /opt/local/bin \
+            /opt/local/libexec/gnubin \
+            /opt/local/libexec/uutils
     case Linux
         fish_add_path --path \
             /home/linuxbrew/.linuxbrew/bin
