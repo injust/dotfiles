@@ -4,6 +4,7 @@ set -x XDG_CONFIG_HOME ~/code/dotfiles
 fish_add_path --path \
     /usr/local/opt/curl/bin \
     /usr/local/opt/file-formula/bin \
+    /usr/local/opt/uutils-coreutils/libexec/uubin \
     /usr/local/opt/*/libexec/gnubin
 # User paths
 fish_add_path -g \
