@@ -3,7 +3,8 @@ set -x XDG_CONFIG_HOME ~/code/dotfiles
 # Homebrew paths
 fish_add_path --path \
     /usr/local/opt/{curl,file-formula}/bin \
-    /usr/local/opt/*/libexec/gnubin
+    /usr/local/opt/*/libexec/gnubin \
+    /usr/local/opt/uutils-coreutils/libexec/uubin
 # User paths
 fish_add_path -g \
     $XDG_CONFIG_HOME/git/commands \
