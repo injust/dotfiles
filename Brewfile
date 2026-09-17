@@ -4,7 +4,6 @@ tap "oven-sh/bun"
 brew "bat", args: ["HEAD"]
 brew "zstd"
 brew "curl"
-brew "diffoscope"
 brew "eza"
 brew "fish"
 brew "fisher"
@@ -12,7 +11,6 @@ brew "git"
 brew "git-interactive-rebase-tool"
 brew "git-lfs"
 brew "git-spice"
-brew "magic-wormhole"
 brew "mas"
 brew "moor"
 brew "ntfy"
@@ -20,7 +18,6 @@ brew "rustnet"
 brew "tofrodos"
 brew "ttl"
 brew "xray"
-brew "yt-dlp"
 brew "zoxide"
 brew "neurosnap/tap/zmx", trusted: true
 brew "oven-sh/bun/bun", trusted: true
@@ -52,3 +49,6 @@ cask "mdsakalu/tap/zsm", trusted: true
 mas "Command X", id: 6448461551
 mas "Shareful", id: 1522267256
 mas "WireGuard", id: 1451685025
+uv "diffoscope"
+uv "magic-wormhole"
+uv "yt-dlp[curl-cffi,default,deno]"
