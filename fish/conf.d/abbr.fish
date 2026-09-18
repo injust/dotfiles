@@ -4,6 +4,8 @@ abbr find -- fd
 abbr grep -- rg
 abbr hexdump -- hexyl
 abbr nslookup -- doggo
+abbr ping -- ttl
+abbr ping6 -- ttl
 abbr wget -- wcurl
 abbr where -- type -a
 abbr xxhash -- xxh3sum
