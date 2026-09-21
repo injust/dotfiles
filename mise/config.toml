@@ -2,3 +2,50 @@
 minimum_release_age = "1w"
 not_found_auto_install = false
 registry_floating = true
+
+[shell_alias]
+yt-dlp = "mise exec deno -- yt-dlp"
+
+[tools]
+"aqua:MitMaro/git-interactive-rebase-tool" = "latest"
+"aqua:XTLS/Xray-core" = "latest"
+"aqua:YS-L/csvlens" = "latest"
+"aqua:abhinav/git-spice" = "latest"
+"aqua:asciinema/asciinema" = "latest"
+"aqua:binwiederhier/ntfy" = "latest"
+"aqua:codeberg.org/mergiraf/mergiraf" = "latest"
+"aqua:domcyrus/rustnet" = { version = "latest", libc = "musl" }
+"aqua:lance0/ttl" = "latest"
+"aqua:mdsakalu/zmx-session-manager" = "latest"
+"aqua:walles/moor" = "latest"
+bun = "latest"
+"cargo:https://github.com/sharkdp/bat" = { version = "rev:30b50a9eed5196a1e08735ae571c8fa99a8d53d7", depends = ["rust@stable"] }
+difftastic = "latest"
+direnv = "latest"
+doggo = "latest"
+exiftool = "latest"
+eza = "latest"
+fd = "latest"
+ffmpeg = "latest"
+fzf = "latest"
+git-lfs = { version = "latest", symlink_bins = true }
+hexyl = "latest"
+hwatch = "latest"
+jq = "latest"
+mas = "latest"
+micro = "latest"
+oxipng = "latest"
+prek = "latest"
+"pypi:diffoscope" = "latest"
+"pypi:magic-wormhole" = { version = "latest", uvx_args = "--no-build-package=cbor2" }
+ripgrep = "latest"
+shellcheck = "latest"
+shfmt = "latest"
+starship = "latest"
+uv = "latest"
+vivid = "latest"
+watchexec = "latest"
+xh = "latest"
+yt-dlp = { version = "latest", rename_exe = "yt-dlp" }
+zmx = "latest"
+zoxide = "latest"
