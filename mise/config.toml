@@ -2,3 +2,42 @@
 activate_shims = false
 minimum_release_age = "1w"
 registry_floating = true
+
+[tools]
+"aqua:YS-L/csvlens" = "latest"
+"aqua:abhinav/git-spice" = "latest"
+"aqua:asciinema/asciinema" = "latest"
+"aqua:binwiederhier/ntfy" = "latest"
+"aqua:codeberg.org/mergiraf/mergiraf" = "latest"
+"aqua:walles/moor" = "latest"
+bun = "latest"
+difftastic = "latest"
+direnv = "latest"
+doggo = "latest"
+exiftool = "latest"
+eza = "latest"
+fd = "latest"
+ffmpeg = "latest"
+fzf = "latest"
+git-lfs = { version = "latest", symlink_bins = true }
+hexyl = "latest"
+hwatch = "latest"
+jless = "latest"
+jq = "latest"
+mas = "latest"
+micro = "latest"
+oxipng = "latest"
+prek = "latest"
+"pypi:diffoscope" = "latest"
+"pypi:magic-wormhole" = { version = "latest", uvx_args = "--no-build-package=cbor2" }
+"pypi:yt-dlp" = { version = "latest", extras = "curl-cffi,default,deno" }
+ripgrep = "latest"
+shellcheck = "latest"
+shfmt = "latest"
+starship = "latest"
+uv = "latest"
+vivid = "latest"
+watchexec = "latest"
+xh = "latest"
+zmx = "latest"
+zoxide = "latest"
