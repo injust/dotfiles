@@ -42,7 +42,8 @@ keybind = cmd+arrow_up=unbind
 keybind = cmd+arrow_down=unbind
 
 # Work around broken keybinds in text fields (https://github.com/ghostty-org/ghostty/issues/10749)
-keybind = cmd+c=copy_to_clipboard:mixed
+# Work around broken pasting (https://github.com/ghostty-org/ghostty/discussions/12842)
+keybind = cmd+c=copy_to_clipboard:plain
 keybind = cmd+v=paste_from_clipboard
 
 # Populate scrollback search with selected text
