@@ -1,0 +1,4 @@
+[settings]
+activate_shims = false
+minimum_release_age = "1w"
+registry_floating = true
