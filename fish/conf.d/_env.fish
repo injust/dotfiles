@@ -10,6 +10,7 @@ fish_add_path -g \
     # Homebrew
     /usr/local/opt/curl/bin \
     /usr/local/opt/file-formula/bin \
+    /usr/local/opt/uutils-coreutils/libexec/uubin \
     /usr/local/opt/*/libexec/gnubin
 
 set -x FZF_DEFAULT_COMMAND fd --hidden --no-require-git
