@@ -14,7 +14,10 @@
     {
         "context": "Editor",
         "use_key_equivalents": true,
-        "bindings": { "cmd-shift-l": "editor::SplitSelectionIntoLines" },
+        "bindings": {
+            "cmd-shift-l": "editor::SplitSelectionIntoLines",
+            "cmd-/": ["editor::ToggleComments", { "comment_empty_lines": false }]
+        },
         "unbind": { "cmd-[": "editor::Outdent", "cmd-]": "editor::Indent", "cmd-\\": "pane::SplitRight" }
     },
     {
