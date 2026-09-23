@@ -16,7 +16,7 @@
         "use_key_equivalents": true,
         "bindings": {
             "cmd-shift-l": "editor::SplitSelectionIntoLines",
-            "cmd-/": ["editor::ToggleComments", { "comment_empty_lines": false }]
+            "cmd-/": ["editor::ToggleComments", { "advance_downwards": true, "comment_empty_lines": false }]
         },
         "unbind": { "cmd-[": "editor::Outdent", "cmd-]": "editor::Indent", "cmd-\\": "pane::SplitRight" }
     },
