@@ -1,0 +1,5 @@
+[settings]
+minimum_release_age = "3d"
+not_found_auto_install = false
+registry_floating = true
+tool_update.global_auto = true
