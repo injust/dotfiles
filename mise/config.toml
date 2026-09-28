@@ -1,0 +1,4 @@
+[settings]
+minimum_release_age = "1w"
+not_found_auto_install = false
+registry_floating = true
