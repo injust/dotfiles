@@ -29,6 +29,7 @@ fd = "latest"
 ffmpeg = "latest"
 fzf = "latest"
 git-lfs = { version = "latest", symlink_bins = true }
+glow = "latest"
 hexyl = "latest"
 hwatch = "latest"
 jq = "latest"
