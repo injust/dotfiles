@@ -10,6 +10,10 @@
 	path = catppuccin/fzf
 	url = https://github.com/catppuccin/fzf.git
 
+[submodule "catppuccin/glamour"]
+	path = catppuccin/glamour
+	url = https://github.com/catppuccin/glamour.git
+
 [submodule "catppuccin/micro"]
 	path = catppuccin/micro
 	url = https://github.com/catppuccin/micro.git
