@@ -12,6 +12,8 @@ function apply_theme --on-variable=fish_terminal_color_theme
     # Remove `bg` color to support transparent terminal background
     set -gx FZF_DEFAULT_OPTS (string replace -r 'bg:#[[:xdigit:]]{6},' '' <$XDG_CONFIG_HOME/catppuccin/fzf/themes/catppuccin-fzf-$flavor.rc)
 
+    alias glow="glow --style=$XDG_CONFIG_HOME/catppuccin/glamour/themes/catppuccin-$flavor.json"
+
     set -gx LS_COLORS (vivid generate catppuccin-$flavor)
 
     set -gxa MOOR --style=catppuccin-$flavor
