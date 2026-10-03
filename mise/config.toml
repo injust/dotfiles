@@ -22,7 +22,6 @@ bun = "latest"
 "cargo:https://github.com/sharkdp/bat" = { version = "rev:30b50a9eed5196a1e08735ae571c8fa99a8d53d7", depends = ["rust@stable"] }
 delta = "latest"
 difftastic = "latest"
-direnv = "latest"
 doggo = "latest"
 exiftool = "latest"
 eza = "latest"
