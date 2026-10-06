@@ -8,6 +8,9 @@ set fish_title_pwd_full_dirs 2
 # - Customize pwd shortening using $fish_title_pwd_dir_length and $fish_title_pwd_full_dirs
 
 function fish_title
+    set -f zmx
+    set -q ZMX_SESSION; and set zmx "{$ZMX_SESSION}"
+
     # If connected via SSH, print the hostname
     set -f ssh
     set -q SSH_TTY; and set ssh "[$(prompt_hostname)]"
@@ -26,5 +29,5 @@ function fish_title
 
     set -f pwd (prompt_pwd -d $fish_title_pwd_dir_length -D $fish_title_pwd_full_dirs)
 
-    echo -- $ssh $command $pwd
+    echo -- $zmx $ssh $command $pwd
 end
