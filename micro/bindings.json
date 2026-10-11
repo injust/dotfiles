@@ -28,6 +28,7 @@
     "Alt-Shift-Right": "SelectWordRight",
 
     "Alt-MouseLeft": "MouseMultiCursor", // https://github.com/micro-editor/micro/issues/4260
+    "Shift-MouseLeft": "RemoveAllMultiCursors,MouseDrag", // https://github.com/micro-editor/micro/issues/2006
 
     "command": {
         // https://github.com/micro-editor/micro/issues/3383
