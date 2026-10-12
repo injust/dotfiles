@@ -1,0 +1,18 @@
+version: 2
+
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+    allow:
+      - dependency-name: actions/checkout
+        update-types:
+          - version-update:semver-major
+      - dependency-name: fish-shop/*
+        update-types:
+          - version-update:semver-major
+    groups:
+      fish-shop:
+        patterns:
+          - fish-shop/*
