@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  lint:
+    runs-on: ubuntu-slim
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Install fish shell
+        uses: fish-shop/install-fish-shell@v2
+
+      - name: Indent check
+        uses: fish-shop/indent-check@v2
+
+      - name: Syntax check
+        uses: fish-shop/syntax-check@v2
+
+  prettier:
+    runs-on: ubuntu-slim
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Check formatting
+        uses: creyD/prettier_action@v4.6
+        with:
+          prettier_options: --check .
