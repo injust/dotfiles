@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  fish:
+    runs-on: ubuntu-slim
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Install fish shell
+        uses: fish-shop/install-fish-shell@v2
+
+      - name: Indent check
+        uses: fish-shop/indent-check@v2
+
+      - name: Syntax check
+        uses: fish-shop/syntax-check@v2
+
+  prek:
+    runs-on: ubuntu-slim
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: prek checks
+        uses: j178/prek-action@v3.1.1
