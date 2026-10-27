@@ -34,6 +34,8 @@ set -x MOOR --no-linenumbers --quit-if-one-screen --tab-size=4 --terminal-fg --w
 
 set -x PAGER bat --plain
 
+set -x PARALLEL_HOME $XDG_CONFIG_HOME/.parallel
+
 set -x PYTHONSTARTUP $XDG_CONFIG_HOME/.pythonrc.py
 set -x PYTHON_HISTORY (set -q TMPDIR; and echo $TMPDIR; or echo /tmp)/.python_history
 
