@@ -1,3 +1,5 @@
+.parallel/tmp/
+
 .ssh/*/config
 .ssh/authorized_keys
 .ssh/id_*
