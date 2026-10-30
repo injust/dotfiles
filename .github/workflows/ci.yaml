@@ -7,6 +7,21 @@ on:
   workflow_dispatch:
 
 jobs:
+  biome:
+    runs-on: ubuntu-slim
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Biome CLI
+        uses: biomejs/setup-biome@v2
+        with:
+          version: latest
+
+      - name: Run Biome
+        run: biome ci
+
   lint:
     runs-on: ubuntu-slim
 
@@ -22,15 +37,3 @@ jobs:
 
       - name: Syntax check
         uses: fish-shop/syntax-check@v2
-
-  prettier:
-    runs-on: ubuntu-slim
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v7
-
-      - name: Check formatting
-        uses: creyD/prettier_action@v4.6
-        with:
-          prettier_options: --check .

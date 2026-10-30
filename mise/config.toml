@@ -19,6 +19,7 @@ yt-dlp = "mise exec deno -- yt-dlp"
 "aqua:lance0/ttl" = "latest"
 "aqua:mdsakalu/zmx-session-manager" = "latest"
 "aqua:walles/moor" = "latest"
+biome = "latest"
 bun = "latest"
 "cargo:https://github.com/sharkdp/bat" = { version = "rev:30b50a9eed5196a1e08735ae571c8fa99a8d53d7", depends = ["rust@stable"] }
 delta = "latest"
