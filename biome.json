@@ -1,0 +1,16 @@
+{
+    "$schema": "https://biomejs.dev/schemas/latest/schema.json",
+    "files": { "ignoreUnknown": true },
+    "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true, "defaultBranch": "main" },
+    "formatter": {
+        "formatWithErrors": true,
+        "indentStyle": "space",
+        "indentWidth": 4,
+        "lineWidth": 120,
+        "expand": "never"
+    },
+    "javascript": { "formatter": { "quoteStyle": "single", "semicolons": "asNeeded" } },
+    "json": { "parser": { "allowComments": true } },
+    "markdown": { "analyzeEmbeds": true },
+    "yaml": { "formatter": { "indentWidth": 2 } }
+}
