@@ -60,6 +60,7 @@
     "extend_comment_on_newline": false, // https://github.com/zed-industries/zed/discussions/24972
     "format_on_save": "on",
     "preferred_line_length": 120,
+    "tab_size": 4, // https://github.com/zed-industries/zed/issues/66984
     "telemetry": { "diagnostics": false, "metrics": false },
     // https://github.com/zed-industries/zed/discussions/46827
     "read_only_files": [
@@ -143,7 +144,8 @@
         "TypeScript": {
             "formatter": { "language_server": { "name": "biome" } },
             "code_actions_on_format": { "source.fixAll.biome": true }
-        }
+        },
+        "YAML": { "tab_size": 2 }
     },
     "lsp": {
         "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } },
