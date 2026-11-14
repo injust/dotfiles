@@ -124,12 +124,14 @@
         "CSS": { "formatter": { "language_server": { "name": "biome" } } },
         "Fish": { "formatter": { "external": { "command": "fish_indent" } } },
         "HTML": { "formatter": { "language_server": { "name": "biome" } } },
-        "JSON": { "formatter": { "language_server": { "name": "biome" } } },
-        "JSONC": { "formatter": { "language_server": { "name": "biome" } } },
+        "JSON": { "formatter": { "language_server": { "name": "biome" } }, "tab_size": 4 },
+        "JSONC": { "formatter": { "language_server": { "name": "biome" } }, "tab_size": 4 },
         "JavaScript": {
             "formatter": { "language_server": { "name": "biome" } },
+            "tab_size": 4,
             "code_actions_on_format": { "source.fixAll.biome": true }
         },
+        "Markdown": { "tab_size": 4 },
         "Plain Text": { "language_servers": [] },
         "Python": {
             "show_edit_predictions": true,
@@ -138,12 +140,15 @@
         },
         "TSX": {
             "formatter": { "language_server": { "name": "biome" } },
+            "tab_size": 4,
             "code_actions_on_format": { "source.fixAll.biome": true }
         },
         "TypeScript": {
             "formatter": { "language_server": { "name": "biome" } },
+            "tab_size": 4,
             "code_actions_on_format": { "source.fixAll.biome": true }
-        }
+        },
+        "YAML": { "tab_size": 2 }
     },
     "lsp": {
         "basedpyright": { "settings": { "basedpyright.analysis": { "diagnosticMode": "workspace" } } },
