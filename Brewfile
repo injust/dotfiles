@@ -1,3 +1,4 @@
+brew "curl-impersonate"
 brew "fish"
 brew "fisher"
 brew "git"
